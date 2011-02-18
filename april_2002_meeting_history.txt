@@ -1,8 +1,8 @@
 April 2002 Meeting History by, XlogicX
 --------------------------------------
-The coolest thing by far at the meeting was Rax's AIBO. The next
-coolest things were meme's and slipnaway's graphics. Lots of new
-attendees. Highlights: 802.11 networking at the meeting, how to DoS a
-Linksys router with nmap, and the Gameworks riddle solved. 
+The coolest thing by far at the meeting was Rax's AIBO. The next coolest things
+were meme's and slipnaway's graphics. Lots of new attendees. Highlights: 802.11
+networking at the meeting, how to DoS a Linksys router with nmap, and the
+Gameworks riddle solved.
 
 ATTENDANCE COUNT: N/A

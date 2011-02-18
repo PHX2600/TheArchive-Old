@@ -1,7 +1,9 @@
 Server Move by, PHLAK
 ---------------------
-There is a server migration scheduled from June 20th at 11pm to June
-21st at 9am. For more information on the move see
+There is a server migration scheduled from June 20th at 11pm to June 21st at
+9am.
+
+For more information on the move see
 http://www.phx2600.org/forum/viewtopic.php?f=8&t=822 [1]
 
 Links:

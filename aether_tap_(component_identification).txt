@@ -1,57 +1,63 @@
 Aether Tap (Component Identification) by, Penguin
 -------------------------------------------------
-The second step in any project is to identify the main components
-that are needed to make your goals play out. In this case I have
-chosen a Microchip PIC24F series Microcontroller as the core of my
-project supplemented with a Microchip ENC28J60 Ethernet controller to
-handle the MAC and Physical layers of the Ethernet interface . THE
-PIC24F series has many advantages over its 10, 12, 16, and 18 series
-cousins, First and foremost the 16 bit architecture allows the chip to
-have a far expanded instruction set which makes it much more viable to
-program the chip in a higher level language such as C or even BASIC. I
-myself will be using Microchip’s student version of its C30 Compiler
-which comes fully loaded with individual header files for each chip in
-the 24 series and even libraries to help out with the on chip hardware
-peripherals like USART, I2C, SPI, Etc. The 24 series also has one
-advantage that most people tend to overlook, its hardware peripheral
-pins can be remapped to almost any pin on the device, meaning much
+The second step in any project is to identify the main components that are
+needed to make your goals play out. In this case I have chosen a Microchip
+PIC24F series Microcontroller as the core of my project supplemented with a
+Microchip ENC28J60 Ethernet controller to handle the MAC and Physical layers of
+the Ethernet interface .
+
+THE PIC24F series has many advantages over its 10, 12, 16, and 18 series
+cousins, First and foremost the 16 bit architecture allows the chip to have a
+far expanded instruction set which makes it much more viable to program the chip
+in a higher level language such as C or even BASIC. I myself will be using
+Microchip’s student version of its C30 Compiler which comes fully loaded with
+individual header files for each chip in the 24 series and even libraries to
+help out with the on chip hardware peripherals like USART, I2C, SPI, Etc. The 24
+series also has one advantage that most people tend to overlook, its hardware
+peripheral pins can be remapped to almost any pin on the device, meaning much
 less time working on routing a PCB. Its also interesting to notice the
 distinction between the 24F and 24H series controllers, while the 24H
-controllers can typically run at much higher speeds achieving in the
-range of 64mips, it typically lacks the expanded peripherals of the
-24F series which on average has about double the hardware peripherals
-of the 24H series but performs at only around 16Mips The exact model
-I’ll be using in this case is the PIC24Fj64GA002 [1] with 64K of
-flash memory, 2 hardware SPI interfaces, and a max speed of 32Mhz
-(16Mips). I wont be writing a guide for using the pic24 however I was
-able to find an excellent tutorial [2] for any interested. THE
-ENC28J60 [3] Ethernet controller handles everything below the network
-layer of the standard OSI Model, it handles the media access control
-layer and the physical reception and transmission of packets. The
-ENC28J60 interfaces to a main controller via SPI and receives and
-transmits information via an internal 8k buffer operating in a FIFO
-fashion. the ENC28J60 supports full and half duplex modes as well as
-unicast, multicast, and broadcast packets. It is also fully compatible
-with all 10/100/1000 Base-T networks making it a very plug and play
-device. The only qualm I have about it is that it it doesn't support
-auto-negotiation which means its not safe to use full-duplex mode
-unless you can manually change your switch port to full-duplex. During
-the course of this project I will be entering a lot of new territory,
-I have never before used a 16 bit uC, I have never before coded a
-Microcontroller in C, (until now I have only used the 8bit 12 and 16
-series microchips and coded them in Assembly or PIC Basic), I have
-also never used the SPI hardware peripheral which many PIC’s provide
-and I have absolutely zero experience with the ENC28J60 module. So
-this project will without a doubt put me in a position to learn some
-new things. Below I have included a schematic and board layout for a
-pic24 28Pin SOIC breakout board with an ICSP header for programming, A
-useful tool for familiarizing yourself with the PIC24 Series
-PIC24BrkOutwICSP [4] 
+controllers can typically run at much higher speeds achieving in the range of
+64mips, it typically lacks the expanded peripherals of the 24F series which on
+average has about double the hardware peripherals of the 24H series but performs
+at only around 16Mips
+
+The exact model I’ll be using in this case is the PIC24Fj64GA002 [1] with 64K
+of flash memory, 2 hardware SPI interfaces, and a max speed of 32Mhz (16Mips).
+
+I wont be writing a guide for using the pic24 however I was able to find an
+excellent tutorial [2] for any interested.
+
+THE ENC28J60 [3] Ethernet controller handles everything below the network layer
+of the standard OSI Model, it handles the media access control layer and the
+physical reception and transmission of packets. The ENC28J60 interfaces to a
+main controller via SPI and receives and transmits information via an internal
+8k buffer operating in a FIFO fashion. the ENC28J60 supports full and half
+duplex modes as well as unicast, multicast, and broadcast packets. It is also
+fully compatible with all 10/100/1000 Base-T networks making it a very plug and
+play device. The only qualm I have about it is that it it doesn't support
+auto-negotiation which means its not safe to use full-duplex mode unless you can
+manually change your switch port to full-duplex.
+
+During the course of this project I will be entering a lot of new territory, I
+have never before used a 16 bit uC, I have never before coded a Microcontroller
+in C, (until now I have only used the 8bit 12 and 16 series microchips and coded
+them in Assembly or PIC Basic), I have also never used the SPI hardware
+peripheral which many PIC’s provide and I have absolutely zero experience with
+the ENC28J60 module. So this project will without a doubt put me in a position
+to learn some new things.
+
+Below I have included a schematic and board layout for a pic24 28Pin SOIC
+breakout board with an ICSP header for programming, A useful tool for
+familiarizing yourself with the PIC24 Series
+
+PIC24BrkOutwICSP [4]
+
+
 
 Links:
 ------
-[1]
-http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en026374
+[1] http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en026374
 [2] http://www.engscope.com/pic24-tutorial/%20
 [3]
 http://development/HTTP://WWW.MICROCHIP.COM/WWWPRODUCTS/DEVICES.ASPX?DDOCNAME=EN022889

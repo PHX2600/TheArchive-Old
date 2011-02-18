@@ -1,8 +1,7 @@
 Super Cache Woes by, PHLAK
 --------------------------
-Some of you may have noticed that the front page wasn't changing,
-specifically the posts and the next meeting date. I'm fairly certain
-this was due to Super Cache being out of date. I have since updated
-Super Cache to the latest version and cleared the cache. I will
-monitor the front page for the next couple of days and make sure that
-this has resolved the problem.
+Some of you may have noticed that the front page wasn't changing, specifically
+the posts and the next meeting date. I'm fairly certain this was due to Super
+Cache being out of date. I have since updated Super Cache to the latest version
+and cleared the cache. I will monitor the front page for the next couple of days
+and make sure that this has resolved the problem.

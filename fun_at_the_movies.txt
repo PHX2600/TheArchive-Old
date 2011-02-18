@@ -1,224 +1,230 @@
 Fun at the Movies by, XlogicX
 -----------------------------
-Before I get started, I should specify that this file is not about
-computer hacking. This file focuses more on physical security and
-possibly a small amount of social engineering. I would also like to
-dedicate this file to the MPAA. After having to watch theses
-pre-preview propaganda clips of greedy movie corporations moaning
-about how we are stealing virtually un-accountable money from them by
-downloading their movies, not to add that theses clips are viewed by
-the people that actually went to the theatre and typically paid for a
-ticket, not the ones at home watching the download, I’ve then
-decided to share my tricks on how to enjoy the movies at the theater
-and pay less. Some of these tricks are well known, and some may not
-be. I hope that I may teach a few new ideas, or at least motivate
-people to practice the established techniques some more. First, I will
-list some helpful equipment to bring along. Next, I will talk a little
-bit on foot printing the system. And last, I will get into the methods
-for discounted and even free movies. Before I get into the equipment,
-there is one general tip I have that will make you at least twice as
-successful. It’s one of the oldest social engineering tricks in the
-book: confidence. Act like you belong, you will rarely be hassled this
-way, even if they have suspicion that your up to no good, just be
-confident and act offended that they would even question your
-justified place at the movies.  
+Before I get started, I should specify that this file is not about computer
+hacking. This file focuses more on physical security and possibly a small amount
+of social engineering. I would also like to dedicate this file to the MPAA.
+After having to watch theses pre-preview propaganda clips of greedy movie
+corporations moaning about how we are stealing virtually un-accountable money
+from them by downloading their movies, not to add that theses clips are viewed
+by the people that actually went to the theatre and typically paid for a ticket,
+not the ones at home watching the download, I’ve then decided to share my
+tricks on how to enjoy the movies at the theater and pay less. Some of these
+tricks are well known, and some may not be. I hope that I may teach a few new
+ideas, or at least motivate people to practice the established techniques some
+more.
+
+First, I will list some helpful equipment to bring along. Next, I will talk a
+little bit on foot printing the system. And last, I will get into the methods
+for discounted and even free movies. Before I get into the equipment, there is
+one general tip I have that will make you at least twice as successful. It’s
+one of the oldest social engineering tricks in the book: confidence. Act like
+you belong, you will rarely be hassled this way, even if they have suspicion
+that your up to no good, just be confident and act offended that they would even
+question your justified place at the movies.
 
 EQUIPMENT:
 
-  Though you can do about everything in this file unprepared, this
-equipment makes things easier. CELL PHONES: Great tool for
-communication on the more complicated teamwork methods. Also, if one
-of the people gets caught and kicked out, it would be nice to
-communicate this with everyone else, especially the driver (unless
-everyone took separate cars). EXTRA T-SHIRT: Try wearing a T-shirt of
-contrasting colors to your other shirt underneath (one blue the other
-red, white/black, green/orange). This way, if the pressure gets hot,
-you can make a quick stop to a bathroom or dark theater and change
-profile. RADIO: If you have an extra Motorola radio lying around or
-something similar, this would be very useful to see if you’re being
-tracked. Also, this could be pretty fun if you learn their unit #s and
-start imitating some of them. The possibilities could get pretty
-hardcore that way. I should have a separate file available for some
-common radio codes. You could also just find out what channel they use
-and put your radio on it, then just keep the transmit button down to
-jam their transmission, this way they have more trouble communicating
-where you are. 
+ Though you can do about everything in this file unprepared, this equipment
+makes things easier.
+
+CELL PHONES: Great tool for communication on the more complicated teamwork
+methods. Also, if one of the people gets caught and kicked out, it would be nice
+to communicate this with everyone else, especially the driver (unless everyone
+took separate cars).
+
+EXTRA T-SHIRT: Try wearing a T-shirt of contrasting colors to your other shirt
+underneath (one blue the other red, white/black, green/orange). This way, if the
+pressure gets hot, you can make a quick stop to a bathroom or dark theater and
+change profile.
+
+RADIO: If you have an extra Motorola radio lying around or something similar,
+this would be very useful to see if you’re being tracked. Also, this could be
+pretty fun if you learn their unit #s and start imitating some of them. The
+possibilities could get pretty hardcore that way. I should have a separate file
+available for some common radio codes. You could also just find out what channel
+they use and put your radio on it, then just keep the transmit button down to
+jam their transmission, this way they have more trouble communicating where you
+are.
 
 FOOT PRINTING:
 
-  Also not necessary for most methods, this can be very useful in
-others. Sometime when you’re in the building (legit or not) try
-making a mental blueprint of the place. Or you could actually make a
-sketch if you’re that hardcore, and in that case scan the sketch and
-post it for the rest of us. The most important things to map are
-theater rooms (with corresponding number), bathrooms, back
-halls/stairwells, and cameras. Also make sure to note what theater
-number corresponds to what outside exit. Make special notes of what
-outside exits aren’t monitored by camera.  
+ Also not necessary for most methods, this can be very useful in others.
+Sometime when you’re in the building (legit or not) try making a mental
+blueprint of the place. Or you could actually make a sketch if you’re that
+hardcore, and in that case scan the sketch and post it for the rest of us. The
+most important things to map are theater rooms (with corresponding number),
+bathrooms, back halls/stairwells, and cameras. Also make sure to note what
+theater number corresponds to what outside exit. Make special notes of what
+outside exits aren’t monitored by camera. 
 
 TRICKS OF THE TRADE:
 
-  TICKET HOP TRICK: This one is the most common trick, also very easy.
-Typically you purchase a legit ticket like a normal movie watcher,
-then enjoy your movie as normal. Instead of exiting the building after
-the movie is finished, just search around the building for another
-movie that starts at a convenient time (which happens to typically be
-displayed above the door). This is easy since you already are past
-their main security device; the “ticket ripper.” Some people make
-a temporary stop to the bathroom to loose some heat. Doing that is
-probably totally unnecessary; just confidently walk to the next movie
-like you paid for it. I’ve never been kicked out of a theatre doing
-this; I’ve been very obvious and verbal to my friends about what
-we’re doing, while we’re doing it, in front of staff. I bet I
-wouldn’t even get stopped if I wore a shirt that said “I ticket
-hop.” This trick doesn’t work when they check the ticket at the
-theater room door. MAIN EXIT TRICK: There are usually main exit doors
-(and double doors) very close to the entrance doors (or sometimes to
-the sides or back of the building. About all of them I’ve seen are
-glass doors. If possible, pick one of those exits that have the least
-surveillance. If it has a camera monitoring it, that’s still ok.
-Wait until some one exits and walk in when the door is opened. It’s
-advisable to do this when none of the staff is watching. If you feel
-you’re being watched, this would be a great time to make use of your
-extra T-shirt. Just go into a bathroom and put the undershirt over the
-one on the outside. If you can do this in a theater room, then choose
-that over the bathroom, since some security is starting to get a
-little hip to the bathroom thing. Stairwells can be good too, since
-most of them I’ve seen haven’t been monitored by cameras. BUY 1,
-GET THE REST FREE TRICK: This is very similar to the main exit trick,
-except now you have an insider. This person will purchase the ticket
-and get access into the theater. This makes the main exit trick easier
-for the rest of the group since your more in control of the timing.
-Although the main exit is all and good. The back theater room exits
-work really nicely here. This is where the blueprint and cell phones
-come in handy. Sometimes (and often), there will be at least one exit
-door not on camera. One time all of them had cameras, but one of them
-was pointed at the sky, woops. Try to know what theater number this
-exit is correlated with too. One person will purchase the ticket and
-wait outside that theatre room until the movie is over and people
-start leaving. This is when you go to the exit of that room and let
-the rest of the people in. You can now exit with the rest of the group
-(into the building hallways, not from building). You can also do all
-of the previously mentioned methods to loose heat at this time. This
-can still be done if the exit is monitored. Make sure the people on
-the outside are not hanging around the exit while the movie is going.
-When the movie is finished, the person on the outside gives one of the
-people on the outside a heads-up call to go to the exit. The person
-lets the group on the outside in. While in the dark theater room, this
-is the best time to switch shirts, and then exit with the rest.
-Fragmenting your group would help too. Then meet up in a few minutes.
-FRONT DOOR, NO TICKET: This trick is hardcore, there’s a good chance
-you can get kicked out, and it’s my favorite. The basic idea is to
-walk right past the ticket ripper with no ticket, then go walk into
-the movie you want to see. Although this trick could be that simple,
-typically it’s not. There may be many ways to do this, I’ll give
-mine. First, before you go in, get close to the area that you purchase
-tickets. Note what the current time is and subtract about 2 hours from
-that. Look for a movie that starts around that time and remember it.
-If it’s a comedy movie, subtract about 1.5 hours. If you’re really
-hardcore, you can see how long the movie is at moviefone.com. The
-point is to see when the movie ends though. Now, as your walking past
-the ticket ripper, keep a steady casual pace, remember the confidence.
-If he/she tries to get your attention or tries to tell you to stop,
-just say you lost your cell phone or keys. This is where you can
-volunteer what movie it was in. This whole time, never slow you pace;
-keep walking past the ticket ripper as you answer the question. If he
-says that you can’t do that, just continue walking and repeat that
-you need to find your cell phone/keys. You should probably try and
-loose any heat that you get too, it gets simple with practice. It’s
-harder for them when you’re mixed with the crowd, and remember, you
-belong there. Once the pressure is gone, it would be a good time to
-let the rest of your friends in through the theater room exits. I've
-been able to just ask for permission to look for my phone before.
-Sometimes it works, but sometimes they have an employee go with you.
-It's worth a try though, since they can't really kick you out if you
-aren't able to find your phone in front of the employee, you probably
-lost it somewhere else. Oh, and if you have the time, when your done
-with the movie, you might as well do some ticketless-ticket-hopping. 
+ TICKET HOP TRICK: This one is the most common trick, also very easy. Typically
+you purchase a legit ticket like a normal movie watcher, then enjoy your movie
+as normal. Instead of exiting the building after the movie is finished, just
+search around the building for another movie that starts at a convenient time
+(which happens to typically be displayed above the door). This is easy since you
+already are past their main security device; the “ticket ripper.” Some
+people make a temporary stop to the bathroom to loose some heat. Doing that is
+probably totally unnecessary; just confidently walk to the next movie like you
+paid for it. I’ve never been kicked out of a theatre doing this; I’ve been
+very obvious and verbal to my friends about what we’re doing, while we’re
+doing it, in front of staff. I bet I wouldn’t even get stopped if I wore a
+shirt that said “I ticket hop.” This trick doesn’t work when they check
+the ticket at the theater room door.
+
+MAIN EXIT TRICK: There are usually main exit doors (and double doors) very close
+to the entrance doors (or sometimes to the sides or back of the building. About
+all of them I’ve seen are glass doors.
+
+If possible, pick one of those exits that have the least surveillance. If it has
+a camera monitoring it, that’s still ok. Wait until some one exits and walk in
+when the door is opened. It’s advisable to do this when none of the staff is
+watching.
+
+If you feel you’re being watched, this would be a great time to make use of
+your extra T-shirt. Just go into a bathroom and put the undershirt over the one
+on the outside. If you can do this in a theater room, then choose that over the
+bathroom, since some security is starting to get a little hip to the bathroom
+thing. Stairwells can be good too, since most of them I’ve seen haven’t been
+monitored by cameras.
+
+BUY 1, GET THE REST FREE TRICK: This is very similar to the main exit trick,
+except now you have an insider. This person will purchase the ticket and get
+access into the theater. This makes the main exit trick easier for the rest of
+the group since your more in control of the timing.
+
+Although the main exit is all and good. The back theater room exits work really
+nicely here. This is where the blueprint and cell phones come in handy.
+Sometimes (and often), there will be at least one exit door not on camera. One
+time all of them had cameras, but one of them was pointed at the sky, woops. Try
+to know what theater number this exit is correlated with too. One person will
+purchase the ticket and wait outside that theatre room until the movie is over
+and people start leaving. This is when you go to the exit of that room and let
+the rest of the people in. You can now exit with the rest of the group (into the
+building hallways, not from building). You can also do all of the previously
+mentioned methods to loose heat at this time.
+
+This can still be done if the exit is monitored. Make sure the people on the
+outside are not hanging around the exit while the movie is going. When the movie
+is finished, the person on the outside gives one of the people on the outside a
+heads-up call to go to the exit. The person lets the group on the outside in.
+While in the dark theater room, this is the best time to switch shirts, and then
+exit with the rest. Fragmenting your group would help too. Then meet up in a few
+minutes.
+
+FRONT DOOR, NO TICKET: This trick is hardcore, there’s a good chance you can
+get kicked out, and it’s my favorite. The basic idea is to walk right past the
+ticket ripper with no ticket, then go walk into the movie you want to see.
+Although this trick could be that simple, typically it’s not. There may be
+many ways to do this, I’ll give mine. First, before you go in, get close to
+the area that you purchase tickets. Note what the current time is and subtract
+about 2 hours from that. Look for a movie that starts around that time and
+remember it. If it’s a comedy movie, subtract about 1.5 hours. If you’re
+really hardcore, you can see how long the movie is at moviefone.com. The point
+is to see when the movie ends though.
+
+Now, as your walking past the ticket ripper, keep a steady casual pace, remember
+the confidence. If he/she tries to get your attention or tries to tell you to
+stop, just say you lost your cell phone or keys. This is where you can volunteer
+what movie it was in. This whole time, never slow you pace; keep walking past
+the ticket ripper as you answer the question. If he says that you can’t do
+that, just continue walking and repeat that you need to find your cell
+phone/keys.
+
+You should probably try and loose any heat that you get too, it gets simple with
+practice. It’s harder for them when you’re mixed with the crowd, and
+remember, you belong there. Once the pressure is gone, it would be a good time
+to let the rest of your friends in through the theater room exits.
+
+I've been able to just ask for permission to look for my phone before. Sometimes
+it works, but sometimes they have an employee go with you. It's worth a try
+though, since they can't really kick you out if you aren't able to find your
+phone in front of the employee, you probably lost it somewhere else.
+
+Oh, and if you have the time, when your done with the movie, you might as well
+do some ticketless-ticket-hopping.
 
 SNACKS:
 
-  BRING YOUR OWN: Pretty straight forward, just get your food
-somewhere else where it’s actually affordable (with exception to
-Wal-Mart) and bring it with. Typically, you don’t even need to hide
-it. I ordered a gigantahuge meal and largantic drink from Jack n The
-Box. I held the stuff in the same hand I was holding my ticket
-in…while giving the ticket to the ticket ripper. Still, if you can
-hide the food, I guess it doesn’t hurt. If someone tells you to
-throw it away while you’re already in, just nod and walk towards a
-trash…and walk right past it. The staff may yell, but I couldn’t
-see them chasing you. But if they did, this is a time to make a run
-for it, plan to get caught, go down with a long drawn out struggle. I
-say this because not only would this be more entertaining than a
-movie, but the staff will look like a bunch of fools for tackling you
-because you smuggled in some tea. FREE POPCORN: This trick might
-disgust some people, but it’s more sanitary then it sounds. There
-are some theaters that’ll let you have a free refill if you purchase
-their largest bag of popcorn. They typically stamp or hole-punch the
-bag when you go for a refill, so you can’t do it again. Most people
-don’t take advantage of this even though some of them intended to
-when they bought the large bag (this is the whole idea for the
-theater). What you do is find one of these nice crisp bags in the
-trash. It’s actually not too difficult to find a clean one on the
-top. And unless the customer licked the inside of the bag, there
-isn’t a very likely reason that the bag would be goobered. Get the
-bag, and take it to the food lobby for a refill. Not only is it free,
-but it’s also large. Also, if this sounds too disgusting, go get the
-popcorn anyway without eating it. This will make you look like a
-paying customer, hence less suspicious. Last time a friend and I did
-this, we only ate half the bag, and through the rest at the people in
-front of us. 
+ BRING YOUR OWN: Pretty straight forward, just get your food somewhere else
+where it’s actually affordable (with exception to Wal-Mart) and bring it with.
+Typically, you don’t even need to hide it. I ordered a gigantahuge meal and
+largantic drink from Jack n The Box. I held the stuff in the same hand I was
+holding my ticket in…while giving the ticket to the ticket ripper. Still, if
+you can hide the food, I guess it doesn’t hurt. If someone tells you to throw
+it away while you’re already in, just nod and walk towards a trash…and walk
+right past it. The staff may yell, but I couldn’t see them chasing you. But if
+they did, this is a time to make a run for it, plan to get caught, go down with
+a long drawn out struggle. I say this because not only would this be more
+entertaining than a movie, but the staff will look like a bunch of fools for
+tackling you because you smuggled in some tea.
+
+FREE POPCORN: This trick might disgust some people, but it’s more sanitary
+then it sounds. There are some theaters that’ll let you have a free refill if
+you purchase their largest bag of popcorn. They typically stamp or hole-punch
+the bag when you go for a refill, so you can’t do it again. Most people
+don’t take advantage of this even though some of them intended to when they
+bought the large bag (this is the whole idea for the theater).
+
+What you do is find one of these nice crisp bags in the trash. It’s actually
+not too difficult to find a clean one on the top. And unless the customer licked
+the inside of the bag, there isn’t a very likely reason that the bag would be
+goobered. Get the bag, and take it to the food lobby for a refill. Not only is
+it free, but it’s also large.
+
+Also, if this sounds too disgusting, go get the popcorn anyway without eating
+it. This will make you look like a paying customer, hence less suspicious. Last
+time a friend and I did this, we only ate half the bag, and through the rest at
+the people in front of us.
 
 GETTING CAUGHT:
 
- This is why it is so easy to have confidence; you don’t have much
-to loose. Really, the worst thing that could happen is that they will
-throw you out, or if they’re really mad, not let you come back
-again. You could either call it a day, or if you’re a real punk,
-just do it again and again until they really do kick you out for
-life…and then walk in again. I’m kind of joking, going that far
-could get you arrested for trespassing at that point, but that would
-be something to brag about when they ask “what are you in for.”  
+This is why it is so easy to have confidence; you don’t have much to loose.
+Really, the worst thing that could happen is that they will throw you out, or if
+they’re really mad, not let you come back again. You could either call it a
+day, or if you’re a real punk, just do it again and again until they really do
+kick you out for life…and then walk in again. I’m kind of joking, going that
+far could get you arrested for trespassing at that point, but that would be
+something to brag about when they ask “what are you in for.” 
 
 SOME LAST NOTES:
 
- It is very possible that I could have left out some very creative
-techniques, or very useful ones even. So if any of you have any good
-ideas, help me make this file bigger by appending your methods or
-stories. Blueprints would be helpful too. I’ll try to make a few.   
-
+It is very possible that I could have left out some very creative techniques, or
+very useful ones even. So if any of you have any good ideas, help me make this
+file bigger by appending your methods or stories. Blueprints would be helpful
+too. I’ll try to make a few.   
 
 EXTRA MATERIAL - BY XCON0
 
-  PAY & RETURN: As you well know, if you try to return a ticket after
-the movie, whilst bitching about the poor quality et al, you're very
-unlikely to get your $ back, at any rate this involves an unecesarily
-level of SE, you shouldn't have to apply. The solution? Return your
-ticket before the movie starts! Works like this: you and your mate buy
-tickets and go inside the theater. Your mate hands you his stub, and
-you walk back out, telling the usher you're just going to get
-something from your auto. Once outside, go back to the booth where you
-bought the tix, and tell the cashier that there's been a family
-emergency and you have to leave, 'will you please refund these'...and
-hand her the stubs. Now, walk back inside (making sure the cashier
-doesn't see you), and go back inside the theater. Nod to the usher,
-who'll recognize you, and there you go :) REVIEWER: Another elegant
-method is to pose as a magazine/periodical reviewer. Call the theater
-a couple days prior to your movie night, and ask to speak to the
-manager. Proceed to tell her that you work for a local community
-paper, and you do movie/theater reviews, and your editor requires that
-you call ahead of time to ask if the theater offers promotional
-passes. The manager will add your name to a pass-list and may even
-come out himself to talk to you and answer any questions you may have
-for your review. The important part here is to CALL AHEAD, so the
-manager knows you're coming. Props to bring with you include a notepad
-and pen, and if you're "hardcore" (:P), make up business cards as
-well. FAKE EMPLOYEE: And a third method that has relative success goes
-like this: some theaters have a 'pass list' the cashiers keep next to
-them. You can say that you're an employee of the theater (depending on
-the cashier they may or may not ask for ID, a little bit of research
-that will allow you to do some persuasive name dropping "yeah, Marv
-just hired me last week..." can help here). AND ABOUT POPCORN: to deal
-with the hole punching, simply tear that piece of the bag off, and
-then tear it some more. At the counter simply say 'yeah, tripped over
-t he damn bag in the dark...'
+ PAY & RETURN: As you well know, if you try to return a ticket after the movie,
+whilst bitching about the poor quality et al, you're very unlikely to get your $
+back, at any rate this involves an unecesarily level of SE, you shouldn't have
+to apply. The solution? Return your ticket before the movie starts! Works like
+this: you and your mate buy tickets and go inside the theater. Your mate hands
+you his stub, and you walk back out, telling the usher you're just going to get
+something from your auto. Once outside, go back to the booth where you bought
+the tix, and tell the cashier that there's been a family emergency and you have
+to leave, 'will you please refund these'...and hand her the stubs. Now, walk
+back inside (making sure the cashier doesn't see you), and go back inside the
+theater. Nod to the usher, who'll recognize you, and there you go :)
+
+REVIEWER: Another elegant method is to pose as a magazine/periodical reviewer.
+Call the theater a couple days prior to your movie night, and ask to speak to
+the manager. Proceed to tell her that you work for a local community paper, and
+you do movie/theater reviews, and your editor requires that you call ahead of
+time to ask if the theater offers promotional passes. The manager will add your
+name to a pass-list and may even come out himself to talk to you and answer any
+questions you may have for your review. The important part here is to CALL
+AHEAD, so the manager knows you're coming. Props to bring with you include a
+notepad and pen, and if you're "hardcore" (:P), make up business cards as well.
+
+FAKE EMPLOYEE: And a third method that has relative success goes like this: some
+theaters have a 'pass list' the cashiers keep next to them. You can say that
+you're an employee of the theater (depending on the cashier they may or may not
+ask for ID, a little bit of research that will allow you to do some persuasive
+name dropping "yeah, Marv just hired me last week..." can help here).
+
+AND ABOUT POPCORN: to deal with the hole punching, simply tear that piece of the
+bag off, and then tear it some more. At the counter simply say 'yeah, tripped
+over t he damn bag in the dark...'

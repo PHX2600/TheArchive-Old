@@ -1,13 +1,14 @@
 November 2009 Meeting History by, PHLAK
 ---------------------------------------
-The focus of this meeting was definitely AltF4's talk on cryptography
-and basic WEP encryption. 
+The focus of this meeting was definitely AltF4's talk on cryptography and basic
+WEP encryption.
 
 PRESENTATION SLIDES
 
- WEP Slides - http://www.public.asu.edu/~dpetro/WEP.odp [1] Other
-slides - http://www.public.asu.edu/~dpetro/Crypto.odp [2] [nggallery
-id=38]
+WEP Slides - http://www.public.asu.edu/~dpetro/WEP.odp [1]
+Other slides - http://www.public.asu.edu/~dpetro/Crypto.odp [2]
+
+[nggallery id=38]
 
 Links:
 ------

@@ -1,13 +1,12 @@
 DFC -- Getting Started by, Zapperlink
 -------------------------------------
-For those of you who enjoy good fun challenges the Digital Forensic
-Challenge (http://www.dc3.mil/2009_challenge/ [1]) is probably
-something you have already heard of. Hosted by the Department of
-Defense (http://www.defenselink.mil/ [2]) and sponsored by SANS
-(http://www.sans.org/ [3]) it allows competitors to de-tangle the
-weave of an event using digital forensics. What I hope to cover in
-this article is a jump start method for you to keep in mind when you
-want to join an event like this.
+For those of you who enjoy good fun challenges the Digital Forensic Challenge
+(http://www.dc3.mil/2009_challenge/ [1]) is probably something you have already
+heard of. Hosted by the Department of Defense (http://www.defenselink.mil/ [2])
+and sponsored by SANS (http://www.sans.org/ [3]) it allows competitors to
+de-tangle the weave of an event using digital forensics. What I hope to cover in
+this article is a jump start method for you to keep in mind when you want to
+join an event like this.
 
 Links:
 ------

@@ -1,20 +1,18 @@
 July 2005 Meeting History by, XlogicX
 -------------------------------------
-We met in the back of Borders this time (we were on the schedule!).
-LosT brought his soldering station and some embedded network
-components to solder together, so we had a little soldering workshop.
-People that didn't know how to solder, and wanted to know, knew by the
-time they left. We did some general talking about embedded systems and
-talked about Make magazine a little. There was talk about defcon 13.
-We later went to Nicks, surprisingly enough, I think the group got
-bigger when we met there. While at Nicks, Nak busted out his ham gear
-and evil1 and Nak were talking to random people the could find through
-the waves. We had some talk about the stumble upon toolbar. Lots of
-creative discussion about barcodes (later in the night). After a
-while, Nak came back around and we had some pre-4th of July
-celebrations with a block of sodium. Maybe next time: Soap in a
-microwave }:> 
+We met in the back of Borders this time (we were on the schedule!). LosT brought
+his soldering station and some embedded network components to solder together,
+so we had a little soldering workshop. People that didn't know how to solder,
+and wanted to know, knew by the time they left. We did some general talking
+about embedded systems and talked about Make magazine a little. There was talk
+about defcon 13. We later went to Nicks, surprisingly enough, I think the group
+got bigger when we met there. While at Nicks, Nak busted out his ham gear and
+evil1 and Nak were talking to random people the could find through the waves. We
+had some talk about the stumble upon toolbar. Lots of creative discussion about
+barcodes (later in the night). After a while, Nak came back around and we had
+some pre-4th of July celebrations with a block of sodium. Maybe next time: Soap
+in a microwave }:>
 
-ATTENDANCE COUNT: ABOUT 15-20+ 
+ATTENDANCE COUNT: ABOUT 15-20+
 
 [gallery=20]

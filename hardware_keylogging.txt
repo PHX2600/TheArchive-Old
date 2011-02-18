@@ -1,129 +1,146 @@
 Hardware Keylogging by, XlogicX
 -------------------------------
-A key logger is a device or piece of software or hardware that
-intercepts and stores strokes of a keyboard. I'll be focusing on the
-hardware key loggers. Hardware key loggers do have their
-disadvantages, though. I felt the benefits definitely outweigh the
-weaknesses. There are a couple of hardware key loggers out in the
-market. I'll discuss one of the more popular ones. I'll also go over
-the theory of how they work and how one could be built (if you're
-afraid of being "secured" by the "homeland"). 
+A key logger is a device or piece of software or hardware that intercepts and
+stores strokes of a keyboard. I'll be focusing on the hardware key loggers.
+Hardware key loggers do have their disadvantages, though. I felt the benefits
+definitely outweigh the weaknesses. There are a couple of hardware key loggers
+out in the market. I'll discuss one of the more popular ones. I'll also go over
+the theory of how they work and how one could be built (if you're afraid of
+being "secured" by the "homeland").
 
 DISADVANTAGES OF HARDWARE KEY LOGGING
 
-  LIMITED STORAGE: The storage space is one of the first notable
-limits. With software key logging, the limit is usually the size of
-the free disk space on the hard drive. The limit of the commercial
-logger I'll go over is only 64K. It may sound bad in comparison to all
-of the huge hard drives out there, but if you think about how much
-text is required to take up 64K, it's plenty enough to get accounts
-and passwords. Also, if you make your own logger, the limit is however
-much EEPROM (Electrically Erasable Programmable Read Only Memory) you
-wish to purchase and are able to address VISIBLE DETECTION: If the
-back of the computer is visible, the logger is pretty simple to see.
-It looks like an inch long PS/2 adapter. Though it doesn't look
+ LIMITED STORAGE: The storage space is one of the first notable limits. With
+software key logging, the limit is usually the size of the free disk space on
+the hard drive. The limit of the commercial logger I'll go over is only 64K. It
+may sound bad in comparison to all of the huge hard drives out there, but if you
+think about how much text is required to take up 64K, it's plenty enough to get
+accounts and passwords. Also, if you make your own logger, the limit is however
+much EEPROM (Electrically Erasable Programmable Read Only Memory) you wish to
+purchase and are able to address
+
+VISIBLE DETECTION: If the back of the computer is visible, the logger is pretty
+simple to see. It looks like an inch long PS/2 adapter. Though it doesn't look
 suspicious, it is still visible. One thing I would do to overcome this
-disadvantage is get a PS/2 extender cable and connect the logger below
-the computer somewhere out of site.  NO CONTROL CHARACTERS: The
-commercial key logger can only record alphanumeric keys, spaces, and
-backspace. It's understandable by the way it operates, which I'll go
-over later. One way to overcome this problem is to just build your own
-logger. REQUIRES PHYSICAL ACCESS: Yes, you do need to physically
-access the computer. This is probably the biggest disadvantage. The
-only thing that I can think of to help around this one is to pick up
-the hobby of lock picking. Though, it is surprising how many important
-computers can be left unattended and physically accessible. 
+disadvantage is get a PS/2 extender cable and connect the logger below the
+computer somewhere out of site.
+
+NO CONTROL CHARACTERS: The commercial key logger can only record alphanumeric
+keys, spaces, and backspace. It's understandable by the way it operates, which
+I'll go over later. One way to overcome this problem is to just build your own
+logger.
+
+REQUIRES PHYSICAL ACCESS: Yes, you do need to physically access the computer.
+This is probably the biggest disadvantage. The only thing that I can think of to
+help around this one is to pick up the hobby of lock picking. Though, it is
+surprising how many important computers can be left unattended and physically
+accessible.
 
 BENEFITS OF HARDWARE KEY LOGGING
 
-  BIOS PASSWORD: The hardware logger starts operating as long as the
-keyboard gets power, so the BIOS password can be logged. OS
-INDEPENDENT: Since the logger operates independently from software, it
-doesn't need to interface with an OS to log keys. Accessing the log is
-slightly different, but not terrible. UNDETECTABLE WITH OS/SOFTWARE:
-The logger is hardware, it doesn't suck resources, doesn't appear in
-task list, or on hard drive. It also doesn't cause any noticeable lag
-from the keyboard to computer. LOGIN ACCESS NOT REQUIRED: There is no
-need to log in or start the computer to install software as an
-attachment. All that's necessary to get the logger up and running is
-to plug it into the back of the computer. 
+ BIOS PASSWORD: The hardware logger starts operating as long as the keyboard
+gets power, so the BIOS password can be logged.
+
+OS INDEPENDENT: Since the logger operates independently from software, it
+doesn't need to interface with an OS to log keys. Accessing the log is slightly
+different, but not terrible.
+
+UNDETECTABLE WITH OS/SOFTWARE: The logger is hardware, it doesn't suck
+resources, doesn't appear in task list, or on hard drive. It also doesn't cause
+any noticeable lag from the keyboard to computer.
+
+LOGIN ACCESS NOT REQUIRED: There is no need to log in or start the computer to
+install software as an attachment. All that's necessary to get the logger up and
+running is to plug it into the back of the computer.
 
 KEYKATCHER
 
-  This is the commercial hardware key logger that I'm most familiar
-with. I purchased it at www.keykatcher.com for about $80. That price
-is pretty steep, but depending on what you do with it, it can be a
-valuable tool for your privacy. I have mine connected to my computer
-just to see if my roommates are snooping around on it. This device
-looks like a small PS/2 adapter. It is connected in between the
-computer and keyboard chord. The software recommended to access the
-logger is Notepad (although you can use anything that contains a text
-field). You open up Notepad and type the default password (keykatch,
-and a display like this shows up. keykatcher 64K 3.7 065518 bytes free
-1-View Memory 2-Erase Memory 3-Change Password 4-Disable Recording
-5-NETPatrol Output 6-Search for String 7-Exit VIEW MEMORY: Dumps
-everything on the logger into the text field of Notepad. It is slow
-(could take an hour if full), but can be worth the wait. ERASE MEMORY:
-Does exactly that, takes about 15-20 seconds consistently no matter
-how full the logger is. CHANGE PASSWORD: Allows you to change
-password, can't be more than eight characters (shame), and has to
-start with an alpha. A tip is to make the password something that you
-wouldn't normally type, especially one of your normal passwords. The
-reason for this is that right when you type in your password for your
-email, the keykatcher prompt will come up in the password text field,
-not too fun. DISABLE RECORDING: Effectively makes the key logger
-nothing more than an extended wire chord. NETPATROL OUTPUT: Finds all
-www, .com, .nets and displays what surrounds them. SEARCH FOR STRING:
-Allows you to enter your own string and have it searched. EXIT: Gets
-out of prompt. Any other input other than 1-6 will exit too. Exiting
-can be more important that you think. If you just close Notepad and go
-into something else and accidentally type the number 1 (or the other
-five numbers), it will react to it. 
+ This is the commercial hardware key logger that I'm most familiar with. I
+purchased it at www.keykatcher.com for about $80. That price is pretty steep,
+but depending on what you do with it, it can be a valuable tool for your
+privacy. I have mine connected to my computer just to see if my roommates are
+snooping around on it. This device looks like a small PS/2 adapter. It is
+connected in between the computer and keyboard chord. The software recommended
+to access the logger is Notepad (although you can use anything that contains a
+text field). You open up Notepad and type the default password (keykatch, and a
+display like this shows up.
+
+keykatcher 64K 3.7
+065518 bytes free
+1-View Memory
+2-Erase Memory
+3-Change Password
+4-Disable Recording
+5-NETPatrol Output
+6-Search for String
+7-Exit
+
+VIEW MEMORY: Dumps everything on the logger into the text field of Notepad. It
+is slow (could take an hour if full), but can be worth the wait.
+
+ERASE MEMORY: Does exactly that, takes about 15-20 seconds consistently no
+matter how full the logger is.
+
+CHANGE PASSWORD: Allows you to change password, can't be more than eight
+characters (shame), and has to start with an alpha. A tip is to make the
+password something that you wouldn't normally type, especially one of your
+normal passwords. The reason for this is that right when you type in your
+password for your email, the keykatcher prompt will come up in the password text
+field, not too fun.
+
+DISABLE RECORDING: Effectively makes the key logger nothing more than an
+extended wire chord.
+
+NETPATROL OUTPUT: Finds all www, .com, .nets and displays what surrounds them.
+
+SEARCH FOR STRING: Allows you to enter your own string and have it searched.
+
+EXIT: Gets out of prompt. Any other input other than 1-6 will exit too. Exiting
+can be more important that you think. If you just close Notepad and go into
+something else and accidentally type the number 1 (or the other five numbers),
+it will react to it.
 
 HOW IT WORKS:
 
-  This is basically a big buffer with some firmware. You type a
-character over your keyboard, it goes to the logger, stores it, and
-passes the same info through to the computer. It can't store all
-keystrokes because some of them are treated as executable commands. It
-displays the backspace as "//". The reason for this is that if it
-tried to display the backspace, it would execute it instead and you
-wouldn't see it, along with enter, control/alt/delete, and many other
-commands that aren't even on your keyboard. That's what gives you the
-ability to use text-editing software, since the logger itself can send
-low-level commands to the computer. So it isn't just limited to
-Notepad or Word. I've used it on emacs and AbiWord as well.  
+ This is basically a big buffer with some firmware. You type a character over
+your keyboard, it goes to the logger, stores it, and passes the same info
+through to the computer. It can't store all keystrokes because some of them are
+treated as executable commands. It displays the backspace as "//". The reason
+for this is that if it tried to display the backspace, it would execute it
+instead and you wouldn't see it, along with enter, control/alt/delete, and many
+other commands that aren't even on your keyboard. That's what gives you the
+ability to use text-editing software, since the logger itself can send low-level
+commands to the computer. So it isn't just limited to Notepad or Word. I've used
+it on emacs and AbiWord as well. 
 
 SOME THEORY FOR BUILDING A LOGGER
 
-  This is definitely more work than it's worth to most people, but
-that's what hackers are for, right? I would start with some small and
-easy to use microcontroller. There are many to choose from (68HC11,
-Basic Stamp, OOPic). I would choose the OOPic (Object Oriented
-Programmable Integrated Circuit). The OOPic is relatively small, can
-store 64K of EEPROM, and can be programmed in Basic, C++, or Java. I
-use C++ just out of familiarity. I purchased this from a distributor I
-found from www.oopic.com. The development kit set me back $70. The
-benefit I like with the controller is all of the objects that are
-included with it. The most relevant objects for this application would
-be oSerial for obvious reasons. You can set the baud rate and
-everything. From that point on, connect the wires from the keyboard's
-PS/2 connector to some defined input pins on the OOPic, then wire some
-output pins up to a PS/2 extender, and connect the extender to the
-computer. This will probably require some soldering, unless you've
-thought of something creative. The fun part is figuring out what data
-means what stroke. That's one of the fun parts of hacking; you poke
-around at something, look at the data, try to figure it out, and learn
-more about how the technology works.  
+ This is definitely more work than it's worth to most people, but that's what
+hackers are for, right? I would start with some small and easy to use
+microcontroller. There are many to choose from (68HC11, Basic Stamp, OOPic). I
+would choose the OOPic (Object Oriented Programmable Integrated Circuit). The
+OOPic is relatively small, can store 64K of EEPROM, and can be programmed in
+Basic, C++, or Java. I use C++ just out of familiarity. I purchased this from a
+distributor I found from www.oopic.com. The development kit set me back $70. The
+benefit I like with the controller is all of the objects that are included with
+it. The most relevant objects for this application would be oSerial for obvious
+reasons. You can set the baud rate and everything. From that point on, connect
+the wires from the keyboard's PS/2 connector to some defined input pins on the
+OOPic, then wire some output pins up to a PS/2 extender, and connect the
+extender to the computer. This will probably require some soldering, unless
+you've thought of something creative. The fun part is figuring out what data
+means what stroke. That's one of the fun parts of hacking; you poke around at
+something, look at the data, try to figure it out, and learn more about how the
+technology works. 
 
 ETHICS
 
-  If you use the commercial logger as your sole tool for getting into
-systems, you're at the level of script kiddie. Building your own is
-recommended, since it may force you to learn a little. I have gained
-access to others people’s computers this way, but I tell them that I
-did it afterwards. I tell them how I did it too, and I still even feel
-a little dirty. Then again, they are more secure with the knowledge of
-what's out there, and probably won't let it happen again (cause they
-look around the back of their computers by routine now). Shouts:
-Medicine Soup and James.
+ If you use the commercial logger as your sole tool for getting into systems,
+you're at the level of script kiddie. Building your own is recommended, since it
+may force you to learn a little. I have gained access to others people’s
+computers this way, but I tell them that I did it afterwards. I tell them how I
+did it too, and I still even feel a little dirty. Then again, they are more
+secure with the knowledge of what's out there, and probably won't let it happen
+again (cause they look around the back of their computers by routine now).
+
+Shouts: Medicine Soup and James.

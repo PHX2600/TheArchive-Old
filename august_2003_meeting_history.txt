@@ -1,6 +1,6 @@
 August 2003 Meeting History by, XlogicX
 ---------------------------------------
-Just Zapperlink, Feend, Energizer, and I. We talked about RFID and
-shell backgrounds for linux. 
+Just Zapperlink, Feend, Energizer, and I. We talked about RFID and shell
+backgrounds for linux.
 
 ATTENDANCE COUNT: N/A

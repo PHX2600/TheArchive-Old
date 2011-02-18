@@ -1,102 +1,110 @@
 Save our Site Contest by, PHLAK
 -------------------------------
-Ladies and gentleman of the Phoenix hacker community, we need your
-help!  Over the years, the PHX2600 has been a thriving community with
-dozens of bright minded individuals, each with a unique set of ideas
-and skills and a desire to share their knowledge with their fellow
-hackers.  There would be meeting after meeting with presentation
-after presentation.  Hackers helping hackers (and interested sheeple
-as well) learn and expand their knowledge. That brings us to today.
- As of late it seems the PHX2600 forum/blog seems to have quieted
-down a considerable amount and, at times, feels empty and forgotten.
- The meetings are still going on and, for the most part, are of a
+Ladies and gentleman of the Phoenix hacker community, we need your help!  Over
+the years, the PHX2600 has been a thriving community with dozens of bright
+minded individuals, each with a unique set of ideas and skills and a desire to
+share their knowledge with their fellow hackers.  There would be meeting after
+meeting with presentation after presentation.  Hackers helping hackers (and
+interested sheeple as well) learn and expand their knowledge.
+
+That brings us to today.  As of late it seems the PHX2600 forum/blog seems to
+have quieted down a considerable amount and, at times, feels empty and
+forgotten.  The meetings are still going on and, for the most part, are of a
 reasonable size and bring lots of good information and occasionally
-presentations, but the bulk of our community discussions seemed to
-always come from the site.  In an effort to reinvigorate some
-contribution to our site and potentially drive more traffic to it, I'd
-like to announce the Save our Site Contest. 
+presentations, but the bulk of our community discussions seemed to always come
+from the site.  In an effort to reinvigorate some contribution to our site and
+potentially drive more traffic to it, I'd like to announce the Save our Site
+Contest.
 
 CONTEST OVERVIEW
 
- As a participant, write an article on a topic of your choice that is
-in some way relevant to the PHX2600 (hacking, modding, phreaking,
-etc..).  These articles will be published via our blog after review
-and voted upon by our members at the end of the competition.  The
-article with the most number of votes at the end of the competition
-will be awarded a $30 credit to our swag store
-(http://www.cafepress.com/phx2600 [1]) paid for by me.  If anyone
-else would like to contribute to the winners pool, we may be able to
-have a second and third prize as well (please contact me if interested
-in contributing). 
+As a participant, write an article on a topic of your choice that is in some way
+relevant to the PHX2600 (hacking, modding, phreaking, etc..).  These articles
+will be published via our blog after review and voted upon by our members at the
+end of the competition.  The article with the most number of votes at the end
+of the competition will be awarded a $30 credit to our swag store
+(http://www.cafepress.com/phx2600 [1]) paid for by me.  If anyone else would
+like to contribute to the winners pool, we may be able to have a second and
+third prize as well (please contact me if interested in contributing).
 
 RULES
 
- 	* The article must pertain to the PHX2600 scene in some way.  This
-can be as directly relevant as an article explaining how to pen test
-LAMP servers or as loosely relevant as "hacking together" the perfect
-formula of pony food to give them a pretty coat.
- 	* 400 words + is desired, but not required.  If you can make a
-good, coherent article in 300 words, great!
- 	* Original content is a must. Copy/pasta (plagiarism) will be means
-for immediate disqualification.  Currently published content (on
-PHX2600.org or another website) will not be counted for entry (sorry
-Penguin, Evil1 and anyone else who's already contributed... we still
-love you!).
+ 	* The article must pertain to the PHX2600 scene in some way.  This can be as
+directly relevant as an article explaining how to pen test LAMP servers or as
+loosely relevant as "hacking together" the perfect formula of pony food to give
+them a pretty coat.
+
+ 	* 400 words + is desired, but not required.  If you can make a good, coherent
+article in 300 words, great!
+
+ 	* Original content is a must. Copy/pasta (plagiarism) will be means for
+immediate disqualification.  Currently published content (on PHX2600.org or
+another website) will not be counted for entry (sorry Penguin, Evil1 and anyone
+else who's already contributed... we still love you!).
+
  	* Images/diagrams are desired (if relevant).
- 	* All articles must be submitted to PHLAK by the deadline in one of
-the following formats: .txt, .odt, .doc, Google Docs or by creating a
-draft on the blog (email me if you need access to this).
- 	* You do not have to be signed up on the forums or blog or regularly
-attend meetings to submit an article.  If you don't have an account
-though, make sure to provide me with some contact information.
- 	* Multiple articles will be accepted for multiple entries.  If you
-submit more than one article, each article will be weighted separately
-for quality and poor quality articles will not be count for entry.
-(Basically, if you submit 10 x 200 word articles, there's a good
-chance none will qualify for entry)
- 	* Any and all entries submitted are subject to be posted on the
-blog, even if they do not qualify for entry to the competition. And we
-reserve the right﻿ to not post any entry we feel is inappropriate or
-does not meet the criteria stated above.  All entries published will
-be released under the Creative Commons Attribution 3.0 [2] license and
-credited to the author properly.
+
+ 	* All articles must be submitted to PHLAK by the deadline in one of the
+following formats: .txt, .odt, .doc, Google Docs or by creating a draft on the
+blog (email me if you need access to this).
+
+ 	* You do not have to be signed up on the forums or blog or regularly attend
+meetings to submit an article.  If you don't have an account though, make sure
+to provide me with some contact information.
+
+ 	* Multiple articles will be accepted for multiple entries.  If you submit
+more than one article, each article will be weighted separately for quality and
+poor quality articles will not be count for entry. (Basically, if you submit 10
+x 200 word articles, there's a good chance none will qualify for entry)
+
+ 	* Any and all entries submitted are subject to be posted on the blog, even if
+they do not qualify for entry to the competition. And we reserve the right﻿ to
+not post any entry we feel is inappropriate or does not meet the criteria stated
+above.  All entries published will be released under the Creative Commons
+Attribution 3.0 [2] license and credited to the author properly.
+
  	* AMENDMENT: PHX2600 WIKI ARTICLES WILL ALSO BE ACCEPTED FOR ENTRY.
 
 DEADLINE
 
- All submissions must be received by midnight (Arizona time) Friday,
-September 3rd 2010.  Articles will then be voted upon by the
-community and a winner will be chosen. [3] 
+All submissions must be received by midnight (Arizona time) Friday, September
+3rd 2010.  Articles will then be voted upon by the community and a winner will
+be chosen. [3]
 
 IDEAS AND INSPIRATIONS
 
- Don't know what to write about? Here's a few ideas to get you
-rolling: 
+Don't know what to write about? Here's a few ideas to get you rolling:
 
- 	* Detailed method on how to pen test a particular system in wide
-use.
- 	* Tutorial on installing and using a piece of software (John the
-Ripper, nmap, git, etc.).
- 	* An article about how many people are "hackers" in their daily
-lives but don't know it.
+ 	* Detailed method on how to pen test a particular system in wide use.
+
+ 	* Tutorial on installing and using a piece of software (John the Ripper, nmap,
+git, etc.).
+
+ 	* An article about how many people are "hackers" in their daily lives but
+don't know it.
+
  	* A breakdown and analysts of a piece of hardware and it's internal
 components.
+
  	* A story about urban exploration and/or socially engineering.
+
  	* Interesting topics from Defcon or another convention.
 
 FINAL THOUGHTS
 
- Even if you're not interested in the prizes, we'd like to encourage
-you to contribute anyway.  The purpose of this contest is to
-stimulate the community and possibly drive some traffic to us as well.
- If you don't have something to write about or just don't feel like
-it, help out by spreading the word, and not just to your "hacker"
-friends, but to anyone you think could make a contribution. 
+Even if you're not interested in the prizes, we'd like to encourage you to
+contribute anyway.  The purpose of this contest is to stimulate the community
+and possibly drive some traffic to us as well.  If you don't have something to
+write about or just don't feel like it, help out by spreading the word, and not
+just to your "hacker" friends, but to anyone you think could make a
+contribution.
 
 PHLAK\'S CONTACT INFO
 
- Email / G-Talk / G-Docs: Chris@ChrisKankiewicz.com [4] Twitter:
-@PHLAK [5] 
+Email / G-Talk / G-Docs: Chris@ChrisKankiewicz.com [4]
+Twitter: @PHLAK [5]
+
+
 
 Links:
 ------

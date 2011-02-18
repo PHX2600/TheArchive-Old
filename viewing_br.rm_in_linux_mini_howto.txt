@@ -1,33 +1,51 @@
 Viewing br.rm in Linux Mini - HOWTO by, Feend
 ---------------------------------------------
-Like other listeners of rfa I too wanted to view the binary revolution
-unveiling video (www.oldskoolphreak.com/video/br.rm [1]) but was
-horrified that I could not even after downloading the RealPlayer
-client
-(http://forms.real.com/real/player/unix/unix.html?src=052703realhome_1_1
-[2]). After many hours of therapy I am now able to help those who may
-also be suffering from this condition. Using Realplayer8 to view br.rm
-1. Follow the RealPlayer link above 2. Fill in the information (false
-info is fine) 3. At the "Select OS" drop down menu choose Linux 2.x
-(libc6 i386) 4. Save to your desired directory (I used ~) 5. chmod u+x
-rp8_linux20_libc6_i386_cs2.bin 6. ./rp8_linux20_libc6_i386_cs2.bin 7.
-Return back to the RealPlayer link provided at the top of the
-mini-HOWTO 8. You will see a "Free RealVideo 9 codec upgrade package"
-link...follow it 9. Download rv9_libc6_i386_cs2.tgz 10. Rename
-rv9_libc6_i386_cs2.tgz to rv9_libc6_i386_cs2.tar 11. tar -xvf
-rv9_libc6_i386_cs2.tar 12. mv /rv9/codecs/rv40.so.6.0
-/RealPlayer8/Codecs/ 13. mv /rv9/codecs/drv4.so.6.0
-/RealPlayer8/Codecs/ 14. 15. Open br.rm 16. Enjoy  Using Xine to view
-br.rm [Method 1] 1. Follow the above directions to step 13 -If you
-chose to install RealPlayer to /usr/local/RealPlayer8/ Xine will find
-the codecs for you -Or if you chose to install RealPlayer to
-/opt/RealPlayer8/ Xine will find the codecs for you 2. Run Xine 3.
-Open br.rm 4. Enjoy [Method 2] 1. Follow the above directions to step
-13 2. Edit ~/.xine/config 3. Change the line codec.real_codecs_path:
-4. Run Xine 5. Open br.rm 6. Enjoy
+Like other listeners of rfa I too wanted to view the binary revolution unveiling
+video (www.oldskoolphreak.com/video/br.rm [1]) but was horrified that I could
+not even after downloading the RealPlayer client
+(http://forms.real.com/real/player/unix/unix.html?src=052703realhome_1_1 [2]).
+After many hours of therapy I am now able to help those who may also be
+suffering from this condition.
+
+Using Realplayer8 to view br.rm
+1. Follow the RealPlayer link above
+2. Fill in the information (false info is fine)
+3. At the "Select OS" drop down menu choose Linux 2.x (libc6 i386)
+4. Save to your desired directory (I used ~)
+5. chmod u+x rp8_linux20_libc6_i386_cs2.bin
+6. ./rp8_linux20_libc6_i386_cs2.bin
+7. Return back to the RealPlayer link provided at the top of the mini-HOWTO
+8. You will see a "Free RealVideo 9 codec upgrade package" link...follow it
+9. Download rv9_libc6_i386_cs2.tgz
+10. Rename rv9_libc6_i386_cs2.tgz to rv9_libc6_i386_cs2.tar
+11. tar -xvf rv9_libc6_i386_cs2.tar
+12. mv /rv9/codecs/rv40.so.6.0 /RealPlayer8/Codecs/
+13. mv /rv9/codecs/drv4.so.6.0 /RealPlayer8/Codecs/
+14.
+15. Open br.rm
+16. Enjoy
+
+Using Xine to view br.rm
+
+[Method 1]
+1. Follow the above directions to step 13
+-If you chose to install RealPlayer to /usr/local/RealPlayer8/
+Xine will find the codecs for you
+-Or if you chose to install RealPlayer to /opt/RealPlayer8/
+Xine will find the codecs for you
+2. Run Xine
+3. Open br.rm
+4. Enjoy
+
+[Method 2]
+1. Follow the above directions to step 13
+2. Edit ~/.xine/config
+3. Change the line codec.real_codecs_path:
+4. Run Xine
+5. Open br.rm
+6. Enjoy
 
 Links:
 ------
 [1] http://development/www.oldskoolphreak.com/video/br.rm
-[2]
-http://forms.real.com/real/player/unix/unix.html?src=052703realhome_1_1
+[2] http://forms.real.com/real/player/unix/unix.html?src=052703realhome_1_1

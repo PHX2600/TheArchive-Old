@@ -1,85 +1,86 @@
 Citizen Journalism (A Media Hacking Primer) by, Terrordrone
 -----------------------------------------------------------
-Does Glenn Beck or Kieth Olberman speak for you? Me neither (if they
-do just stop reading now as this article may induce vomiting, head
-ache and uncontrollable rage.) Now I'm not here to put anyone down
-both of the above men and their brethren on cable news networks and
-local news are very good at their jobs. Unfortunately the main focus
-of the job is not reporting news, it's selling a product. Commercial
-news sources are a business and businesses exist to turn a profit.
-Commercial news does this with sponsors be it television, radio,
-Internet or print. There in lies the problem the businesses can't
-afford to upset the sponsors. So ideas such as ethics, integrity and
-honor fall aside for profit. Citizen journalism also known as
-"public", "participatory", "democratic”, “guerrilla" or "street
-journalism" has no sponsor, no editors, no corporate overlords to
-appease.  Citizen journalism is not a modern phenomena in fact we can
-trace it back to the earliest forms of communication. Throughout
-history powerful and often corrupt organizations have done everything
-within their power to spin public opinion to view facts and ideas to
-suit themselves. Most fortunate for us, people and groups stood up
-against churches, governments and the such in power to spread other
-truths and ideas. Benjamin Franklin had "Poor Richard's Almanac" and
-Martin Luther had “95 Theses”. In the modern era technology has
-given us much better tools in our arsenal.  Our first tool is also the
-oldest form of mass media next to screaming in the streets. Printed
-word. Some will say the printed word is dead.  I say they are
-wrong.  First, we have the old media style of paper and ink. Every
-town has a store like Kinkos, Staples or even better, a locally owned
-store that can make mass copies at a decent price. Get some copies of
-your report or get together with some friends who write get a stapler
-and you have yourself a 'Zine. This can be a bit tricky to distribute
-when starting out. So we have a cheaper and even easier way for you to
-get your written words out. Wordpress and Tumblr are just two examples
-of free blog services out there. Get a blog, start writing and spread
-the word it's really that simple. Also out there are micro blog
-services like Twitter and Facebook which allow you to easily connect
-with friends and family and have them see your work. Our next weapon
-against the corporate fueled media is the radio or the spoken word.
-First, let me point out that I fully support and will help defend
-pirate radio broadcast but alas it is still illegal and the government
-can and will do everything they can to shut you down and punish you.
-If you are still interested in starting a pirate broadcast I suggest
-googling and reading “Radio is my Bomb” and check out Free Radio
-Berkley for good information on the technology, building, running,
-legal issues and history of this form of citizen journalism. Worried
-about the FCC kicking in your door and slamming you face first to the
-floor? Fear not there is a legal outlet for you, too. Pod-casts.
-Pod-casts are great, they require little technical skill, very little
-equipment and there are free hosting sites out there such as Podbean
-and Mypodcast. The best part is your listeners can download and take
-it with them to listen whenever they have the time. Youtube is the
-king of free video hosting and a fairly easy service to use and with a
-wide variety  of video cameras out there you have your counter to the
-for profit video media. Youtube does have its problems though mainly a
-lot of bogus DMCA take downs. So be warned if you say something that
-pisses someone off, be prepared for them to come up with some BS to
-try and take you down. In fact that applies for all the above. People
-in power absolutely loath people exercising freedom.  Yes, its true
-you may see something or report on something that will really get
-under someone's skin (that is why we do this to expose what the
-corporate news won't or expose the spin they put on it) and they will
-probably have some lawyer who will try and twist the law to go after
-you, but you are not alone. The EFF is a great source for legal advice
-and are out there fighting for your rights. So support them for they
-support you. Okay, so you have to tools, you have the will, now what
-do you report on? The beauty of it is whatever you want. Whatever
-floats your boat. Your rants don't even need a motif. If you want to
-write about your local hackerspace then follow it up with an article
-about local government corruption, go ahead, you're your own boss in
-this, you make the rules. Your local hackerspace is more likely to
-talk to you than a politician or big business will, but I think an
-article on how one of these avoided your questions says a lot about
-the person running away from you. Now, just because you run the show
-doesn't give you the right to abuse it. First, have some integrity.
-Maybe you don't like someone, that's cool, but don't go editing
-comments or video to make this person look the way you want them to.
-The commercial media does this enough. Second, be firm, but don't be
-an ass. If you score an interview with someone you don't agree with,
-ask your questions, challenge their comments, but don't go in there
-and insult them. Now I'm not telling you to pucker up for them either.
-Question and challenge everything, just don't be a tool while doing
-it. Once again, the corporate media already does this. Lastly, you
-don't have to go alone. Check out your local free press, local 2600
-meetings or just get together with like minded friends. Now get out
+Does Glenn Beck or Kieth Olberman speak for you? Me neither (if they do just
+stop reading now as this article may induce vomiting, head ache and
+uncontrollable rage.) Now I'm not here to put anyone down both of the above men
+and their brethren on cable news networks and local news are very good at their
+jobs. Unfortunately the main focus of the job is not reporting news, it's
+selling a product. Commercial news sources are a business and businesses exist
+to turn a profit. Commercial news does this with sponsors be it television,
+radio, Internet or print. There in lies the problem the businesses can't afford
+to upset the sponsors. So ideas such as ethics, integrity and honor fall aside
+for profit. Citizen journalism also known as "public", "participatory",
+"democratic”, “guerrilla" or "street journalism" has no sponsor, no editors,
+no corporate overlords to appease.
+
+Citizen journalism is not a modern phenomena in fact we can trace it back to the
+earliest forms of communication. Throughout history powerful and often corrupt
+organizations have done everything within their power to spin public opinion to
+view facts and ideas to suit themselves. Most fortunate for us, people and
+groups stood up against churches, governments and the such in power to spread
+other truths and ideas. Benjamin Franklin had "Poor Richard's Almanac" and
+Martin Luther had “95 Theses”. In the modern era technology has given us
+much better tools in our arsenal.
+
+Our first tool is also the oldest form of mass media next to screaming in the
+streets. Printed word. Some will say the printed word is dead.  I say they are
+wrong.  First, we have the old media style of paper and ink. Every town has a
+store like Kinkos, Staples or even better, a locally owned store that can make
+mass copies at a decent price. Get some copies of your report or get together
+with some friends who write get a stapler and you have yourself a 'Zine. This
+can be a bit tricky to distribute when starting out. So we have a cheaper and
+even easier way for you to get your written words out. Wordpress and Tumblr are
+just two examples of free blog services out there. Get a blog, start writing and
+spread the word it's really that simple. Also out there are micro blog services
+like Twitter and Facebook which allow you to easily connect with friends and
+family and have them see your work.
+
+Our next weapon against the corporate fueled media is the radio or the spoken
+word. First, let me point out that I fully support and will help defend pirate
+radio broadcast but alas it is still illegal and the government can and will do
+everything they can to shut you down and punish you. If you are still interested
+in starting a pirate broadcast I suggest googling and reading “Radio is my
+Bomb” and check out Free Radio Berkley for good information on the technology,
+building, running, legal issues and history of this form of citizen journalism.
+Worried about the FCC kicking in your door and slamming you face first to the
+floor? Fear not there is a legal outlet for you, too. Pod-casts. Pod-casts are
+great, they require little technical skill, very little equipment and there are
+free hosting sites out there such as Podbean and Mypodcast. The best part is
+your listeners can download and take it with them to listen whenever they have
+the time.
+
+Youtube is the king of free video hosting and a fairly easy service to use and
+with a wide variety  of video cameras out there you have your counter to the
+for profit video media. Youtube does have its problems though mainly a lot of
+bogus DMCA take downs. So be warned if you say something that pisses someone
+off, be prepared for them to come up with some BS to try and take you down. In
+fact that applies for all the above. People in power absolutely loath people
+exercising freedom.
+
+Yes, its true you may see something or report on something that will really get
+under someone's skin (that is why we do this to expose what the corporate news
+won't or expose the spin they put on it) and they will probably have some lawyer
+who will try and twist the law to go after you, but you are not alone. The EFF
+is a great source for legal advice and are out there fighting for your rights.
+So support them for they support you.
+
+Okay, so you have to tools, you have the will, now what do you report on? The
+beauty of it is whatever you want. Whatever floats your boat. Your rants don't
+even need a motif. If you want to write about your local hackerspace then follow
+it up with an article about local government corruption, go ahead, you're your
+own boss in this, you make the rules. Your local hackerspace is more likely to
+talk to you than a politician or big business will, but I think an article on
+how one of these avoided your questions says a lot about the person running away
+from you.
+
+Now, just because you run the show doesn't give you the right to abuse it.
+First, have some integrity. Maybe you don't like someone, that's cool, but don't
+go editing comments or video to make this person look the way you want them to.
+The commercial media does this enough. Second, be firm, but don't be an ass. If
+you score an interview with someone you don't agree with, ask your questions,
+challenge their comments, but don't go in there and insult them. Now I'm not
+telling you to pucker up for them either. Question and challenge everything,
+just don't be a tool while doing it. Once again, the corporate media already
+does this. Lastly, you don't have to go alone. Check out your local free press,
+local 2600 meetings or just get together with like minded friends. Now get out
 there, find some truth and show it to the world.

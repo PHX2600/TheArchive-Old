@@ -1,47 +1,71 @@
 Phoenix 2600 VIP 2.0 Project by, XlogicX
 ----------------------------------------
-ASSIGNMENT: Step 1: Sign up for VIP cards (use fake info) in the
-following 4 stores: Albertsons Frys Safeway Bashas Step 2: When you go
-to the store, try using a VIP card for the wrong store: Example: go to
-Frys and use your Safeway club card. Step 3: Report to the forums.
-Please report the what store the vip card is supposed to be for, the
-first 6 digits of the barcode, what store you tried it on, and if it
-worked or not. Step 4: Goto Step 2 Until research is done Whoever
-submits their results on the forums will be listed below as members of
+ASSIGNMENT:
+
+Step 1: Sign up for VIP cards (use fake info) in the following 4 stores:
+Albertsons
+Frys
+Safeway
+Bashas
+
+Step 2: When you go to the store, try using a VIP card for the wrong store:
+Example: go to Frys and use your Safeway club card.
+
+Step 3: Report to the forums. Please report the what store the vip card is
+supposed to be for, the first 6 digits of the barcode, what store you tried it
+on, and if it worked or not.
+
+Step 4: Goto Step 2 Until research is done
+
+Whoever submits their results on the forums will be listed below as members of
 this project. Please don't make stuff up either, we want a working
-product...well I do atleast. Don't worry about being secretive with
-this. I sometimes prefer going to normal checkout (not self-checkout).
-I just say "hey, I'm curious, but could you see if this VIP card
-works." Or just tell them your doing a research project for school.
-Honestly, with most of them, you don't even have to give them a story.
-But then again, those of you that have used the first generation VIP
-card know that. I will have a Open Office Calc file with the results
-in progress of the data collected below.
--------------------------------- PROTOTYPES: VIP 2.0 Version 1 (This
-one works, but it's two codes)  VIP 2.0 Version 2 (After testing, this
-one is not consistant at Albertsons)  VIP 2.0 Version 3 (Testing;
-failed at Albertson again, turns out the checksum was bad): The idea
-of this one is to cover up one of the colored circles with a thumb or
-finger. If covering green doesn't work at albertsons, cover the blue,
-this should work in thoery...hence the testing.  VIP 2.0 Version 4
-(Testing): Same idea as version 3.  VIP 2.0 Version 5 (Testing): A
-legit looking version.  [1] [download id="4"] 
+product...well I do atleast. Don't worry about being secretive with this. I
+sometimes prefer going to normal checkout (not self-checkout). I just say "hey,
+I'm curious, but could you see if this VIP card works." Or just tell them your
+doing a research project for school. Honestly, with most of them, you don't even
+have to give them a story. But then again, those of you that have used the first
+generation VIP card know that. I will have a Open Office Calc file with the
+results in progress of the data collected below.
+
+--------------------------------
+
+PROTOTYPES:
+
+VIP 2.0 Version 1 (This one works, but it's two codes)
+
+VIP 2.0 Version 2 (After testing, this one is not consistant at Albertsons)
+
+VIP 2.0 Version 3 (Testing; failed at Albertson again, turns out the checksum
+was bad): The idea of this one is to cover up one of the colored circles with a
+thumb or finger. If covering green doesn't work at albertsons, cover the blue,
+this should work in thoery...hence the testing.
+
+VIP 2.0 Version 4 (Testing): Same idea as version 3.
+
+VIP 2.0 Version 5 (Testing): A legit looking version.
+ [1]
+[download id="4"]
 
 RESEARCH DEPARTMENT:
 
-  XlogicX Medicine_Soup Zapperlink Energizer Threepts  
+ XlogicX
+Medicine_Soup
+Zapperlink
+Energizer
+Threepts
 
 GRAPHIC DESIGN:
 
-  Threepts (front) XlogicX (back)  
+ Threepts (front)
+XlogicX (back)
 
 PROTOTYPE TESTERS:
 
-  TBA  
+ TBA 
 
 MATERIALS:
 
-  Medicine_Soup (hopefully) 
+ Medicine_Soup (hopefully) 
 
 Links:
 ------

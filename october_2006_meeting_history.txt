@@ -1,12 +1,12 @@
 October 2006 Meeting History by, XlogicX
 ----------------------------------------
-Lots of new people, and even old people; Dual and Kondor return.
-AgentOrange has presentation on non-SQL database hacking with PHP.
-Ugly brings a Jacob's ladder. XlogicX brings a toy: GPS and LCD
-modules connected to a Basic Stamp 2e processor. WTF item for this
-month was brought by NAK, it was a bee feeder, I forget who guessed
-it, and if it was even a legitimate guess (many clues were given). 
+Lots of new people, and even old people; Dual and Kondor return. AgentOrange has
+presentation on non-SQL database hacking with PHP. Ugly brings a Jacob's ladder.
+XlogicX brings a toy: GPS and LCD modules connected to a Basic Stamp 2e
+processor. WTF item for this month was brought by NAK, it was a bee feeder, I
+forget who guessed it, and if it was even a legitimate guess (many clues were
+given).
 
-ATTENDANCE COUNT: ABOUT 25 
+ATTENDANCE COUNT: ABOUT 25
 
 [gallery=6]

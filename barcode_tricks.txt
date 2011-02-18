@@ -1,87 +1,96 @@
 BarCode Tricks by, XlogicX
 --------------------------
-There are a few ways to purchase a product with the price of another.
-Before I talk about that though, I’ll review the meaning of the bars
-and numbers on the bar code. After that, I’ll explain tricks like
-“inking” and the “sticker.” REVIEW: What bar-space combination
-will make a meaningful number? For UPC-A, there is about 23 different
-meaningful characters: 1 start guard, 1 center guard, 1 stop guard, 10
-left hand data characters, and 10 right hand data characters. I
-specify right and left because the code is different on each side.
-Imagine the data characters as 7-bit binary words; where the 0 is a
-space, and a 1 is a line.  Notice that all left-hand characters start
-with a 0 and end with a 1. Also, the right hand side is just the
-compliment of the left-hand side; so if the bit were a 0 on the left
-for a certain character, it would be a 1 on the right for the same
-character. Another thing to notice is that there are two variable
-width spaces and lines per character, no more, no less.  Imagine that
-start and stop as a 3-bit character and the data being 101. These
-characters appear at the beginning and end of the code. The center
-guard is the 5-bit character 01010, it appears in the center. Now that
-we know how the characters are formed, how about the meaning of the
-numbers? The first number specifies what kind of application the bar
-code will have. 0, 6, and 7 mean that it is a normal UPC code. A 2
-means it is a weighted item like produce. 3 is the National Drug and
-Health related code. A 4 means it is specific to that store. A 5 means
-it is a coupon, notice the “5” in the Coupon Trick article by
-Charles in 20:2. The other numbers are reserved. The next five
-characters (2-6) are the manufacturers code. For example, Post Grape
-Nuts is 0 43000 10370 8, and Post Waffle Crisps is 0 43000 10540 5.
-All Post products should have 43000 for digits 2-6. If a manufacturer
-has more than 100,000 different products, such as the store brand,
-then you might see different codes for the same brand in digits 2-6.
-The next five characters (7-11) are the product code. The last
-character is the check-sum, though it’s a little more than a sum. To
-derive it by hand, you take the 1st, 3rd, 5th, 7th, 9th, and 11th
-numbers and add them up. Multiply that sum by three. Then add all the
-remaining numbers to that. Now what you want to do is add a number to
-that sum that will give you a number with the multiple of ten. The
-number you chose for that, is the checksum. The original code that
-Charles had was 5 21000 23030 8. 5+1+0+2+0+0 = 8. 8 * 3 =24.
-24+2+0+0+3+3 = 32. 32+8 = 40, the next closest multiple of 10
-(checksum being 8). THE SELF-CHECKOUT SWITCH: Prices may vary in this
-example. You purchase 2 32oz Power-Aids ($1.49) and a 32oz Gatorade
-($1.29) for the price of 3 Gatorades ($.40 savings). First, scan
-Gatorade, place it on the demagnetizer, and then put the Power-Aid in
-the bag/(scale). Do the same for next Power-Aid, and then do the
-Gatorade finally. The advantages of this method are that it is
-mechanically easy and doesn’t require much knowledge. The
-disadvantages of this method are that it only works for self-check
-out, and the supervisor of the self-checkout may still find your
-activities suspicious. Also, you need to find things around the same
-weight. THE STICKER: I didn’t purchase any software for this and
-couldn’t find any freeware that would get the size how I wanted it.
-I didn’t look very hard though. I did it in Paint; making each small
-line and space one pixel wide and having the whole bar code about 86
-pixels vertically. The whole barcode should be about 98 pixels wide. I
-selected the area from 0,0 to 102,88 coordinates and copied (not
-arbitrary). I pasted this into Word and stretched it horizontally by 2
-of their units. After printing, it looks exactly like a barcode, size
-and everything. It also leaves enough room for the correct numbers to
-show through, so if I get caught, there’s a backup plan. The
-advantages of this is that you don’t need the extra Gatorade to buy
-a Power-Aid at Gatorade price, just print the barcode on a sticker and
-slap it on the Power-Aid. Another advantage is now you can go to
-normal checkout. Depending on the cashier, they probably won’t
-notice the sticker, and if you strike some conversation with them,
-they won’t notice a different product on their monitor. You may want
-to purchase a couple legitimate things to throw them off though. This
-method also looks less suspicious than the self-checkout switch. One
-down side is that you could still get caught if the sticker is
-identified or if a different product is noticed by a cashier (or
-supervisor of self-checkout). INKING: This is my favorite method, and
-by far the least useful. What you do is take a non-glossy pen and
-widen some lines to change the code. This is hard to do, since the
-changed line should actually be a number, the changed numbers should
-actually be a product, and the product should hopefully be cheaper. I
-made myself a chart of the convertible numbers on the left and right
-side, respectively.  A practical example would be converting those two
-Post products I demonstrated earlier. Grape Nuts was 0 43000 103708,
-and Waffle Crisps was 0 43000 10540 5. To change Grape Nuts to Waffle
-Crisps, you convert the 3 to a five, the 7 to a 4, and the 8 to a five
-(notice they’re all on the right side since the manufacture part
-would be the same).  Although this is a limited method, as long as
-it’s not done in front of a camera, you probably will not get
-caught. You would also get Uber-Hardcore points for doing it this way,
-I’ve only done this once successfully, and have definitely got it
-wrong a couple times. - Shouts: Prof. Tomasi, Evin, and 2600 Phoenix
+There are a few ways to purchase a product with the price of another. Before I
+talk about that though, I’ll review the meaning of the bars and numbers on the
+bar code. After that, I’ll explain tricks like “inking” and the
+“sticker.”
+
+REVIEW: What bar-space combination will make a meaningful number? For UPC-A,
+there is about 23 different meaningful characters: 1 start guard, 1 center
+guard, 1 stop guard, 10 left hand data characters, and 10 right hand data
+characters. I specify right and left because the code is different on each side.
+Imagine the data characters as 7-bit binary words; where the 0 is a space, and a
+1 is a line.
+
+Notice that all left-hand characters start with a 0 and end with a 1. Also, the
+right hand side is just the compliment of the left-hand side; so if the bit were
+a 0 on the left for a certain character, it would be a 1 on the right for the
+same character. Another thing to notice is that there are two variable width
+spaces and lines per character, no more, no less.
+
+Imagine that start and stop as a 3-bit character and the data being 101. These
+characters appear at the beginning and end of the code. The center guard is the
+5-bit character 01010, it appears in the center.
+
+Now that we know how the characters are formed, how about the meaning of the
+numbers? The first number specifies what kind of application the bar code will
+have. 0, 6, and 7 mean that it is a normal UPC code. A 2 means it is a weighted
+item like produce. 3 is the National Drug and Health related code. A 4 means it
+is specific to that store. A 5 means it is a coupon, notice the “5” in the
+Coupon Trick article by Charles in 20:2. The other numbers are reserved.
+
+The next five characters (2-6) are the manufacturers code. For example, Post
+Grape Nuts is 0 43000 10370 8, and Post Waffle Crisps is 0 43000 10540 5. All
+Post products should have 43000 for digits 2-6. If a manufacturer has more than
+100,000 different products, such as the store brand, then you might see
+different codes for the same brand in digits 2-6.
+
+The next five characters (7-11) are the product code. The last character is the
+check-sum, though it’s a little more than a sum. To derive it by hand, you
+take the 1st, 3rd, 5th, 7th, 9th, and 11th numbers and add them up. Multiply
+that sum by three. Then add all the remaining numbers to that. Now what you want
+to do is add a number to that sum that will give you a number with the multiple
+of ten. The number you chose for that, is the checksum. The original code that
+Charles had was 5 21000 23030 8. 5+1+0+2+0+0 = 8. 8 * 3 =24. 24+2+0+0+3+3 = 32.
+32+8 = 40, the next closest multiple of 10 (checksum being 8).
+
+THE SELF-CHECKOUT SWITCH: Prices may vary in this example. You purchase 2 32oz
+Power-Aids ($1.49) and a 32oz Gatorade ($1.29) for the price of 3 Gatorades
+($.40 savings). First, scan Gatorade, place it on the demagnetizer, and then put
+the Power-Aid in the bag/(scale). Do the same for next Power-Aid, and then do
+the Gatorade finally.
+
+The advantages of this method are that it is mechanically easy and doesn’t
+require much knowledge. The disadvantages of this method are that it only works
+for self-check out, and the supervisor of the self-checkout may still find your
+activities suspicious. Also, you need to find things around the same weight.
+
+THE STICKER: I didn’t purchase any software for this and couldn’t find any
+freeware that would get the size how I wanted it. I didn’t look very hard
+though. I did it in Paint; making each small line and space one pixel wide and
+having the whole bar code about 86 pixels vertically. The whole barcode should
+be about 98 pixels wide. I selected the area from 0,0 to 102,88 coordinates and
+copied (not arbitrary). I pasted this into Word and stretched it horizontally by
+2 of their units. After printing, it looks exactly like a barcode, size and
+everything. It also leaves enough room for the correct numbers to show through,
+so if I get caught, there’s a backup plan.
+
+The advantages of this is that you don’t need the extra Gatorade to buy a
+Power-Aid at Gatorade price, just print the barcode on a sticker and slap it on
+the Power-Aid. Another advantage is now you can go to normal checkout. Depending
+on the cashier, they probably won’t notice the sticker, and if you strike some
+conversation with them, they won’t notice a different product on their
+monitor. You may want to purchase a couple legitimate things to throw them off
+though. This method also looks less suspicious than the self-checkout switch.
+One down side is that you could still get caught if the sticker is identified or
+if a different product is noticed by a cashier (or supervisor of self-checkout).
+
+INKING: This is my favorite method, and by far the least useful. What you do is
+take a non-glossy pen and widen some lines to change the code. This is hard to
+do, since the changed line should actually be a number, the changed numbers
+should actually be a product, and the product should hopefully be cheaper. I
+made myself a chart of the convertible numbers on the left and right side,
+respectively.
+
+A practical example would be converting those two Post products I demonstrated
+earlier. Grape Nuts was 0 43000 103708, and Waffle Crisps was 0 43000 10540 5.
+To change Grape Nuts to Waffle Crisps, you convert the 3 to a five, the 7 to a
+4, and the 8 to a five (notice they’re all on the right side since the
+manufacture part would be the same).
+
+Although this is a limited method, as long as it’s not done in front of a
+camera, you probably will not get caught. You would also get Uber-Hardcore
+points for doing it this way, I’ve only done this once successfully, and have
+definitely got it wrong a couple times.
+
+- Shouts: Prof. Tomasi, Evin, and 2600 Phoenix

@@ -1,11 +1,10 @@
 September 2006 Meeting History by, XlogicX
 ------------------------------------------
-Ryh0t comes back to one of our meetings, with daughter. XlogicX has
-presentation on using a sound card to make a low frequency
-0-scope/data capture device. WTF for this month was finding out what
-signal the Basic Stamp was putting out. Nak found that it was Morse
-code for phx2600. 
+Ryh0t comes back to one of our meetings, with daughter. XlogicX has presentation
+on using a sound card to make a low frequency 0-scope/data capture device. WTF
+for this month was finding out what signal the Basic Stamp was putting out. Nak
+found that it was Morse code for phx2600.
 
-ATTENDANCE COUNT: ABOUT 25 
+ATTENDANCE COUNT: ABOUT 25
 
 [gallery=7]

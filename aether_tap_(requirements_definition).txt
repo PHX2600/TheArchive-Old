@@ -1,45 +1,55 @@
 Aether Tap (Requirements Definition) by, Penguin
 ------------------------------------------------
-When you begin a project its important to identify what you hope to
-accomplish or learn in the process, This project will have plenty of
-both for me. First and foremost I would like to produce an inexpensive
-Ethernet enabled controller which I can interact with via the
-Internet. The device will be a product of its programming however,
-meaning that depending on what I need it to do it should also be able
-to… 1) Host web content and display real time data via the web 2)
-Send emails or alerts when necessary 3) Monitor and interact with
-external devices, sensors, and appliances 4) Allow control of the
-above mentioned devices via email or web based interface. 5) Log
-Network activity to the SD Card. Its important to note that I don’t
-plan to incorporate relays or other direct appliance control hardware
-directly into my design, I’ll probably just end up making a bank of
-I/O pins available for external connections from sensors or relays. As
-a rule of thumb its always a good idea to do some research and find
-out if anyone has done some of your work for you, in this case it
-happens I was able to find an excellent project to draw from, several
-years ago Ian from HackaDay [1] posted an excellent How-To on building
-an embedded web-server [2] which has a lot of the same functionality
-as my project. Its notable to mention that Ian [3] is also the main
-developer of the very popular Bus Pirate [4] module. There are also
-several other good sources of information about the ENC28J60 such as
-this article on Electronicfr.com [5] or either one [6] of these [7]
-articles from tuxgraphics.org [8] So in the footsteps of giants I will
-lay out my project in the next several posts from Component
-Identification through Design, Prototyping, Building, Programming, and
-Testing. As a final note, because I’m borrowing from other open
-source work and projects it seems only fair that I reciprocate and
-deliver my project documents and code as open source, and so it shall
-be. 
+When you begin a project its important to identify what you hope to accomplish
+or learn in the process, This project will have plenty of both for me. First and
+foremost I would like to produce an inexpensive Ethernet enabled controller
+which I can interact with via the Internet. The device will be a product of its
+programming however, meaning that depending on what I need it to do it should
+also be able to…
+
+1) Host web content and display real time data via the web
+
+2) Send emails or alerts when necessary
+
+3) Monitor and interact with external devices, sensors, and appliances
+
+4) Allow control of the above mentioned devices via email or web based
+interface.
+
+5) Log Network activity to the SD Card.
+
+Its important to note that I don’t plan to incorporate relays or other direct
+appliance control hardware directly into my design, I’ll probably just end up
+making a bank of I/O pins available for external connections from sensors or
+relays.
+
+As a rule of thumb its always a good idea to do some research and find out if
+anyone has done some of your work for you, in this case it happens I was able to
+find an excellent project to draw from, several years ago Ian from HackaDay [1]
+posted an excellent How-To on building an embedded web-server [2] which has a
+lot of the same functionality as my project. Its notable to mention that Ian [3]
+is also the main developer of the very popular Bus Pirate [4] module. There are
+also several other good sources of information about the ENC28J60 such as this
+article on Electronicfr.com [5] or either one [6] of these [7] articles from
+tuxgraphics.org [8]
+
+So in the footsteps of giants I will lay out my project in the next several
+posts from Component Identification through Design, Prototyping, Building,
+Programming, and Testing.
+
+As a final note, because I’m borrowing from other open source work and
+projects it seems only fair that I reciprocate and deliver my project documents
+and code as open source, and so it shall be.
+
+
 
 Links:
 ------
 [1] http://hackaday.com/
-[2]
-http://hackaday.com/2008/09/18/web-server-on-a-business-card-part-1/
+[2] http://hackaday.com/2008/09/18/web-server-on-a-business-card-part-1/
 [3] http://hackaday.com/author/ianlesnet/
 [4] http://code.google.com/p/the-bus-pirate/
-[5]
-http://www.electronicfr.com/index.php/Microcontrollers-and-ethernet/
+[5] http://www.electronicfr.com/index.php/Microcontrollers-and-ethernet/
 [6] http://www.tuxgraphics.org/electronics/200611/article06111.shtml
 [7] http://www.tuxgraphics.org/electronics/200606/article06061.shtml
 [8] http://tuxgraphics.org/

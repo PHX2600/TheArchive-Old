@@ -1,115 +1,180 @@
 Aether Tap (BOM) by, Penguin
 ----------------------------
-Forgot to post this earlier so here it is. I found a Mouser [1] part
-number for everything except the reset switch I'm using which is just
-a simple SMD pushbutton. I have a project set up for this on Mouser
-[2], if anyone else has an account there and would like me to share
-the project let me know.  
+Forgot to post this earlier so here it is.
 
- 		Part
- 		Value
- 		Package
- 		Mouser Part #
+I found a Mouser [1] part number for everything except the reset switch I'm
+using which is just a simple SMD pushbutton.
 
- 		C1-10
- 		0.1uF
- 		0805
- 		80-C0805C104M5R
+I have a project set up for this on Mouser [2], if anyone else has an account
+there and would like me to share the project let me know.
 
- 		C11-14
- 		27pF
- 		0805
- 		140-CC501N270J-RC
+		Part
 
- 		C15-18
- 		10uF
- 		1206
- 		74-293D106X96R3A2TE3
+		Value
 
- 		IC1
- 		ENC28J60
- 		SO28W
- 		579-ENC28J60-I/SO
+		Package
 
- 		IC2
- 		PIC24FJ64GA002
- 		SO28W
- 		579-PIC24FJ64GA002SO
+		Mouser Part #
 
- 		IC3
- 		LM317D2TG
- 		D2PACK
- 		863-LM317D2TG
+		C1-10
 
- 		ICSP
- 		ICSP Header
- 		1X6 Pin Header
- 		538-22-28-8062
+		0.1uF
 
- 		JP1-4
- 		IO Header
- 		1X3 Pin Header
- 		517-2314-6111TG
+		0805
 
- 		JP5
- 		Power Header
- 		1X2 Pin Header
- 		517-2314-6111TG
+		80-C0805C104M5R
 
- 		L1
- 		60Ohm
- 		0805
- 		81-BLM21BB600SN1D
+		C11-14
 
- 		LED1-4
- 		Green
- 		0805
- 		645-598-8170-107F
+		27pF
 
- 		Q1
- 		32Khz
- 		MM20SS
- 		695-CM200C-327KF-U
+		0805
 
- 		Q2
- 		25Mhz
- 		HC49UP
- 		815-ABLS-25-B2
+		140-CC501N270J-RC
 
- 		R1-2
- 		2K0
- 		0805
- 		292-2.0K-RC
+		C15-18
 
- 		R3-7
- 		390
- 		0805
- 		71-CRCW0805-390
+		10uF
 
- 		R8
- 		240
- 		0805
- 		71-CRCW0805-240
+		1206
 
- 		R9-12
- 		49.9
- 		0805
- 		71-CRCW0805-49.9
+		74-293D106X96R3A2TE3
 
- 		RJ1
- 		Ethernet Jack
- 		RJ45
- 		673-J1006F21
+		IC1
 
- 		S1
- 		PushButton
- 		SMD
- 		On Hand
+		ENC28J60
 
- 		SD1
- 		SD Card Slot
- 		MICROSD
- 		517-2908-05WB-MG
+		SO28W
+
+		579-ENC28J60-I/SO
+
+		IC2
+
+		PIC24FJ64GA002
+
+		SO28W
+
+		579-PIC24FJ64GA002SO
+
+		IC3
+
+		LM317D2TG
+
+		D2PACK
+
+		863-LM317D2TG
+
+		ICSP
+
+		ICSP Header
+
+		1X6 Pin Header
+
+		538-22-28-8062
+
+		JP1-4
+
+		IO Header
+
+		1X3 Pin Header
+
+		517-2314-6111TG
+
+		JP5
+
+		Power Header
+
+		1X2 Pin Header
+
+		517-2314-6111TG
+
+		L1
+
+		60Ohm
+
+		0805
+
+		81-BLM21BB600SN1D
+
+		LED1-4
+
+		Green
+
+		0805
+
+		645-598-8170-107F
+
+		Q1
+
+		32Khz
+
+		MM20SS
+
+		695-CM200C-327KF-U
+
+		Q2
+
+		25Mhz
+
+		HC49UP
+
+		815-ABLS-25-B2
+
+		R1-2
+
+		2K0
+
+		0805
+
+		292-2.0K-RC
+
+		R3-7
+
+		390
+
+		0805
+
+		71-CRCW0805-390
+
+		R8
+
+		240
+
+		0805
+
+		71-CRCW0805-240
+
+		R9-12
+
+		49.9
+
+		0805
+
+		71-CRCW0805-49.9
+
+		RJ1
+
+		Ethernet Jack
+
+		RJ45
+
+		673-J1006F21
+
+		S1
+
+		PushButton
+
+		SMD
+
+		On Hand
+
+		SD1
+
+		SD Card Slot
+
+		MICROSD
+
+		517-2908-05WB-MG
 
 
 

@@ -1,10 +1,10 @@
 August 2006 Meeting History by, RetroTech
 -----------------------------------------
-Some of the highlights were: Everyone brainstorming how to get
-software working on Ugly's laptop which had the net install (or was it
-just the net installer) of debian. As well as reteo going through all
-frustration of trying different things. Everyone plotting hypothetical
-ways to kill jargon. Cetain blackhat activity towards a certain
-state's certain department's web server by a certain pair. 
+Some of the highlights were: Everyone brainstorming how to get software working
+on Ugly's laptop which had the net install (or was it just the net installer) of
+debian. As well as reteo going through all frustration of trying different
+things. Everyone plotting hypothetical ways to kill jargon. Cetain blackhat
+activity towards a certain state's certain department's web server by a certain
+pair.
 
 ATTENDANCE COUNT: ABOUT 10

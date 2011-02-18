@@ -1,26 +1,27 @@
 Welcome to the PHX2600 v3.0!  by, PHLAK
 ---------------------------------------
-Once again I have been hard at work to bring to you this feature
-filled website. This site has been lightly tested during the design
-phase, but like any human being, I am susceptible to making mistakes.
-If you notice any spelling, design, or other flaws with this site, or
-would like to contact me, please do so here [1] or in the forums. Some
-of you may be asking, what does this new site add? Well, this site was
-built from the ground up to utilize WordPress, a state-of-the-art
-publishing platform, or blog. With WordPress, pages are now easily
-editable, and once tedious tasks (like updating the Meeting History)
-are now a whole lot simpler and straight forward. Also, by utilizing
-WordPress, we can bring the website ever closer to home by allowing
-each and every one of you contribute by being an author and publishing
-in our Blog. If you would like to write an article, please sign up for
-an account, then contact either XlogicX or myself, and we will promote
-up your clearance level to "Author" or whatever we see fit. Once
-again, if you have any questions or concerns about the site,
-WordPress, the Forums or you just wanted to know what I had for lunch,
-please feel free to contact me [2] or post your questions in the
-forums. Thanks go out to XlogicX for providing the server and setting
-up the databases, and to all of you for your support and participation
-in PHX2600 [3]
+Once again I have been hard at work to bring to you this feature filled website.
+This site has been lightly tested during the design phase, but like any human
+being, I am susceptible to making mistakes. If you notice any spelling, design,
+or other flaws with this site, or would like to contact me, please do so here
+[1] or in the forums.
+
+Some of you may be asking, what does this new site add? Well, this site was
+built from the ground up to utilize WordPress, a state-of-the-art publishing
+platform, or blog. With WordPress, pages are now easily editable, and once
+tedious tasks (like updating the Meeting History) are now a whole lot simpler
+and straight forward. Also, by utilizing WordPress, we can bring the website
+ever closer to home by allowing each and every one of you contribute by being an
+author and publishing in our Blog. If you would like to write an article, please
+sign up for an account, then contact either XlogicX or myself, and we will
+promote up your clearance level to "Author" or whatever we see fit.
+
+Once again, if you have any questions or concerns about the site, WordPress, the
+Forums or you just wanted to know what I had for lunch, please feel free to
+contact me [2] or post your questions in the forums.
+
+Thanks go out to XlogicX for providing the server and setting up the databases,
+and to all of you for your support and participation in PHX2600 [3]
 
 Links:
 ------
