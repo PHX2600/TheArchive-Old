@@ -1,0 +1,38 @@
+Barcode Collection by, Penguin
+--------------------------------------------------------------------------------
+I have the original bitmap file and .doc file available. If you just
+want to print the barcode up, I recommend loading the .doc file,
+erasing the text if you want, and printing the barcode graphic. 
+
+ 		Playtex Gentle Glide Tampons  Bitmap [1] Scaled .doc [2]
+ 		Playtex Tampons Super Absorbency  Bitmap [3] Scaled .doc [4]
+ 		OB Tampons  Bitmap [5] Scaled .doc [6]
+
+ 		 Anusol Hemorrhoidal Suppositories  Bitmap [7] Scaled .doc [8]
+
+ 		 XlogicXs Albertsons Club Card  Scaled .doc [9]
+ 		 Universal VIP card (Frys, Albertsons, Safeway, ???)  [10]
+
+
+
+Links:
+------
+[1]
+http://development/../../Articles_Projects/barcodes/078300085584.bmp
+[2]
+http://development/../../Articles_Projects/barcodes/078300085584.doc
+[3]
+http://development/../../Articles_Projects/barcodes/078300086611.bmp
+[4]
+http://development/../../Articles_Projects/barcodes/078300086611.doc
+[5]
+http://development/../../Articles_Projects/barcodes/380041335003.bmp
+[6]
+http://development/../../Articles_Projects/barcodes/380041335003.doc
+[7]
+http://development/../../Articles_Projects/barcodes/000711088137.bmp
+[8]
+http://development/../../Articles_Projects/barcodes/000711088137.doc
+[9]
+http://development/../../Articles_Projects/barcodes/425628611504.doc
+[10] http://development/../../Articles_Projects/barcodes/vipcard.bmp

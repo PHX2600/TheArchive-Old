@@ -1,0 +1,233 @@
+Basic Slackware Security by, fsock
+--------------------------------------------------------------------------------
+WELCOME TO 
+
+ Slackware [1] Linux began in April, 1993. For over ten years,
+Slackware Linux has focused on "simplicity and stability." Everything
+just works in Slackware. Slackware is also considered one of the most
+secure GNU/Linux distributions. That being said, it does not mean that
+security can be ignored after a friendly Slackware installation. This
+article is meant to be a crash course in Slackware security. It will
+detail some basic steps that should be taken before you consider
+Slackware to be fully installed. Again, these are basic steps - more
+services will require more configuration. And note that you'll have to
+be root to perform the configuration tasks in this article. On to the
+install. 
+
+PREPARING YOUR HARD DRIVE
+
+ The methods and reasons for creating multiple partitions are many and
+hotly debated. We will offer a secure partitioning scheme, while not
+sacrificing usability or making things overly complicated. In the end,
+having these four partitions will go a long way towards creating a
+more secure working environment. /SWAP Typically your swap partition
+is twice the amount of your computer's RAM. /BOOT Your boot partition
+is where your kernel(s), and your boot loader will reside. The
+security advantage of having a small dedicated boot partition is that
+in the event your box is "0wned," it affords the intruder a smaller
+space for backdoors. Also, it makes things like the size of System.map
+and vmlinuz easier to keep an eye on for size changes. Twenty to 50 MB
+is sufficient for a boot partition.  /VAR The var directory is where
+system logs are stored. It is possible to deny service to a computer
+by filling its hard drive via log flooding. If /var is on a separate
+partition and someone log floods you, they will not be able to deny
+service to your entire computer. A few gigs will be more than enough
+for a typical /var partition. / This is the root partition. This is
+where you will be installing Slackware and all of the other programs
+you decide to add to your computer. All of the remaining space of your
+hard drive should be the size of your / partition. Some people advise
+to have separate partition for /home as well. If you feel comfortable
+doing this, then it is certainly more secure and organized. It is not
+necessary to have a dedicated /home partition. The main attraction for
+having a partition for /home is mainly for multi-user boxes. That way
+if an attacker is able to log in as a legitimate user, and they
+attempt to deny service to the entire computer by filling the hard
+drive, all they will be able to do is fill the /home partition. Unless
+you are using your Slackware computer to host several users, a /home
+partition is probably unnecessary. 
+
+CHOOSING YOUR SLACKWARE INSTALLATION
+
+ Choosing all packages during installation sure is convenient. It
+doesn't add to security though. So your first step is to hand-pick
+packages that you know you'll need or want. Also, and you probably
+know this, when given the choice to start services at boot, deselect
+as many as you can. The fewer packages and services available for an
+attacker to exploit, the better. If you must choose a full install,
+because you have better things to do with your time than sit there in
+front of your computer selecting packages, or perhaps you want to make
+sure all dependencies are met, then do what you must. Take heart in
+that Slackware has a good package system and that you can always
+remove extraneous packages later. 
+
+PASSWORDS
+
+ Passwords are your first line of defense against attackers, local and
+remote. We cannot stress enough the importance of having strong
+passwords. Look at it this way, if something is important enough to
+protect, it is important enough to protect as strongly as possible. We
+recommend Sl1pm0de-like passwords, i.e. minimum 10 mixed-case alpha,
+numeric and special characters. You may think that these passwords
+would be unwieldy, but you'll be surprised at how fast you can
+memorize them, even for multiple boxes. A good way to choose a secure
+password like this is to type it out on your keyboard, without
+pressing the keys, utilizing motor memory. We don't recommend using
+password creation utilities due to healthy paranoia. 
+
+POST-INSTALL SECURITY
+
+ You're booted up. The first thing to do is to configure tcpwrappers
+by editing /etc/hosts.deny and hosts.allow. Add the following line to
+hosts.deny to disallow access by any host to your box. 
+
+ALL: ALL Once this is in place, you can reinforce host denial in
+hosts.allow with 
+
+ALL: ALL: DENY or you can poke holes to allow access by certain hosts,
+or ranges of hosts, to certain services. A common entry would be to
+allow ssh connections: 
+
+# ALL: ALL: DENY sshd: ALL: ALLOW Firewalls are not a panacea for
+security. But they are an imperative beginning step. iptables provides
+the packet filtering, or firewalling, for the 2.4.x and 2.6.x kernels.
+And if setting up an iptables firewall is not your first step in
+securing your Slack box, it better be your second. Below is an example
+of a basic iptables script. The comments included explain what the
+rules are doing. Name the script rc.firewall, chmod 755 rc.firewall
+and mv rc.firewall /etc/rc.d. 
+
+#!/bin/bash # rc.firewall for # Basic Slackware Security # These two
+rules set the default policies, i.e. what to do if a # packet doesn't
+match any other rule, to drop any packet coming # into (INPUT) or
+routing through (FORWARD) the box. iptables -P INPUT DROP iptables -P
+FORWARD DROP # These rules are added (-A) to the INPUT chain. They
+allow packets # from any previously established connections and accept
+anything # from the loopback interface. iptables -A INPUT -m state
+--state ESTABLISHED,RELATED -j ACCEPT iptables -A INPUT -s 127.0.0.1
+-d 127.0.0.1 -i lo -j ACCEPT # This rule added to the INPUT chain
+accepts any ssh connections. iptables -A INPUT -p tcp --dport 22 -i
+eth0 -j ACCEPT With a basic firewall in place, it's time to edit
+/etc/inetd.conf to remove unneeded services. Now unless you absolutely
+know you need a service mentioned in inetd.conf, comment it out with
+#. You will probably find that, at least initially, you'll comment out
+the entire file. Here's a Perl script that will do it for you. 
+
+#!/usr/bin/perl $conf = "/etc/inetd.conf"; system("cp $conf
+$conf.bak"); open FILE, "$conf" or die "Can't open $conf: $!"; open
+TEMP, "temp" or die "Can't create temp file: $!"; while (FILE) {
+s/^/#/ if ($_ !~ /^#/); print TEMP; } close FILE; close TEMP; unlink
+"$conf"; system("mv temp $conf"); If there's a service that you want
+shut down that you didn't choose to during the install, stay in /etc
+and head to rc.d. You can edit rc.M (M for multi-user) and comment out
+the respective section that starts the daemon, and/or you can chmod
+644 rc. to keep it from starting, as rc.M starts a service based on
+the file test, -x. It's safe to say that the major steps to securing
+your box are complete. There are many things left to do, including
+advancing the above topics, that can tighten up security. Configuring
+individual services should weigh heavily in this advancement. Staying
+in line with the above examples, we will go through some important
+settings for sshd. The configuration file for sshd is
+/etc/ssh/sshd_config. Edit the file and consider making the following
+changes. 
+
+# Force the more secure Protocol 2 Protocol 2 # Do not let root login
+remotely PermitRootLogin no # Watch out for world writables
+StrictModes yes # Require passwords PasswordAuthentication yes # Don't
+allow null passwords PermitEmptyPasswords no # What do you need X for
+anyway? X11Forwarding no # No extraneous info PrintMotd no Now run
+kill -s 1 `cat /var/run/sshd.pid` to force sshd to reload its
+configuration. To be sure, there is no security through obscurity.
+Then again, there's no reason to give an attacker any more information
+than you have to. Turn off or change any banner or motd, and edit
+/etc/issue and issue.net to your liking. (bland's is set to "Welcome
+to Windows Server 2003.") suid, or Set User ID, programs are usually
+plentiful in any distro and their root interaciton with regular users
+should be controlled. Going through your suid programs and removing
+the s bit can significantly reduce vulnerability. A Perl script has
+been provided that can simplify this process. Save the below Perl
+script as sup.pl and run it. Then go through the resulting suid.txt
+text file and comment out, with #, the programs that do not need suid
+permission. Save it and then run sup.pl with the -u switch. Commented
+programs will no longer be suid, and you'll have a record of what was
+done. 
+
+#!/usr/bin/perl if ($#ARGV 0) { system("find / -perm +4000 2/dev/null
+suid.txt") exit; } if ($ARGV[0] =~ /-u/) { open(UPDATE, "suid.txt") or
+die "Can't read file: $!"; while (UPDATE) { if (/^#/) { s/#//;
+system("chmod -s $_"); } } close(UPDATE); } else { print "Usage: perl
+sup.pl -un"; exit; } There are a couple of final touches before moving
+on to third party applications. Edit /etc/securetty, which controls
+which devices root can login to, and comment out, well, everything for
+more security. And change your umask to a more restrictive 077. 
+
+THIRD-PARTY SECURITY SOFTWARE
+
+ As you can imagine, there are many third party programs that can aid
+your efforts to secure your box. Whatever program you use, make sure
+you verify the MD5 hash of the download. 
+
+wget http://www.swaret.org/files/stable/swaret-1.6.2-noarch-1.tgz and
+then 
+
+swaret --update swaret --upgrade -a or better yet, set up a cron job
+to automate updates at regular intervals. One of the better sources
+for third party security applications is http://packetstormsecurity.nl
+[2]. One useful program that you can acquire there is chkrootkit
+(http://www.chkrootkit.org) [3]. chkrootkit is a "shell script that
+checks system binaries for rootkit modification." It would behoove you
+to run this at regular intervals, or at least when you think there's
+been a breach. Instead of thinking that there's been a breach, know if
+there's been a breach by using an Intrusion Detection System (IDS).
+Dicussing Intrusion Detection Systems could take an entire article if
+not a book. One of the more popular IDSs, which you can get books for,
+is snort (http://www.snort.org) [4]. Installing and using snort with
+its default configuration is relatively simple. Unfortunately, you
+will get so many false positives with the default configuration that
+snort out of the box is of litte value. 
+
+FURTHER CONSIDERATION AND CONFIGURATION
+
+ As the title states, this is only a basic tutorial on how to secure
+your Slackware Linux installation. If you are so inclined, there are
+many more challenges in Linux security to conquer. Configuring snort
+and writing rules tailored to your network may be a good start.
+Writing a more elaborate iptables script may be in your future. Log
+watchers, file system integrity checkers, port knocking - the list
+goes on. If you have done everything detailed here, then you can
+securely pursue your studies in Linux security. And you will have done
+it with one the most versatile, stable, and now secure, GNU/Linux
+distributions available, Slackware. 
+
+APPENDIX
+
+ Here's a script that can give you a little peace of mind. We call it
+quicksec, and after it's made executable and placed in root's path
+(echo $PATH), you can put the line "quicksec" in root's .bashrc. Then
+when you su -, you can get a small picture of what's going on on your
+box. 
+
+#!/bin/bash echo echo "Last snort alert" echo "----------------" tail
+-n 8 /var/log/snort/alert echo echo "Login info" echo "----------"
+last -10 echo echo "Security log" echo "------------" tail
+/var/log/secure echo If you are using the Fluxbox window manager,
+which comes with a full Slackware install, there is a handy program
+you should try. root-tail
+(http://themes.freshmeat.net/projects/root-tail/) [5] allows you to
+print information directly to your root window. The commands bland has
+in his ~/.fluxbox/apps file are: 
+
+[startup] {last -3 /home/bland/.last.txt} [startup] {root-tail -g
+220x10+20+50 /var/log/secure,red,'ALERT'
+/home/bland/.last.txt,green,'LAST'} It's a very cool little app that
+will keep you well-informed. You can find a screenshot of bland's
+Slackware box running root-tail at
+http://www.oldskoolphreak.com/tfiles/figures/tail_screen.jpg [6].
+
+Links:
+------
+[1] http://www.slackware.com/
+[2] http://packetstormsecurity.nl/
+[3] http://www.chkrootkit.org/
+[4] http://www.snort.org/
+[5] http://themes.freshmeat.net/projects/root-tail/
+[6] http://www.oldskoolphreak.com/tfiles/figures/tail_screen.jpg

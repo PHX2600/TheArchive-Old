@@ -1,0 +1,15 @@
+December 2005 Meeting History by, Penguin
+--------------------------------------------------------------------------------
+This meeting was a little larger than the last. The meeting was pretty
+much a card printing/writing/reading extravaganza. l3gitimateuser and
+associates brought all kinds of goodies. They brought a smart chip
+reader, a Fargo card printer, and a mag strip writer/reader. We were
+able to read a phoenix metro bus card, and find the expiration date in
+the data. One could change this date and re-enable a card with a
+writer of such, it doesn't appear that our bus system employs a
+checksum system, not that we would know or anything :). We later
+headed over to get something to eat (Mexican food this time). 
+
+ATTENDANCE COUNT: 15-20 
+
+[gallery=15]

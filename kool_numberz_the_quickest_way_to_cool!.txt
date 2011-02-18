@@ -1,0 +1,48 @@
+Kool Numberz: The Quickest Way to Cool! by, fsock
+--------------------------------------------------------------------------------
+Fascinated by phreaking? Want to taste the excitement of telephonic
+exploration, but just don’t have the time? Well, this article is for
+you! With this simple method, you’ll fly through the phone lines,
+finding the coolest numbers before you can say “toll fraud!” This
+article details the items you need to scan and how and where to scan
+to find the coolest numbers, quick. Let’s begin with the few free
+things you need to start impressing friends and family with cool
+numbers right away! Let’s go! First, you need toll access. You
+likely have a cell phone or a VoIP line, and if you’re lucky you big
+spender you, you have a land line with toll access. You will be making
+“long distance" calls within the NANPA, most likely the US and
+Canada. Next you need internet access. Yes, you need to access the
+online to get the infos on the juiciest exchanges. You will need a
+text editor or word processor. Notepad++ on Windows or nano on Linux
+are examples. Mac is not supported for cool stuff.  The last thing you
+need is your finger. Because you’ll be di, di, dialing your way to
+cool in no time! It helps to have a desktop set with programmable
+dialing so you can at least program the *67 1, or more if you find a
+particularly interesting exchange. With everything in place, head to
+bellsmind.net [1] and click “frontend” to access the Bell’s Mind
+NPA-NXX/CLLI search. That’s where you’ll determine where to scan.
+Enter the NPA of the area you’re interested in to get a list of
+exchanges. Cycle through the list of assigned exchanges to find those
+assigned to RBOCs or CLECs. Once you find one, start dialing from 9990
+to 9999 to find the coolest numbers. Once you find one, record it in
+your text editor using the BM2L format so you can easily share and
+search your numbers later on. What’s that you say? You want to save
+even more time? Ok! You can even just dial 9999 to find cool numbers!
+Wow! What kind of numbers will you find? Test lines, parked error
+messages, carriers, voicemail access lines and more! So you found a
+cool number, what now? Record the number and see if you can extend its
+coolfulness. If it’s a voicemail system hit * or #. Try biblical
+names in directories, like Michael, Paul and John, and try passwords
+like 1111, 1234 and the extension. If you find cool numbers, maybe
+extend your scan. Try different one-thousand blocks, like 0000 to
+0009. Or go to handscan.net and generate a 100 or 1000 list and scan
+the day away! The limits are limitless! With this simple scanning
+method, you too can show cool numbers to your friends and family and
+the get the same blank stares a real phreak gets in no time! So scan
+safe, my friend, remember to write those numbers down and use a cool
+accent when someone answers. Because you’re officially a phreak!
+With Kool Numberz! Guaranteed!
+
+Links:
+------
+[1] http://bellsmind.net

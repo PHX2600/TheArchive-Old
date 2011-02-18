@@ -1,0 +1,100 @@
+Binary Planting Attacks - Microsoft Security Advisory (2269637) by, aIoniliodori
+--------------------------------------------------------------------------------
+OVERVIEW
+
+Last week Microsoft® released a security advisory about DLL
+pre-loading attacks also known as “binary planting attacks.” This
+article will present some background information about Dynamic Link
+Libraries, and the threat posed by this exploit will be assessed.
+Finally a simple application is built demonstrating an attack. The
+purpose of this article is to teach software developers to securely
+load libraries that are explicitly linked. 
+
+WHAT IS A DLL?
+
+A DLL is a dynamic link library is a module containing code that can
+be accessed by multiple applications on the Microsoft® Windows. It is
+shared code that can be loaded by a process. A good example of a DLL
+is the Windows Sockets API. Winsock is provided as a DLL on Windows
+that allows programmers to use sockets for network communication.  
+
+BENEFITS OF USING DLLS
+
+It would be impractical for each programmer to re-invent the wheel
+when they want to communicate on a network. It would take several
+months to try and implement a sockets library. Instead programmers
+reference the Winsock library in their code. Since multiple
+applications use the same library, the code segment only needs to be
+loaded once. This means that using DLLs can reduce the memory usage of
+multiple processes that utilize the same library. It also reduces the
+size of the applications that use the DLL. DLLs also provide a couple
+of other benefits. If a bug is found in a DLL, the bug can be fixed in
+all applications that use the DLL without updating them. The user
+simply replaces the faulty DLL, and the next time the process loads,
+it will use the new version. 
+
+DRAWBACKS OF DLLS
+
+Since multiple applications may use a dynamic link library,
+programmers must make sure they maintain binary compatibility when
+creating new versions. If the programmer changes the signature of a
+function in a DLL, it can break applications that were built against
+the previous version. This is commonly known as “DLL hell.”
+Sometimes companies also improperly package DLLs in their install
+kits. The installers do not properly check the version of the DLLs on
+the machine and overwrite the library with a previous incompatible
+version. 
+
+EXPLOITING EXPLICIT LINKED APPLICATIONS
+
+DLLs have one more awesome feature. A DLL can be loaded and called at
+runtime which is known as explicit linking. This allows applications
+to load modules on the fly. It is how applications that support
+plug-ins are usually implemented. Applications that support plug-ins
+read a configuration file that contains a list of libraries that they
+should load on startup. Unfortunately, this flexibility of loading
+modules on the fly exposes a security hole. All explicitly linked DLLs
+are loaded using a Windows API function called LoadLibrary.
+LoadLibrary causes a function that must be implemented in every DLL to
+be called: DLLMain. If the library the program expected to load has
+been overwritten with a malicious DLL, the program will run the
+attacker’s code using the privileges of the current process. If the
+user is logged into the machine as an administrator, the malicious
+code can do whatever it wants. 
+
+IMPLICITLY LINKED APPLICATIONS
+
+Implicitly linked applications are not affected by this security hole.
+Implicit linking requires the name of the library be known at compile
+time. The linker also requires that an additional static library be
+linked when using implicit linking. When implicitly linked
+applications start, the Import Address Table is populated with the
+locations of the functions in the DLL. If all of the functions are not
+found, an error occurs and the program shuts down. 
+
+SAMPLE APPLICATION
+
+This section contains a sample application that is vulnerable to the
+exploit. This article will walk through the code and reveal the
+vulnerable area. 
+
+Main.cpp
+
+// Exclude headers we won't be using for faster building #define
+WIN32_LEAN_AND_MEAN // Need the Windows header for LoadLibrary and
+GetProcAddress #include  #include  using namespace std; // Create a
+typedef for the "Foo" function signature // This is somewhat similar
+to a delegate in C# typedef TCHAR* (_cdecl *fnFoo)(); int main( int
+argc, char* argv[] ) { const TCHAR* szDLLName = TEXT("Foo.dll"); //
+Load external DLL HMODULE hDLL = LoadLibrary( szDLLName ); // If we
+successfully loaded the DLL... if ( hDLL != static_cast( 0 ) ) { //
+Get the pointer to the function Foo in the DLL fnFoo pfnFoo =
+reinterpret_cast( GetProcAddress( hDLL, "Foo" ) ); // Call function
+"Foo" in the DLL TCHAR* szMessage = pfnFoo(); // Print out message
+wcout < < TEXT("Message: ") 
+
+Links:
+------
+[1] http://www.phx2600.org/wp-content/uploads/output1.png
+[2] http://www.phx2600.org/wp-content/uploads/output2.png
+[3] http://www.phx2600.org/wp-content/uploads/securityAdvisory.png

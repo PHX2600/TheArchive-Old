@@ -1,0 +1,20 @@
+Aether Tap (Schematic and Board Layout) by, Feend
+--------------------------------------------------------------------------------
+I have finalized a Board layout and schematic, I ended up going with
+a double sided board since I was unable to route the entire board on a
+single plane. The advantage of a double sided PCB for those who
+aren’t aware is that there is copper clad on both sides of the board
+as opposed to a single sided board which has copper only on one side.
+This allows us to run a signal from one side of the board to the other
+using a "via", a small conductor which gives us one extra dimension of
+flexibility in our design, one extra layer in 3d space to route our
+signals. Consider this puzzle [1] as a simpler example of the same
+problem (good luck). [nggallery id=41] The file below contains the
+most recent Eagle schematic and board layout as well as several
+helpful part libraries and the design rules I used. AetherTapEagle [2]
+
+
+Links:
+------
+[1] http://www.arandomgame.com/index.php?game_id=899
+[2] http://www.phx2600.org/wp-content/uploads/AetherTapEagle.zip

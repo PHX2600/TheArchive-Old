@@ -1,0 +1,8 @@
+Old paper Advanced SQL Injection by, HalfSight
+--------------------------------------------------------------------------------
+I forgot to put this back up when the site was redone. Here [1] it is.
+
+Links:
+------
+[1]
+http://www.wtfchan.org/~evil1/Advanced_SQL_injection_by_Joseph_Giron.pdf

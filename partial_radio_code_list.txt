@@ -1,0 +1,23 @@
+Partial Radio Code List by, Penguin
+--------------------------------------------------------------------------------
+This file contains a partial list of common radio codes. Most of these
+are the same in the military, but these codes are more rent-a-cop
+specific. Personally, I would rather mess with fake bacon then the
+military 10-1 Your transmission is unreadable 10-2 Your transmission
+is fine 10-3 Emergency 10-4 Your transmission was received 10-6 Change
+to channel ___ 10-7 Out of service 10-8 In service 10-9 Repeat your
+transmission 10-10 Off duty/End of shift 10-13 Situation normal 10-19
+Return to Location ___ 10-20 Request for location 10-21 Request for
+phone call 10-22 Disregard/Cancel last transmission 10-23 Stand-by
+10-29 Suspicious person 10-33 Officer needs help/Emergency use only 
+Code 1 At your convenience Code 2 Respond immediately Code 3 Emergency
+at location, expedite response Code 4 No further assistance needed,
+situation clear Code 5 I will be observing Code 6 Delayed
+response/Long distance from location Code 7 Meal Break Code 8 Alarm
+Sounding Code 9 Alarm Silenced Code 10 Able to copy confidential info
+Code 33 Emergency radio traffic only (high priority situation) Code 99
+Weapon seen or used Code Red Fire or Smoke Code Orange Subject with
+weapon (specific) Code Yellow Engineering situation. Leak, mechanical
+problems, etc. Code Green Hostage situation, or suspicious substances
+(package, letter, etc.) Code Blue Medical Emergency Code Black Bomb
+Threat Code White Parking Violation/Problem

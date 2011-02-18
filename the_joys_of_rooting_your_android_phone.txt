@@ -1,0 +1,44 @@
+The Joys of Rooting Your Android Phone by, aAbrack
+--------------------------------------------------------------------------------
+I get a lot of people asking me exactly why I root my phone. My
+general response to this inquiry is why don’t you root your phone?
+Once someone has achieved the initial root exploit, rooting is pretty
+easy. There are guides every where on the net for rooting your android
+phone. The most popular group for rooting are the teams over at XDA
+Developers (http://www.xda-developers.com/). There are many other
+rooting websites popping up all over the Internet, XDA is simply the
+largest and has the most content. You can also do a search for your
+phone model on Google and you will receive hits to www.theunlockr.com
+for many excellent guides on gaining root access. If you have a Moto
+Droid feel free to check out www.Droidforums.net for the latest guides
+to rooting your phone.  “What is root?” People ask me this
+question all the time. Root on a Linux or Android phone is the
+equivalent of Administrator control on a Windows machine. Having Root
+access gives you unrestricted control over almost every aspect of the
+operating system. This unprecedented control opens up many
+possibilities. From Internet Tethering of your data connection to
+being able to make a backup of the current state of your OS. Rooting
+your phone unlocks the potential of your OS and hardware. You can
+install Android flavors from other devices and there are many more
+customization options. If a device can be built it can be broken. Many
+phone manufacturers frown upon the practice of taking root control of
+android phones. With the exception of a couple of HTC Google branded
+phones,  most phones take some time to exploit. I have seen Root on a
+phone before it was released and up to 6 months after the release. It
+is all a matter of how complicated the manufacturer made the
+bootloader. One example of this is the new Droid X. This phone was
+built with a locked bootloader. This can only be unlocked with
+proprietary keys from Motorola. However, someone has at least rooted
+this phone. Now you may ask, “But doesn’t rooted mean they can do
+all the stuff you talked about?” The answer is a resounding no.
+Although you may get root access on the Moto Droid X, you cannot
+change the locked bootloader, which stops you from loading a custom
+OS, or ROM as it is more commonly referred too. One of the most
+dedicated Android Community Developers is Steve Kondik, A.K.A.
+Cyanogen. Cyanogen is the most infamous coder in the community. His
+ROMs are smooth and usable. This coder writes from google source and
+has formed a team that is developing the Official CyanogenMod 6
+version for the Nexus One, Droid, G1, myTouch 3G, Desire, Incredible
+and the Evo. The CyanogenMod team seems to be taking over the android
+world, with fragmentation becoming less of an issue if you are rooted
+with CyanogenMod.

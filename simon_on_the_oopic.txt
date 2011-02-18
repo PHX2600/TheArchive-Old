@@ -1,0 +1,18 @@
+Simon on the OOPIC by, Penguin
+--------------------------------------------------------------------------------
+This is one of my favorite microcontrollers. It can be programmed in
+C++, Java, and BASIC. I started programming it in C++, but later
+switched to BASIC since there was more support for it. I took this
+micro to a meeting and had a game programmed I programmed on it. It
+was a memory game based on Simon. The controller has 3 small LEDs, and
+3 push buttons right under them, so I figured a game like Simon would
+be a natural thing to do. Here is a picture of the microcontroller
+that Slip took with his phone (Slip transfered the picture to
+Dual_Parallel, so I got the picture from www.oldskoolphreak.com [1]). 
+I also included the code that I used to program the micro: [download
+id="3"] [2]
+
+Links:
+------
+[1] http://www.oldskoolphreak.com/
+[2] http://www.phx2600.org/Articles_Projects/Simon.txt

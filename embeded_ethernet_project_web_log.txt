@@ -1,0 +1,18 @@
+Embeded Ethernet Project Web Log by, Feend
+--------------------------------------------------------------------------------
+So I guess I have access to publish posts on this front page, that's
+pretty awesome. I'm sure I wont ever abuse this. Anyway just wanted to
+say I have setup a web-log to document my embedded Ethernet project,
+I'm already half way done with the project but I just started the web
+log so I'm sort of playing catch up with my posts. I'm going to do my
+best to make one post per day until I'm caught up and then ill post as
+needed to document the project. http://fgsfds.com [1] I may post other
+things on it as well but mostly the site is just for documentation
+purposes. Also its worth mentioning for those who have been waiting on
+me to publish instructions on how to do the toner transfer etching
+that I will finally be documenting that as part of this project.
+-Charles "Penguin" Bock
+
+Links:
+------
+[1] http://fgsfds.com

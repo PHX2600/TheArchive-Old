@@ -1,0 +1,65 @@
+The Joys of Rooting Your Android Phone Part 2 by, aAbrack
+--------------------------------------------------------------------------------
+Recently I got a new Motorola Droid X. This article will be more
+information than actual hacking or modding. Google bought the Android
+OS in 2005 and it has had a rocky path to success. Often being
+compared with the iPhone, the Android operating system offers one main
+difference, openness. Programmed in Java and run on a Linux kernel,
+Android offers a lot to the phone community. Although Android's
+success has been through openness, as other big manufacturers get
+their fingers in the jar we are seeing some things being locked down
+and controlled a bit more. The newest Moto Droid X is a prime example
+of corporate control. This phone has a locked bootloader will continue
+to be locked until the encrypted technology can be hacked through. On
+the original G1, Google's flagship Android phone, you were able to
+change the bootloader to different versions with relative ease.This
+process puts you in danger if bricking your phone if you are
+inexperienced, so if you are thinking about flashing a new bootloader,
+do your research.  As I get into Motorola that brings us into
+fragmentation. Many people believe that so many companies making so
+many different iterations of Android is diluting the system. Many
+Androids now have some form of proprietary software (bloatware)
+installed on them. Some of the companies even slap their own skin on
+the OS. HTC has Sense, Motorola has Blur and there are a few others.
+And these different OS's come in different major Android versions.
+Some are 2.2 or 1.6 or 2.1. However as far as i can see this is no
+different than windows. If I can't install Windows 7 x64 on a Pentium
+3 from gateway does that make Windows fragmented? We have 4 or 5
+different versions of windows on every release, however they are not
+called out on fragmentation. In recent news, Google has reported that
+when Gingerbread, Android 3.0, is released, there will be more high
+end hardware requirements. Like a 1 Ghz processor and at least a 3.5
+in. screen for starters. However I don't see a reason to get annoyed
+that the software is advancing with the hardware. So as we move
+forward and more companies start focusing on blocking the hack, we
+will most likely see more creative ways of modding in the community.
+Many of these companies say that the locked bootloaders are for our
+benefit, after all, we would be running “unstable” software
+version. They say this may create an unsatisfactory user experience.
+This type of corporate reasoning does not even give the user a choice.
+Many people have rooted their phones without issue since the first G1.
+The community has done the trial and error and provided free R & D for
+the Android phones they are hacking. Many of these developers do this
+on their own time, and they do a very good job. Before I learned to
+root my android phones the experience was slow and cumbersome. I
+believe rooting unlocks the potential of the Android OS on any device.
+Here is a great example of how far people have taken the android OS:
+Dream Drone:
+http://forum.xda-developers.com/showthread.php?t=615204&highlight=Dream+drone!
+[1] Nexus one Launched 5 Miles in the air for testing as a viable
+satellite.
+http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/
+[2] Once you have rooted your phone the possibilities seem endless,
+from Drones to Satellite testing, I think android will stand the test
+of time. Hopefully Google will continue to produce Developers phones
+that are made to root and hack with. Maybe we will even see a company
+that only does Rooted Android phones out of the box. The future is
+bright for this Linux OS and we will be hoping for the best from our
+favorite companies.
+
+Links:
+------
+[1]
+http://forum.xda-developers.com/showthread.php?t=615204&amp;highlight=Dream+drone%21
+[2]
+http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/

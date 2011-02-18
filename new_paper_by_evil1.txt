@@ -1,0 +1,14 @@
+New Paper by Evil1 by, HalfSight
+--------------------------------------------------------------------------------
+Yessir, I busted my ass hump to pump out another paper. 40 pages of
+ownage, awesome, and win. 
+ Download it HERE [1]. 
+ The paper covers web shells in PHP, ASP, JSP, Coldfusion, and Perl as
+well as hacking techniques for auditing each language (brief, but to
+the point). If you have any questions about the paper, email me.
+Contact info on the site / in the paper. ::Edit:: now in pdf form
+instead of doc.
+
+Links:
+------
+[1] http://www.wtfchan.org/~evil1/Web-Shells-rev2.pdf

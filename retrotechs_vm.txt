@@ -1,0 +1,15 @@
+RetroTechs VM by, bahrayn
+--------------------------------------------------------------------------------
+This is a screenshot from a project that RetroTech worked on. It was
+some impressive software written in Java. What he wrote was a virtual
+machine of a very simple hardware type and operating language. The
+instructions that this virtual machine had were: increment, decrement,
+load registers, load addresses, branch on zero or branch on not zero.
+This sounds like it was a very worthy experiment. I personally give
+him props for doing this in a cumbersome language such as Java. His
+personal website can be found at retrotech.discountsrewdrivers.com [1]
+
+
+Links:
+------
+[1] http://www.retrotech.discountscrewdrivers.com/

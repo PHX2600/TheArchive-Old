@@ -1,0 +1,24 @@
+Aether Tap (Toaster Oven Reflow) by, Feend
+--------------------------------------------------------------------------------
+Most of the passive components for this project are 0805 surface mount
+devices measuring 2.0 mm × 1.25 mm, anyone who has dealt with surface
+mount devices knows that they can be a real pain to solder, especially
+if you don't have a variable temp iron with a small diameter tip, So
+for this project I decided to forgo that mess and purchase a slightly
+used toaster oven from a second hand store, unfortunately it is
+missing a knob but besides that its in pretty good shape. The basic
+process goes something like this: 1) Tin all your pads. 2) Apply flux
+to your tinned pads. 3) Stick the components where they go using
+tweezers / forceps using the flux as a sort of tacky glue. 4) Heat the
+entire board until the solder "re-flows" and binds the components to
+the board. 5)Immediately remove the board from the oven to prevent
+heat damage. The key to toaster oven reflow is the temperature,
+basically you want to get to 180-190 Degrees Celsius without getting
+any higher than ~210 Degrees Celsius. At 180 Celsius most solder will
+begin to melt, by 190 it will all have become liquid, By 210 Many
+components will begin to burn, By 230 the entire board and copper
+substrate will begin to burn. In the photo's below you can see the
+toaster oven I used as well as a multimeter connected to a
+thermocouple device for monitoring the temperature inside the toaster
+oven. There are also a couple images of the final board minus some
+headers attached to a pic-kit 3 for programming. [nggallery id=44]

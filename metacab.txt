@@ -1,0 +1,33 @@
+Metacab by, fsock
+--------------------------------------------------------------------------------
+Metacab is a cabinet file that contains Netcat, Nmap, VNC and other
+remote administration utilities that need only a Windows command
+shell, cmd.exe, to install and use. Install and uninstall scripts are
+included, and work is being completed on antivirus evasion. CREDITS:
+dre - For suggestions dual - For originally putting it together Evil1
+- For suggestions Nak - For making Netcat invisible to anitvirus (only
+DCOM and PnP to go!) PHLAK - For testing Zapper - For testing and
+suggestions ...and of course XlogicX for hosting the project page and
+Packet Storm [1] for hosting [2] the stable versions. Conversation
+about the project can be found at: Forums - General Discussion -
+Metacab [3] STABLE VERSION: metacab-2006-05-R7.zip [4]
+STABLE.SHA256.TXT [5] OLDER VERSIONS: metacab-2006-04-R6.zip [6]
+metacab-2006-04-R5.zip [7] metacab-2006-04-R4.zip [8]
+metacab-2006-04-R3.zip [9] metacab-2006-03-R2.tar.gz [10]
+metacab-2006-03-R1.tar.gz [11]
+
+Links:
+------
+[1] http://www.packetstormsecurity.org/
+[2]
+http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=metacab&amp;type=archives&amp;%5Bsearch%5D.x=0&amp;%5Bsearch%5D.y=0
+[3] http://development/../../forum/viewtopic.php?t=951&amp;start=0
+[4] http://www.dualisanoob.com/metacab/metacab-2006-05-R7.zip
+[5]
+http://development/HTTP://WWW.DUALISANOOB.COM/METACAB/STABLE.SHA256.TXT
+[6] http://www.dualisanoob.com/metacab/metacab-2006-04-R6.zip
+[7] http://www.dualisanoob.com/metacab/metacab-2006-04-R5.zip
+[8] http://www.dualisanoob.com/metacab/metacab-2006-04-R4.zip
+[9] http://www.dualisanoob.com/metacab/metacab-2006-04-R3.zip
+[10] http://www.dualisanoob.com/metacab/metacab-2006-03-R2.tar.gz
+[11] http://www.dualisanoob.com/metacab/metacab-2006-03-R1.tar.gz

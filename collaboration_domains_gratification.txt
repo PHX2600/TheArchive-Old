@@ -1,0 +1,104 @@
+Collaboration, Domains, Gratification by, Feend
+--------------------------------------------------------------------------------
+Sitting at my desk today considering this save our site contest I find
+myself wondering why such a thing is necessary. Looking back at the
+history of our venerated gathering it always seemed like a great place
+to come and learn and to experience the excellent social atmosphere of
+a group of highly intelligent tinkerers, makers, and hackers. The site
+always had plenty of traffic and the forums were a-buzz with activity,
+often so much that it was difficult to keep up with all the active
+threads. So how then did we arrive at this point in such bad shape
+that we are literally begging for content? What has changed in the
+last 6 years? maybe a brief rehash of our sorted past would be a good
+place to begin this search. As best I can recall the site was birthed
+from the mind of Logic, who along with Rax, Dual, Lost, and others had
+founded the group. I'm not entirely aware of how the group started as
+I was not one of the initial members. I recall Rax's stories of
+meeting Dual and believing that he may be an agent of the Fed, and I
+distinctly recall the first meeting I ever attended. On the second
+floor of the Borders building in central PHX, I remember seeing a
+sorted looking group of no more than a dozen people near the small
+refreshment area. Nak, Myself and a few others pulled up a chair at a
+table next to them and then Rax looked over at us casually and said
+"we wont bite" and to his credit they never did. We were invited into
+the group with open arms even though most of us had nothing to
+contribute, at least immediately. It was either that meeting or the
+next one where we assembled the "magnetics" portion of an Ethernet
+jack with Lost. At the time I had no idea how to apply such a thing.
+Today I look back and see that I have clearly grown since then.
+Implementing my own Ethernet devices with similar circuitry.  Since
+then we have been a migratory force of destruction. Moving from
+borders to Nick's pizza, then Counter Culture Cafe, Willow house, and
+Unlimited. Each time we would settle in and each time the venue would
+go out of business. Even recently Unlimited coffee which we are still
+looking to replace. Maybe this lack of an established venue is part of
+the cause of our waning interest levels. Even I have felt disappointed
+that our group hasn't found a more compatible meeting location with
+resources and space for our use. Many hacker-spaces including the
+local HSL have established workshops with computing resources and
+tools at their disposal. Our group is however very informal, there are
+no official members, no head organization, no board of leaders. So
+maybe it is suiting that we also have an informal meeting place as we
+have for so long. Having no formal structure or official members we
+also do not accrue any kind of funding, which means any projects or
+collaborations must find funding or donations from generous members or
+outside sources. I believe this leaves us limited as far as group
+collaboration potential. This is evident in that our group hasn't
+produced any truly interesting collaborations since the Universal VIP
+project or possibly metacab back in 06. This kind of stagnation is a
+mystery to me. I have been to several of the recent meetings and I
+know we have plenty of members who attend and I know many of them have
+great exciting ideas for projects, It just seems like most of these
+ideas are stillborn. Imagination without the knowledge to implement or
+possibly the other way around. But that's why the forums were always a
+great resource, combining people with ideas, and people with the
+technical background to get it done. People with hardware and software
+backgrounds could exchange info and help each other out. I know this
+kind of exchange still takes place at the meetings and around the
+internet. The only thing I can figure is that people either don't know
+about these forums or have lost interest in this kind of collaboration
+medium in favour of newer social mediums, (Facebook, Twitter, Git,
+Etc.) If this is the case maybe we should look at adopting these
+mediums as part of this website, I believe we already have a twitter
+account dedicated to phx2600 events and discussion. And I think it
+gets more traffic than the forums. It would also be possible to adopt
+other sites for this kind of collaboration. For instance
+Instructables.com has a fantastic layout for doing collaborative
+builds, yet we have no phx2600 Instructables group that I am aware of.
+Below is an graph of the recent trends of a few key players in
+internet socializing RED = Facebook YELLOW = Twitter BLUE = Forums
+GREEN = IRC  So so far we have hit two points which might be addressed
+to bring the group back into focus, Solidifying meeting
+locations/resources and adopting more novel socializing and
+collaborative mediums. However there is at least one more point which
+must be addressed. Interest, there is no need for a meeting place or
+social mediums if we have no interest. With this in mind the question
+must be asked Is it worth continuing these meetings? Is there enough
+interest? Are we serving a genuine interest or need with these
+gatherings? or are we simply passing the time as a group? This is an
+interesting point because it seems like a bit of both. In my opinion
+we seem to gather almost out of boredom, seeking something to do and
+then because of our similar interests we end up talking about security
+/ code / hardware related stuff even if we came to the meetings with
+no particular goal in mind. This is of course punctuated by
+presentations and demos which happen on occasion. And this is fine,
+obviously if you come to the meeting bored and leave with some project
+ideas or at least some inspiration then the meeting has been a
+success. However only in a limited fashion as the group is capable of
+much more than just providing casual social interaction for a few
+hours. With the attendance we garner we could easily be pulling off
+much more significant feats. Contests, think Defcon bots [1], High
+altitude balloons [2], UAVs. Social displays, think LED Throwies [3]
+or Floaties [4], Improv Everywhere [5]. Or even creating our own
+badges for Defcon. But again, maybe there is simply no interest in
+these things. In which case it seems that the majority of group
+meetings will continue to be little more than drinks and discussions.
+I guess it will be interesting to see where we go from here.
+
+Links:
+------
+[1] http://defconbots.org/
+[2] http://www.heatsynclabs.org/syncfleet-launch-great-success/
+[3] http://graffitiresearchlab.com/projects/led-throwies/
+[4] http://www.instructables.com/id/LED-Floaties-That-float-away/
+[5] http://www.improveverywhere.com/

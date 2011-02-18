@@ -1,0 +1,60 @@
+Not Working At A Call Center by, Penguin
+--------------------------------------------------------------------------------
+Back when I was in high school I worked at a call center, a job many
+of us have came across. I've done a variety of call center jobs:
+inbound credit card activation, outbound telemarketing (didn't last
+very long), and outbound surveys. Right now I'm back to the call
+center after years working as a rent-a-cop. I now do tech-support, and
+I'm reminded of a trick that still works: How to not work a whole
+shift by using the phone system. DISCOVERY: It all started back at the
+original call center while working with some friends. We had a 30
+minute lunch and two normal ten-minute breaks. We also had an extra
+ten minutes of break that could be used however we wanted. We could
+take three three-minute 20-second breaks or five two-minute breaks> My
+good friend noticed a timing pattern in the queue we got after taking
+a break. Say we had a 15-minute wait between calls normally. After
+taking a break, we would be waiting on the phone for just about 15
+minutes until we got a call. My friend looked over the supervisor's
+monitor and saw that after logging back into the phone, that user
+would be placed at the bottom of the queue. This doesn't sound like
+too big of a deal; most people know that this type of system works
+this way. It's only fair that the agent isn't bombarded with calls
+right after break. But that's not how the mind of a hacker things. How
+could this be used in a way it's not intended to be used.  THE
+EXPLOIT: It's the extra ten minutes. Knowing that there was a
+15-minute wait period, my friend would wait ten minutes and take a
+one-second break. Fifteen minutes after the break, he got a call. To
+recap, that is 25 minutes between calls. After trying this, he took a
+one-second break every ten minutes for the remainder of the shift. For
+that entire period of time, he mysteriously didn't get any more calls.
+He told us of his discovery the next day. So for our entire shift,
+none of us took a single call – for a whole eight-hour shift! On
+most call center phone systems, this is an “aux” code. There are
+different aux codes for different reasons: lunch, training, data
+entry, break, etc. For this exploit, we used the aux code for a break
+(Aux #2 where I work now, on an AVAYA phone system). It was OK at the
+original call center because nobody paid any attention to the logs for
+breaks as long as we weren't exceeding our ten-minute limit to our
+extra break time. You may not want to try the method that lets you not
+take any calls, but there is another way to reduce calls that probably
+won't get you caught, though it won't give you as much free time as
+the above method. Say you notice that there are about 16 minutes in
+between calls and you are about read to go on a break or lunch. Most
+people wait until they finish a call and then take a break. In our
+case, wait 15 minutes (or as close as you can without actually getting
+the call) after your last call, and then go on break. Those are 15
+whole minutes of easy money, and you'll probably end up doing this
+four times in a shift. So that can add up to about an extra hour of no
+work in each eight-hour shift! CONCLUSION: Turns out this same old
+trick works at the call center I just started at. I'm not going to be
+using it anymore though; this place audits a lot more. It wouldn't
+have been a big deal to lose my job in high school, but now that it
+gets me food and a place to sleep, I don't want to mess around as much
+at work. I still may end up using the trick of waiting after a call
+before lunch though, as this is less noticeable. By they way, I did
+end up getting fired from that original job while I was in high
+school. I guess putting a hard drive magnet up to a non-degaussable
+monitor wasn't the right thing to do, especially when the monitor was
+in the cube next to me with someone using it at the time. They said
+they would call me back if they needed further help. It's been a
+while. Shouts: Evin, Skyler, Dual_Parallel.

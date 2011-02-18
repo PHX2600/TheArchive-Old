@@ -1,0 +1,141 @@
+Aether Tap (PCB Creation Process) by, Feend
+--------------------------------------------------------------------------------
+The following will be a sequence of steps detailing the PCB creation
+process that I subscribe to. If you have any questions or comments
+feel free to email me directly or post a question in the comments. I
+will also include images which correspond to each step in this
+process, I will indicate that an image corresponds to a certain step
+by adding a reference id Example: (1) where the number in the
+parentheses corresponds to an image index in the gallery below. I'm
+assuming in this process that you are familiar with creating dextrin
+glue for toner transfer paper, If not, no worries simply read this
+guide on creating dextrin coated toner transfer paper By Triston J.
+Taylor, the original process is attributed to a make.com user by the
+alias Cashsale.
+http://www.radagast.org/~dplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
+[1] Without the dextrin coating its nigh impossible to create such
+high resolution boards with any fidelity so I highly recommend
+investing in some dextrin or creating it in the process described in
+the above link. as a side note my dextrin comes from my pyrotechnics /
+chemistry stash because dextrin is also used as a water soluble
+adhesive for creating fireworks stars / shells as well as compact
+smoke bombs and other items. Places to buy dextrin: United Nuclear [2]
+Ebay [3] Cheap Chems [4] STEP 1: INITIALIZE  Begin by printing out a
+to-scale representation of the front and back of your boards on
+separate pieces of paper (1), make sure that along with each side’s
+copper mask you also print any Vias and or pads which need to be
+present. In eagle layers that would be [Top Copper, Vias, and Pads]
+for the “front” and [Bottom Copper, Vias, and Pads] for the
+“back”. If you look at the final board layout image you’ll see
+that I have also strategically placed alignment marks at the 4 edges
+of the board, these are marks that I can line up later to ensure that
+the front and back layers are perfectly aligned, which is important
+because if they are skewed then your via's and pads wont line up and
+the board will become useless. STEP 2: PREPARE SUBSTRATE Next, cut out
+an amount of silicone sealed laser photo paper (2) which completely
+covers your design(3) (refer to this pdf [5] if you don’t know what
+that means), you will need one piece for each layer you are printing,
+make sure to leave about 1/8 to 1/4 inch extra border which will make
+it easier for you to insert the copper clad later and tape the edges
+to align them. STEP 3 APPLY DEXTRIN: Next we are going to coat one
+side of these two pieces of photo paper with dextrin adhesive(4),
+again if you don’t have any please refer to the how to create
+dextrin PDF in the previous posts. Begin by using an eye dropper to
+place 3-4 drops of dextrin glue on the paper (use more or less
+depending on the surface area you are working with, in my case 3 or 4
+was the most I needed) at first the dextrin glue will tend to bead
+up(5)(6), that’s OK, just keep spreading using a roller or a small
+paint brush until it begins to get tacky at which point it will begin
+to adhere evenly. Obviously repeat this step again for the second
+layer if you are producing one. I have had some people ask me what a
+coated piece of paper is supposed to look like, so for reference i
+have included a photo(7) where the left piece is coated with dextrin
+(very light yellow coating) and the right piece of paper is not
+coated. You’ll also notice the coated piece is slightly curled up
+which is OK, if you want it to flatten out then just heat it for about
+30 seconds under a warm light bulb to dry it otherwise rest assured
+your laser printer will dry it out plenty quick. STEP 4: PRINT  Next,
+using a small amount of masking tape go ahead and tape your dextrin
+coated paper over the original design template that you printed
+out(8). And print!(9) Remember to mirror one of your sides otherwise
+you’ll find its curiously hard to line up your layers in the next
+step… STEP 5: ALIGN LAYERS Now remove the masking tape from the
+dextrin paper and arrange the two layers such that they are facing one
+another and line them up, this step is crucial, especially if you have
+a complex board, once the two layers are lined up then tape them
+together using more masking tape(10)(11), leaving an opening in at
+least one side to slide the copper in after we prepare it. STEP 6:
+PREPARE COPPER CLAD  Next cut out a piece of copper clad to match your
+board size, in my case that’s 3.5 by 2 inches, use an Xacto to score
+the board and then snap it or even cut it out with a good pair of
+scissors, either way just make sure that after you have your piece cut
+out that you clean it. Copper clad oxidizes(12) while it sits in
+storage so you need to scrub that layer off(13) with some steel wool
+or a pot cleaner, after you have taken the layer of oxidation off it
+doesn’t hurt to wipe the entire board down with some acetone or
+alcohol(14) to remove any dust or oils that might be present. Notice
+the difference in the copper before(12) and after(13) cleaning in the
+images. STEP 7: PREPARE FOR TRANSFER Next you’re going to slide your
+freshly cleaned and dry copper clad in between your two dextrin coated
+copper mask layers making sure to line the board up with the edges of
+your mask, its hard to show this step with an image(15) but it should
+be fairly self explanatory what you’re doing here. STEP 8: TRANSFER
+Next you need to apply heat and pressure to the entire sandwich in
+order to transfer the toner to the copper clad from the paper (hence
+the name toner transfer method) I use a small lamination
+machine(16)(17) because it applies even and consistent pressure and
+heat which tends to produce excellent results, I have also used a
+clothes iron with mixed results, if you use a lamination machine 8-10
+passes through should be plenty, if you use an iron the rules vary
+from iron to iron so you’ll have to play with it and see what works.
+Generally speaking 5 minutes of solid ironing should do the trick, and
+make sure you put something between the transfer paper and the iron
+like a layer of wax paper otherwise you will burn your transfer paper.
+STEP 9: DISSOLUTION  After you transfer the toner to the copper clad
+you need to remove the paper that the toner is also fixed to, this is
+where the dextrin comes into play, by soaking the entire sandwich in
+warm water(19) you expose the dextrin to water making it dissolve and
+separate the toner from the paper effortlessly.You will see wrinkles
+start to form in the paper(20) as the water penetrates into the
+dextrin layer and dissolves it. STEP 10: SEPARATION  After letting the
+board and transfer paper soak for about 5 minutes its time to peal the
+paper off the copper clad, Be gentle and peal back slowly, if a little
+paper stays behind its OK but ideally the separation should be
+effortless due to the dextrin(21)(22)(23). If there is paper remaining
+simply remove it by rubbing it off, you just want to make sure its out
+of all the spaces between the toner because if it isn’t it will act
+as an etch-resist and it will cause bridging in your board. STEP 11:
+CORRECTIONS  After you’re satisfied that there isn’t any paper
+left where it shouldn’t be look over your entire board and make sure
+there aren’t any breaks in your traces(25)(26), if there are use a
+fine point sharpie and draw them back in(27)(28), the sharpie ink will
+act as an etch resist and prevent the breaks from actually etching
+out.In the image you can see some red tinted areas where I have used a
+sharpie to correct some gaps in toner. STEP 12: ETCHING Finally we are
+ready to etch the board, I typically use ferric chloride(29) which
+takes approximately 15 minutes to complete an etch at room
+temperature, after the board is done etching the copper will have been
+removed where there was no toner or other etch-resist(30)(31), but the
+toner will remain, use the same steel wool or pot cleaner that you
+used to originally clean your copper clad to remove the toner from the
+now fully etched board. STEP 13: ADMIRE YOUR WORK  At long last you
+have your completed board ready to solder(33)(34)(35). Don't forget to
+recycle your etchant(32), ferric chloride can be used many many times
+over and isn't bad after once use. More images and a couple videos of
+a demonstration of this process can be found at
+http://www.phx2600.org/archive/2009/09/05/september-2009-meeting-history
+[6] [nggallery id=42]        
+
+Links:
+------
+[1]
+http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
+[2]
+http://unitednuclear.com/index.php?main_page=product_info&amp;cPath=16_17_69&amp;products_id=133
+[3]
+http://shop.ebay.com/?_from=R40&amp;_trksid=p3907.m38.l1313&amp;_nkw=dextrin&amp;_sacat=See-All-Categories
+[4] http://www.cheap-chemicals.com/chemicals.asp?Sort=D
+[5]
+http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
+[6]
+http://www.phx2600.org/archive/2009/09/05/september-2009-meeting-history/
