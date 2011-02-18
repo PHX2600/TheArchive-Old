@@ -1,5 +1,5 @@
-December 2009 Meeting History by, XlogicX
---------------------------------------------------------------------------------
+December 2009 Meeting History by, PHLAK
+---------------------------------------
 Rax gave a presentation on Tomato custom firmware and a talk was also
 given on DD-WRT custom firmware. Both for the Linksys WRT54G series of
 home routers. PHLAK, baby Breach and Huertanix went over code for the

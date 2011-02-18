@@ -1,5 +1,5 @@
-Binary Planting Attacks - Microsoft Security Advisory (2269637) by, aIoniliodori
---------------------------------------------------------------------------------
+Binary Planting Attacks - Microsoft Security Advisory (2269637) by, ninlar
+--------------------------------------------------------------------------
 OVERVIEW
 
 Last week Microsoft® released a security advisory about DLL

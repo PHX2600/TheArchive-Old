@@ -1,5 +1,5 @@
-Embeded Ethernet Project Web Log by, Feend
---------------------------------------------------------------------------------
+Embeded Ethernet Project Web Log by, Penguin
+--------------------------------------------
 So I guess I have access to publish posts on this front page, that's
 pretty awesome. I'm sure I wont ever abuse this. Anyway just wanted to
 say I have setup a web-log to document my embedded Ethernet project,

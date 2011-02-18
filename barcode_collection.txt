@@ -1,5 +1,5 @@
-Barcode Collection by, Penguin
---------------------------------------------------------------------------------
+Barcode Collection by, XlogicX
+------------------------------
 I have the original bitmap file and .doc file available. If you just
 want to print the barcode up, I recommend loading the .doc file,
 erasing the text if you want, and printing the barcode graphic. 

@@ -1,5 +1,5 @@
-Aether Tap (PCB Creation Process) by, Feend
---------------------------------------------------------------------------------
+Aether Tap (PCB Creation Process) by, Penguin
+---------------------------------------------
 The following will be a sequence of steps detailing the PCB creation
 process that I subscribe to. If you have any questions or comments
 feel free to email me directly or post a question in the comments. I

@@ -1,5 +1,5 @@
-Basic Slackware Security by, fsock
---------------------------------------------------------------------------------
+Basic Slackware Security by, dual_parallel
+------------------------------------------
 WELCOME TO 
 
  Slackware [1] Linux began in April, 1993. For over ten years,

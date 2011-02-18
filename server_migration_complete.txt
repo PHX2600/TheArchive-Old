@@ -1,5 +1,5 @@
-Server Migration Complete by, XlogicX
---------------------------------------------------------------------------------
+Server Migration Complete by, PHLAK
+-----------------------------------
 The server move went down fairly smoothly. There were a few lingering
 problems I came across this morning, but resolved those promptly. Some
 users may still not be able to access the site because of the 24 hour

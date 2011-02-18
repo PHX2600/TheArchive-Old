@@ -1,2 +1,2 @@
-Microphone VU meter schematic by, dual_parallel
---------------------------------------------------------------------------------
+Microphone VU meter schematic by, Nak
+-------------------------------------

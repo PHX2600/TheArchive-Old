@@ -1,5 +1,5 @@
-Phoenix 2600 VIP 2.0 Project by, Penguin
---------------------------------------------------------------------------------
+Phoenix 2600 VIP 2.0 Project by, XlogicX
+----------------------------------------
 ASSIGNMENT: Step 1: Sign up for VIP cards (use fake info) in the
 following 4 stores: Albertsons Frys Safeway Bashas Step 2: When you go
 to the store, try using a VIP card for the wrong store: Example: go to

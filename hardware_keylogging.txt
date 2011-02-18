@@ -1,5 +1,5 @@
-Hardware Keylogging by, Penguin
---------------------------------------------------------------------------------
+Hardware Keylogging by, XlogicX
+-------------------------------
 A key logger is a device or piece of software or hardware that
 intercepts and stores strokes of a keyboard. I'll be focusing on the
 hardware key loggers. Hardware key loggers do have their

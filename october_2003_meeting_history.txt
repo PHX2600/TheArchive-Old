@@ -1,5 +1,5 @@
-October 2003 Meeting History by, Penguin
---------------------------------------------------------------------------------
+October 2003 Meeting History by, XlogicX
+----------------------------------------
 RAX gave a presentation on running SSH over a VNC tunnel. Zapperlink
 contacted Emmanuel Goldstein on IRC about getting our Barnes and Noble
 location "official" instead of the Arizona Mills location. Discussions

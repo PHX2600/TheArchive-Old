@@ -1,5 +1,5 @@
-The Joys of Rooting Your Android Phone by, aAbrack
---------------------------------------------------------------------------------
+The Joys of Rooting Your Android Phone by, HalfSight
+----------------------------------------------------
 I get a lot of people asking me exactly why I root my phone. My
 general response to this inquiry is why don’t you root your phone?
 Once someone has achieved the initial root exploit, rooting is pretty

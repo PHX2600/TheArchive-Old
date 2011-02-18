@@ -1,5 +1,5 @@
-November 2009 Meeting History by, XlogicX
---------------------------------------------------------------------------------
+November 2009 Meeting History by, PHLAK
+---------------------------------------
 The focus of this meeting was definitely AltF4's talk on cryptography
 and basic WEP encryption. 
 

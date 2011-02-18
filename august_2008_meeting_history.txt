@@ -1,5 +1,5 @@
-August 2008 Meeting History by, Penguin
---------------------------------------------------------------------------------
+August 2008 Meeting History by, XlogicX
+---------------------------------------
 Our meeting time and location has been added back into magazine.
 General talk on lock picking given by ThatGuy. Evil1 brought a white
 paper on advanced SQL injection. Zapperlink has returned. A lengthy
