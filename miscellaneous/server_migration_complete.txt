@@ -9,8 +9,7 @@ Some users may still not be able to access the site because of the 24 hour TTL
 GoDaddy had on the DNS records. Aside from that, everything should be working
 100% now.
 
-If there are any questions or concerns, please address them here:
-http://phx2600.org/forum/viewtopic.php?uid=53&f=8&t=822&start=0 [1]
+If there are any questions or concerns, please address them here. [1]
 
 Links:
 ------
