@@ -1,5 +1,7 @@
-June 2004 Meeting History by, XlogicX
-======================================
+June 2004 Meeting History
+=========================
+Posted by, XlogicX on 2004-06-04 17:17:20
+
 There was talk of H.O.P.E. and DefCon. Also, I did a presentation on digital
 logic, with hardware examples.
 

@@ -1,5 +1,7 @@
-March 2006 Meeting History by, XlogicX
-=======================================
+March 2006 Meeting History
+==========================
+Posted by, XlogicX on 2006-03-04 17:28:08
+
 We mod Xbox, probably without success. XlogicX has presentation on hardware
 obfuscation.
 

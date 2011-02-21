@@ -1,5 +1,7 @@
-October 2005 Meeting History by, XlogicX
-=========================================
+October 2005 Meeting History
+============================
+Posted by, XlogicX on 2005-10-07 20:49:59
+
 This meeting took place at UAT. Nak and MadManX brought their cardreader devices
 and got them working at the meeting. Somebody else brought some embeded gear
 that they were trying to get to work. I brought my basic stamp with a combo

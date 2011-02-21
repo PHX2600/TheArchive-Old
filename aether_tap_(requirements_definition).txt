@@ -1,5 +1,7 @@
-Aether Tap (Requirements Definition) by, Penguin
-=================================================
+Aether Tap (Requirements Definition)
+====================================
+Posted by, Penguin on 2010-02-22 15:48:29
+
 When you begin a project its important to identify what you hope to accomplish
 or learn in the process, This project will have plenty of both for me. First and
 foremost I would like to produce an inexpensive Ethernet enabled controller

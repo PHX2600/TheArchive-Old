@@ -1,5 +1,7 @@
-Hardware Keylogging by, XlogicX
-================================
+Hardware Keylogging
+===================
+Posted by, XlogicX on 2008-08-28 23:24:08
+
 A key logger is a device or piece of software or hardware that intercepts and
 stores strokes of a keyboard. I'll be focusing on the hardware key loggers.
 Hardware key loggers do have their disadvantages, though. I felt the benefits

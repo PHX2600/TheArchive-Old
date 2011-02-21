@@ -1,5 +1,7 @@
-February 2006 Meeting History by, XlogicX
-==========================================
+February 2006 Meeting History
+=============================
+Posted by, XlogicX on 2006-02-04 17:26:10
+
 First meeting at Counter Culture Cafe. Evil1 has presentation about php/sql
 hacking. XlogicX hacks alarm clock to hook up big external speakers. Snap
 Circuit toy is played with. XlogicX brought Wal-Mart security device and dremel,

@@ -1,5 +1,7 @@
-Super Cache Woes by, PHLAK
-===========================
+Super Cache Woes
+================
+Posted by, PHLAK on 2008-12-09 23:35:01
+
 Some of you may have noticed that the front page wasn't changing, specifically
 the posts and the next meeting date. I'm fairly certain this was due to Super
 Cache being out of date. I have since updated Super Cache to the latest version

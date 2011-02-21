@@ -1,5 +1,7 @@
-November 2006 Meeting History by, XlogicX
-==========================================
+November 2006 Meeting History
+=============================
+Posted by, XlogicX on 2006-11-04 17:51:00
+
 AgentOrange presents SQL injection. Dual presents bypassing hardware on a VoIP
 device. XlogicX brings grappling hook.
 

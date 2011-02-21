@@ -1,5 +1,7 @@
-The Joys of Rooting Your Android Phone Part 2 by, HalfSight
-============================================================
+The Joys of Rooting Your Android Phone Part 2
+=============================================
+Posted by, HalfSight on 2010-08-01 13:44:53
+
 Recently I got a new Motorola Droid X. This article will be more information
 than actual hacking or modding. Google bought the Android OS in 2005 and it has
 had a rocky path to success. Often being compared with the iPhone, the Android

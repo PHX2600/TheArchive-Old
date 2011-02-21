@@ -1,5 +1,7 @@
-RetroTechs VM by, RetroTech
-============================
+RetroTechs VM
+=============
+Posted by, RetroTech on 2008-08-29 19:34:42
+
 This is a screenshot from a project that RetroTech worked on. It was some
 impressive software written in Java. What he wrote was a virtual machine of a
 very simple hardware type and operating language. The instructions that this

@@ -1,5 +1,7 @@
-DFC -- Getting Started by, Zapperlink
-======================================
+DFC -- Getting Started
+======================
+Posted by, Zapperlink on 2009-10-06 09:32:27
+
 For those of you who enjoy good fun challenges the Digital Forensic Challenge
 (http://www.dc3.mil/2009_challenge/ [1]) is probably something you have already
 heard of. Hosted by the Department of Defense (http://www.defenselink.mil/ [2])

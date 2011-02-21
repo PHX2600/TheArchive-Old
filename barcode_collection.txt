@@ -1,5 +1,7 @@
-Barcode Collection by, XlogicX
-===============================
+Barcode Collection
+==================
+Posted by, XlogicX on 2008-08-29 19:29:19
+
 I have the original bitmap file and .doc file available. If you just want to
 print the barcode up, I recommend loading the .doc file, erasing the text if you
 want, and printing the barcode graphic.

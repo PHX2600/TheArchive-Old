@@ -1,5 +1,7 @@
-Basic Slackware Security by, dual_parallel
-===========================================
+Basic Slackware Security
+========================
+Posted by, dual_parallel on 2008-08-29 00:23:17
+
 WELCOME TO 
 
 Slackware [1] Linux began in April, 1993. For over ten years, Slackware Linux

@@ -1,5 +1,7 @@
-Site Update - WordPress 2.7 by, PHLAK
-======================================
+Site Update - WordPress 2.7
+===========================
+Posted by, PHLAK on 2008-12-10 23:36:10
+
 Just updated the site to the latest version of WordPress, 2.7. This update is
 mostly an overhaul of the admin control panel, but you never know what kind of
 problems an update can cause. If you notice any bugs, please report them on the

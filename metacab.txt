@@ -1,5 +1,7 @@
-Metacab by, dual_parallel
-==========================
+Metacab
+=======
+Posted by, dual_parallel on 2008-08-29 19:52:37
+
 Metacab is a cabinet file that contains Netcat, Nmap, VNC and other remote
 administration utilities that need only a Windows command shell, cmd.exe, to
 install and use. Install and uninstall scripts are included, and work is being

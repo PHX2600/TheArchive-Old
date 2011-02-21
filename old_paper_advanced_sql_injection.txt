@@ -1,5 +1,7 @@
-Old paper Advanced SQL Injection by, Evil1
-===========================================
+Old paper Advanced SQL Injection
+================================
+Posted by, Evil1 on 2009-09-01 17:10:36
+
 I forgot to put this back up when the site was redone. 
 Here [1] it is.
 

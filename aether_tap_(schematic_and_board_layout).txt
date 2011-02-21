@@ -1,5 +1,7 @@
-Aether Tap (Schematic and Board Layout) by, Penguin
-====================================================
+Aether Tap (Schematic and Board Layout)
+=======================================
+Posted by, Penguin on 2010-02-22 16:51:45
+
 I have finalized a Board layout and schematic, I ended up going with a double
 sided board since I was unable to route the entire board on a single plane.
 

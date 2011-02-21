@@ -1,5 +1,7 @@
-Maze Solving Robots at ASU Polytech by, Penguin
-================================================
+Maze Solving Robots at ASU Polytech
+===================================
+Posted by, Penguin on 2010-11-20 14:39:32
+
 As part of their first year in an engineering curriculum students are asked to
 produce robots which can solve a basic maze using embedded PIC processors. Below
 is a recap of some of the robots demonstrated. Not all of them make it through

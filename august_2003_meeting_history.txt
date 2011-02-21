@@ -1,5 +1,7 @@
-August 2003 Meeting History by, XlogicX
-========================================
+August 2003 Meeting History
+===========================
+Posted by, XlogicX on 2003-08-01 20:24:02
+
 Just Zapperlink, Feend, Energizer, and I. We talked about RFID and shell
 backgrounds for linux.
 

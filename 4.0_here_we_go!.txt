@@ -1,5 +1,7 @@
-4.0 here we go! by, PHLAK
-==========================
+4.0 here we go!
+===============
+Posted by, PHLAK on 2009-07-29 00:01:30
+
 Just launched version 4.0 of the PHX2600 layout. I wanted to get this out before
 Defcon, so tonight was the night. More information on the style and other back
 end changes to come.

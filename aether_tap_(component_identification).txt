@@ -1,5 +1,7 @@
-Aether Tap (Component Identification) by, Penguin
-==================================================
+Aether Tap (Component Identification)
+=====================================
+Posted by, Penguin on 2010-02-22 16:16:27
+
 The second step in any project is to identify the main components that are
 needed to make your goals play out. In this case I have chosen a Microchip
 PIC24F series Microcontroller as the core of my project supplemented with a

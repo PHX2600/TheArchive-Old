@@ -1,5 +1,7 @@
-Server Migration Complete by, PHLAK
-====================================
+Server Migration Complete
+=========================
+Posted by, PHLAK on 2009-06-21 16:36:53
+
 The server move went down fairly smoothly. There were a few lingering problems I
 came across this morning, but resolved those promptly.
 

@@ -1,5 +1,7 @@
-IP Uploader - Python Script (.py) by, PHLAK
-============================================
+IP Uploader - Python Script (.py)
+=================================
+Posted by, PHLAK on 2008-08-30 20:28:13
+
 This is my first python script I ever wrote. This script connects to
 whatismyip.com [1], fetches the external IP address of the network you are on,
 puts it into a text file and uploads it via FTP to any server you want.

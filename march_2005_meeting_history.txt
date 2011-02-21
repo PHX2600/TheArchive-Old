@@ -1,5 +1,7 @@
-March 2005 Meeting History by, XlogicX
-=======================================
+March 2005 Meeting History
+==========================
+Posted by, XlogicX on 2005-03-04 20:13:30
+
 Fun meeting, probably the most disorganized yet too; we never really formed one
 big table together like we usually do. Rax brought knoppix through the looking
 glass edition (has it worked on anyones box yet?). I took my toasted netgear

@@ -1,5 +1,7 @@
-Fun at the Movies by, XlogicX
-==============================
+Fun at the Movies
+=================
+Posted by, XlogicX on 2008-08-28 23:13:37
+
 Before I get started, I should specify that this file is not about computer
 hacking. This file focuses more on physical security and possibly a small amount
 of social engineering. I would also like to dedicate this file to the MPAA.
