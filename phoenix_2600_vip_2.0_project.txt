@@ -1,5 +1,5 @@
 Phoenix 2600 VIP 2.0 Project by, XlogicX
-----------------------------------------
+=========================================
 ASSIGNMENT:
 
 Step 1: Sign up for VIP cards (use fake info) in the following 4 stores:
@@ -70,3 +70,44 @@ MATERIALS:
 Links:
 ------
 [1] http://www.phx2600.org/graphix/vip/VIP25.bmp
+
+
+Comments
+--------
+
+Posted by, XlogicX on 2008-09-13 20:56:08
+
+If you can find the store cards, bring them if you can. I was thinking of a new
+project idea for this.
+
+* * *
+
+Posted by, meznak on 2008-12-24 11:38:13
+
+It appears that Albertson's is phasing out their loyalty cards, so I'd like to
+see/make a version similar to 2.0v5 with a single barcode. I'd like to see how
+2.0v5 has been working for you, but the results excel file link appears to be
+broken..
+
+* * *
+
+Posted by, meznak on 2008-12-24 11:43:09
+
+It seems the link to the .bmp for 2.0v5 is broken, too. It should point to
+http://www.phx2600.org/graphix/vip/VIP25.bmp
+
+* * *
+
+Posted by, PHLAK on 2008-12-26 11:24:14
+
+Fixed the link.
+
+* * *
+
+Posted by, Terrordrone on 2008-09-09 12:34:55
+
+i think i have a bunch of cards from stores back east to like the piggley
+wiggley and food lion also ive always wanted to try out other cards with bar
+code (i. e. phone cards and military ids) i know the mag stripe on the back of
+military ids fucks up tyhe little hand held scanner machines that bouncer used
+to(they may still) use at some bars to scan for fake ids

@@ -1,5 +1,5 @@
 IP Uploader - Python Script (.py) by, PHLAK
--------------------------------------------
+============================================
 This is my first python script I ever wrote. This script connects to
 whatismyip.com [1], fetches the external IP address of the network you are on,
 puts it into a text file and uploads it via FTP to any server you want.
@@ -46,3 +46,26 @@ Shouts to Automated Penguin and Nak!
 Links:
 ------
 [1] http://www.whatismyip.com/
+
+
+Comments
+--------
+
+Posted by, talsemgeest on 2009-01-23 03:00:44
+
+Wow, very nice. This has helped me out a lot, and is a great help to anyone
+hosting a website on a pc with a dynamic connection.
+
+* * *
+
+Posted by, Nrezinorn on 2009-07-29 11:04:31
+
+I use dynDNS ;)
+
+* * *
+
+Posted by, Ristalex on 2009-09-11 12:57:28
+
+Thanks for this will look at this as a solution I too use dynDNS but they do not
+do a well enough job of matching your domain name with your IP so this will be
+the perfect solution for me.

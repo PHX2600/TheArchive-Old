@@ -1,5 +1,5 @@
 New Paper by Evil1 by, Evil1
-----------------------------
+=============================
 Yessir, I busted my ass hump to pump out another paper. 40 pages of ownage,
 awesome, and win. 
 
@@ -16,3 +16,18 @@ in the paper.
 Links:
 ------
 [1] http://www.wtfchan.org/~evil1/Web-Shells-rev2.pdf
+
+
+Comments
+--------
+
+Posted by, chris j on 2009-09-01 10:46:29
+
+thanks for converting it to pdf.
+
+* * *
+
+Posted by, For whom the Shell tolls&#8230; &laquo; Security Aegis on 2010-02-06 21:47:05
+
+[...] start by featuring Evil1's paper on web shells. "The paper covers web
+shells in PHP, ASP, JSP, Coldfusion, and Perl as well as hacking [...]

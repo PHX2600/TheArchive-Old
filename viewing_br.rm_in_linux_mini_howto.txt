@@ -1,5 +1,5 @@
 Viewing br.rm in Linux Mini - HOWTO by, Feend
----------------------------------------------
+==============================================
 Like other listeners of rfa I too wanted to view the binary revolution unveiling
 video (www.oldskoolphreak.com/video/br.rm [1]) but was horrified that I could
 not even after downloading the RealPlayer client

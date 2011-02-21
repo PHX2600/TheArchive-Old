@@ -1,5 +1,5 @@
 BarCode Tricks by, XlogicX
---------------------------
+===========================
 There are a few ways to purchase a product with the price of another. Before I
 talk about that though, I’ll review the meaning of the bars and numbers on the
 bar code. After that, I’ll explain tricks like “inking” and the

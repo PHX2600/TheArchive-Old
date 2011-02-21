@@ -1,5 +1,5 @@
 May 2005 Meeting History by, XlogicX
-------------------------------------
+=====================================
 Retro brought a 286 lappy and hot glued some shinny stuff to it. Rax brought a
 mac with Tiger. Nak brought his ham gear and used the autopatch method to call
 my cell. LosT brought a bunch of embedded web server gear. Zaphraud brought his

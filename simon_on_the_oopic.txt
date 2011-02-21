@@ -1,5 +1,5 @@
 Simon on the OOPIC by, XlogicX
-------------------------------
+===============================
 This is one of my favorite microcontrollers. It can be programmed in C++, Java,
 and BASIC. I started programming it in C++, but later switched to BASIC since
 there was more support for it. I took this micro to a meeting and had a game

@@ -1,5 +1,5 @@
 Aether Tap (BOM) by, Penguin
-----------------------------
+=============================
 Forgot to post this earlier so here it is.
 
 I found a Mouser [1] part number for everything except the reset switch I'm

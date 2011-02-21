@@ -1,5 +1,5 @@
 Kool Numberz: The Quickest Way to Cool! by, dual_parallel
----------------------------------------------------------
+==========================================================
 Fascinated by phreaking? Want to taste the excitement of telephonic exploration,
 but just don’t have the time? Well, this article is for you! With this simple
 method, you’ll fly through the phone lines, finding the coolest numbers before
@@ -49,3 +49,46 @@ phreak! With Kool Numberz! Guaranteed!
 Links:
 ------
 [1] http://bellsmind.net
+
+
+Comments
+--------
+
+Posted by, Good with computar on 2010-07-26 11:05:03
+
+Haha,
+
+What is this I'm not even the whole thing!
+
+* * *
+
+Posted by, decoder on 2010-07-25 05:33:39
+
+Coolsville, Daddy-O.
+
+* * *
+
+Posted by, maxwell on 2010-09-01 19:26:25
+
+I do not understand why Mac OS X is so detested among the hacking community.
+There is a stereotype that it offers less control over the system, or is less
+oriented towards technically proficient users. Mac OS X is an official UNIX
+operating system that ships uses bash as its default shell, comes with Python,
+Perl, and several other programming languages, and uses the UNIX file system and
+philosophy. 
+
+It's belittlement by Linux users is understandable because it is only partially
+open source, yet you rarely see those same hackers criticize Solarix or AIX, the
+two major closed source Unices. It seems that people criticize it because it is
+cool among the moderately technically savvy to hate Apple in general, with or
+without an actual technical criticism of the OS or even the hardware. I
+recommend Linux because it is open source, but out of Windows or Mac OS X, Mac
+OS X is the clear winner on every technical level. 
+
+AAnnnnyyywaayyy, interesting article, thanks for sharing the info.
+
+* * *
+
+Posted by, p0d on 2010-07-28 08:36:34
+
+Cool piece.

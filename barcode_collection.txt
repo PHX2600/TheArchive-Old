@@ -1,5 +1,5 @@
 Barcode Collection by, XlogicX
-------------------------------
+===============================
 I have the original bitmap file and .doc file available. If you just want to
 print the barcode up, I recommend loading the .doc file, erasing the text if you
 want, and printing the barcode graphic.
@@ -38,3 +38,17 @@ Links:
 [8] http://development/../../Articles_Projects/barcodes/000711088137.doc
 [9] http://development/../../Articles_Projects/barcodes/425628611504.doc
 [10] http://development/../../Articles_Projects/barcodes/vipcard.bmp
+
+
+Comments
+--------
+
+Posted by, Ryan on 2008-12-16 23:00:27
+
+You could generate your own barcode online, as long as you have the UPC.
+
+* * *
+
+Posted by, PHLAK on 2008-12-17 01:21:25
+
+Indeed you can. I have to do this at work all the time.

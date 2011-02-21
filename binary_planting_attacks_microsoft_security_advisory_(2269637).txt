@@ -1,5 +1,5 @@
 Binary Planting Attacks - Microsoft Security Advisory (2269637) by, ninlar
---------------------------------------------------------------------------
+===========================================================================
 OVERVIEW
 
 Last week Microsoft® released a security advisory about DLL pre-loading attacks
@@ -110,3 +110,31 @@ Links:
 [1] http://www.phx2600.org/wp-content/uploads/output1.png
 [2] http://www.phx2600.org/wp-content/uploads/output2.png
 [3] http://www.phx2600.org/wp-content/uploads/securityAdvisory.png
+
+
+Comments
+--------
+
+Posted by, Penguin on 2010-09-07 14:49:03
+
+Amazing.
+
+Not Opinion
+
+New. Interesting. Relevant.
+
+Its like a real article.
+
+Winner!
+
+* * *
+
+Posted by, maxwell on 2010-09-08 21:40:01
+
+This is a fantastic article!
+
+* * *
+
+Posted by, retro on 2010-09-13 13:51:58
+
+Good job. Also, I like the term "binary planting".

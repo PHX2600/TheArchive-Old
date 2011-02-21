@@ -1,5 +1,5 @@
 Metacab by, dual_parallel
--------------------------
+==========================
 Metacab is a cabinet file that contains Netcat, Nmap, VNC and other remote
 administration utilities that need only a Windows command shell, cmd.exe, to
 install and use. Install and uninstall scripts are included, and work is being
@@ -44,3 +44,23 @@ http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=metaca
 [9] http://www.dualisanoob.com/metacab/metacab-2006-04-R3.zip
 [10] http://www.dualisanoob.com/metacab/metacab-2006-03-R2.tar.gz
 [11] http://www.dualisanoob.com/metacab/metacab-2006-03-R1.tar.gz
+
+
+Comments
+--------
+
+Posted by, WBS on 2009-06-01 13:34:03
+
+Just wanted to pay our respect to this tool that you have created, excellent
+job. Maybe we will drop by a meet sometime, we are in the are! Great page keep
+up the good work and thanks.
+
+Whitebox Security Team
+
+* * *
+
+Posted by, jhaddix on 2009-07-22 11:27:47
+
+it would be awesome to have these never hit disk and use reflective DLL
+injection or such, like the VNC metasploit paylod already does, but i dont know
+if it possible.

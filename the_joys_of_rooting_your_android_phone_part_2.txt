@@ -1,5 +1,5 @@
 The Joys of Rooting Your Android Phone Part 2 by, HalfSight
------------------------------------------------------------
+============================================================
 Recently I got a new Motorola Droid X. This article will be more information
 than actual hacking or modding. Google bought the Android OS in 2005 and it has
 had a rocky path to success. Often being compared with the iPhone, the Android
@@ -64,3 +64,30 @@ Links:
 http://forum.xda-developers.com/showthread.php?t=615204&amp;highlight=Dream+drone%21
 [2]
 http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/
+
+
+Comments
+--------
+
+Posted by, maxwell on 2010-08-31 22:52:36
+
+While Android definitely represents a major victory for open source software, I
+don't think that the success of Android is mostly caused by it's utilization of
+open source, but rather google's innovation through using the phone as a
+wireless hot spot, use of unix technologies (scripting languages, unix file
+system, etc).
+
+Saying that Android's success is because it is open source is like saying Mac OS
+X is popular because it is an official UNIX operating system (a blessing not
+even RHEL has been honored with).
+
+I still can't get over them programming smartphones in Java. Why they would use
+Java over C++ is astounding. If compiled Java is considered too slow for serious
+use in systems programming, why would it be considered ok for systems
+programming on smartphones, which have even less resources than personal
+computers?
+
+Anyway great article, I think I might buy a droid just to get to hack on UNIX
+with my phone! However I was under the impression that Android let users access
+the root account freely, is this not the case? If not, why would they want to
+restrict access to the root user account?

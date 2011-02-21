@@ -1,5 +1,5 @@
 February 2010 Meeting History by, PHLAK
----------------------------------------
+========================================
 This meeting was a particularly large meeting. Most "active" members were there
 at some point throughout the night and several of us overflowed outside. AltF4
 gave his advanced presentation on cryptography, Zapperlink brought an Intel I7

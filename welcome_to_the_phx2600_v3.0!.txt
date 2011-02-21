@@ -1,5 +1,5 @@
 Welcome to the PHX2600 v3.0!  by, PHLAK
----------------------------------------
+========================================
 Once again I have been hard at work to bring to you this feature filled website.
 This site has been lightly tested during the design phase, but like any human
 being, I am susceptible to making mistakes. If you notice any spelling, design,

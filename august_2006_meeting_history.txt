@@ -1,5 +1,5 @@
 August 2006 Meeting History by, RetroTech
------------------------------------------
+==========================================
 Some of the highlights were: Everyone brainstorming how to get software working
 on Ugly's laptop which had the net install (or was it just the net installer) of
 debian. As well as reteo going through all frustration of trying different

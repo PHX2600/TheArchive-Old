@@ -1,5 +1,5 @@
 July 2005 Meeting History by, XlogicX
--------------------------------------
+======================================
 We met in the back of Borders this time (we were on the schedule!). LosT brought
 his soldering station and some embedded network components to solder together,
 so we had a little soldering workshop. People that didn't know how to solder,
