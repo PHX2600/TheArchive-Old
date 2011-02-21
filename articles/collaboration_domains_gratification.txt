@@ -73,6 +73,8 @@ YELLOW = Twitter
 BLUE = Forums
 GREEN = IRC
 
+http://www.google.com/trends/viz?q=forum,+facebook,+twitter,+irc&date=all&geo=all&graph=weekly_img&sort=0&sa=N [1]
+
 So so far we have hit two points which might be addressed to bring the group
 back into focus, Solidifying meeting locations/resources and adopting more novel
 socializing and collaborative mediums. However there is at least one more point
@@ -90,22 +92,24 @@ the meeting bored and leave with some project ideas or at least some inspiration
 then the meeting has been a success. However only in a limited fashion as the
 group is capable of much more than just providing casual social interaction for
 a few hours. With the attendance we garner we could easily be pulling off much
-more significant feats. Contests, think Defcon bots [1], High altitude balloons
-[2], UAVs. Social displays, think LED Throwies [3] or Floaties [4], Improv
-Everywhere [5]. Or even creating our own badges for Defcon. But again, maybe
+more significant feats. Contests, think Defcon bots [2], High altitude balloons
+[3], UAVs. Social displays, think LED Throwies [4] or Floaties [5], Improv
+Everywhere [56]. Or even creating our own badges for Defcon. But again, maybe
 there is simply no interest in these things. In which case it seems that the
 majority of group meetings will continue to be little more than drinks and
 discussions.
 
 I guess it will be interesting to see where we go from here.
 
+
 Links:
 ------
-[1] http://defconbots.org/
-[2] http://www.heatsynclabs.org/syncfleet-launch-great-success/
-[3] http://graffitiresearchlab.com/projects/led-throwies/
-[4] http://www.instructables.com/id/LED-Floaties-That-float-away/
-[5] http://www.improveverywhere.com/
+[1] http://www.google.com/trends/viz?q=forum,+facebook,+twitter,+irc&date=all&geo=all&graph=weekly_img&sort=0&sa=N
+[2] http://defconbots.org/
+[3] http://www.heatsynclabs.org/syncfleet-launch-great-success/
+[4] http://graffitiresearchlab.com/projects/led-throwies/
+[5] http://www.instructables.com/id/LED-Floaties-That-float-away/
+[6] http://www.improveverywhere.com/
 
 
 Comments

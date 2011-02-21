@@ -74,45 +74,212 @@ This article will walk through the code and reveal the vulnerable area.
 
 Main.cpp
 
-// Exclude headers we won't be using for faster building
-#define WIN32_LEAN_AND_MEAN
+    // Exclude headers we won't be using for faster building
+    #define WIN32_LEAN_AND_MEAN
+     
+    // Need the Windows header for LoadLibrary and GetProcAddress
+    #include <windows .h>
+    #include <iostream>
+     
+    using namespace std;
+     
+    // Create a typedef for the "Foo" function signature
+    // This is somewhat similar to a delegate in C#
+    typedef TCHAR* (_cdecl *fnFoo)();
+     
+    int main( int argc, char* argv[] )
+    {
+	    const TCHAR* szDLLName = TEXT("Foo.dll");
+     
+	    // Load external DLL
+	    HMODULE hDLL = LoadLibrary( szDLLName );
+     
+	    // If we successfully loaded the DLL...
+	    if ( hDLL != static_cast<hmodule>( 0 ) )
+	    {
+		    // Get the pointer to the function Foo in the DLL
+		    fnFoo pfnFoo = reinterpret_cast<fnfoo>( 
+			    GetProcAddress( hDLL, "Foo" ) );
+     
+		    // Call function "Foo" in the DLL
+		    TCHAR* szMessage = pfnFoo();
+     
+		    // Print out message
+		    wcout < < TEXT("Message: ") << szMessage << endl;
+     
+		    // Release message memory
+		    delete [] szMessage;
+	    }
+	    else
+	    {
+		    wcout << TEXT("Failed to load Foo.dll!\n");
+	    }
+     
+	    wcout << TEXT("Press any key to exit.");
+	    wcin.get();
+     
+	    return S_OK;
+    }
 
-// Need the Windows header for LoadLibrary and GetProcAddress
-#include 
-#include 
+This application loads the DLL Foo.dll when it starts up. Next it gets the 
+address of the function named Foo. Finally the program calls the function, and 
+prints out the result. The code segment below resides in the DLL.
 
-using namespace std;
+Foo.cpp
 
-// Create a typedef for the "Foo" function signature
-// This is somewhat similar to a delegate in C#
-typedef TCHAR* (_cdecl *fnFoo)();
+    // Foo.cpp : Defines the exported functions for the DLL application.
+    //
+     
+    #include "stdafx.h"
+    #include "Foo.h"
+     
+    // Safe string copy functions
+    #include <strsafe .h>
+     
+    // This is the exported function Foo that is called by the main program.
+    FOO_API TCHAR* Foo(void)
+    {
+	    TCHAR*	szBar = TEXT("Bar");
+	    size_t	nSize = lstrlen( szBar );
+	    TCHAR*	szMessage = new TCHAR[nSize + 1];
+     
+	    // Copy message into heap allocated buffer
+	    StringCchCopy(
+		    szMessage,
+		    nSize + 1,
+		    szBar );
+     
+	    // Return the message
+	    return szMessage;
+     
+    }</strsafe>
 
-int main( int argc, char* argv[] )
-{
- const TCHAR* szDLLName = TEXT("Foo.dll");
+The function Foo in the DLL simply creates a string “Bar” and returns it to the 
+calling program. After the main program receives the result from the call into 
+the DLL, it prints it out into a console seen in the figure in the Program 
+Output section.
 
- // Load external DLL
- HMODULE hDLL = LoadLibrary( szDLLName );
+PROGRAM OUTPUT
 
- // If we successfully loaded the DLL...
- if ( hDLL != static_cast( 0 ) )
- {
- // Get the pointer to the function Foo in the DLL
- fnFoo pfnFoo = reinterpret_cast( 
- GetProcAddress( hDLL, "Foo" ) );
+http://www.phx2600.org/wp-content/uploads/output1.png [1]
 
- // Call function "Foo" in the DLL
- TCHAR* szMessage = pfnFoo();
+VULNERABLE SECTION
 
- // Print out message
- wcout < < TEXT("Message: ") 
+These two lines in the main program leave the program vulnerable to 
+exploitation:
+
+    const TCHAR* szDLLName = TEXT("Foo.dll");
+     
+    // Load external DLL
+    HMODULE hDLL = LoadLibrary( szDLLName )
+
+The second line calls LoadLibrary and passes it the name of the file. It does 
+not use a full path to specify the location of the file. If the file is not 
+found by the OS, it will search for it in other locations. If a malicious DLL is
+found in the DLL search path for the user, it will be loaded by the application.
+At that point, the attacker can run his malicious code.
+
+THE MALICIOUS DLL
+
+Earlier it was mentioned that all DLLs must implement a function called DLLMain.
+Below is the implementation for Foo.dll. It does not do anything.
+
+    // dllmain.cpp : Defines the entry point for the DLL application.
+    #include "stdafx.h"
+     
+    BOOL APIENTRY DllMain
+	    ( HMODULE hModule,
+	      DWORD  ul_reason_for_call,
+	      LPVOID lpReserved
+	    )
+    {
+	    return TRUE;
+    }
+
+As mentioned, the above function is called when the library is loaded. In 
+Foo.dll it does absolutely nothing. It returns immediately from the function. If
+this function was implemented with malicious code, it could be used to exploit 
+the main program. Below is a malicious example that simply prints out a message 
+to the command line.
+
+    // dllmain.cpp : Defines the entry point for the DLL application.
+    #include "stdafx.h"
+    #include <iostream>
+     
+    using namespace std;
+     
+    BOOL APIENTRY DllMain
+	    ( HMODULE hModule,
+	      DWORD  ul_reason_for_call,
+	      LPVOID lpReserved
+	    )
+    {
+	    // Print message showing the malicious DLL has been loaded
+	    wcout < < "You are running my malicious code" << endl;
+	    cin.get();
+     
+	    // I could do whatever I want to your machine from here
+	    // if you are logged in as an admin...
+     
+	    return TRUE;
+    }
+
+After compiling the code above into a DLL named Foo.dll, the previous version is
+replaced with a malicious one. Note that the function Foo does not need to be 
+implemented. DLLMain is called at startup and does not need to return. It can do
+whatever it wants. Below is the result from the console running the program that
+loads the malicious DLL.
+
+PROGRAM OUTPUT
+
+http://www.phx2600.org/wp-content/uploads/output2.png [2]
+
+After the malicious code runs, the program crashes because the function Foo does
+not exist in this malicious copy of the DLL. It does not matter. Before the 
+program crashes, the malicious code had free reign to load other processes and 
+download other viruses.
+
+http://www.phx2600.org/wp-content/uploads/securityAdvisory.png [3]
+
+SECURE DLL LOADING
+
+Microsoft recommends that programmers use SetDLLDirectory to remove the current 
+folder from the DLL search path. The DLL search path is used when a DLL was not 
+found in the current folder. The current folder is checked when a fully 
+qualified path is not used with LoadLibrary. Programmers should always use a 
+fully qualified path to explicitly link DLLs. For other recommendations on 
+secure DLL loading see the references section.
+
+THREAD ASSESSMENT
+
+This exploit is difficult to use without physical access to a targets’ machine. 
+It also requires that the attacker know the name of a DLL that is explicitly 
+linked by an application used by the target. That application would also have to
+not use a fully qualified path to load the libraries. It is possible to use this
+exploit remotely; however, the target would have to execute a program on a 
+remotely compromised drive.
+
+Microsoft has also released an update that allows user to have tighter control 
+over their DLL search path. The update installs a registry key that the 
+administrator can manipulate to control the DLL search path on the machine. 
+Setting the registry key could cause legitimate applications to crash.
+
+REFERENCES
+
+Microsoft Corporation. A new CWDIllegalInDllSearch registry entry is available 
+to control the DLL search path algorithm. 25 August 2010. 29 August 2010 .
+
+—. Dynamic-Link Library Security. 19 August 2010. 29 August 2010 .
+
+—. Microsoft Security Advisory (2269637). 23 August 2010. 29 August 2010 .
+
+
 
 Links:
 ------
 [1] http://www.phx2600.org/wp-content/uploads/output1.png
 [2] http://www.phx2600.org/wp-content/uploads/output2.png
 [3] http://www.phx2600.org/wp-content/uploads/securityAdvisory.png
-
 
 Comments
 --------

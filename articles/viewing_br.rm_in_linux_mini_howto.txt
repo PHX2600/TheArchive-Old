@@ -31,10 +31,10 @@ Using Xine to view br.rm
 
 [Method 1]
 1. Follow the above directions to step 13
--If you chose to install RealPlayer to /usr/local/RealPlayer8/
-Xine will find the codecs for you
--Or if you chose to install RealPlayer to /opt/RealPlayer8/
-Xine will find the codecs for you
+    -If you chose to install RealPlayer to /usr/local/RealPlayer8/
+     Xine will find the codecs for you
+    -Or if you chose to install RealPlayer to /opt/RealPlayer8/
+     Xine will find the codecs for you
 2. Run Xine
 3. Open br.rm
 4. Enjoy
@@ -46,6 +46,8 @@ Xine will find the codecs for you
 4. Run Xine
 5. Open br.rm
 6. Enjoy
+
+
 
 Links:
 ------

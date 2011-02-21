@@ -31,41 +31,33 @@ third prize as well (please contact me if interested in contributing).
 
 RULES
 
- 	* The article must pertain to the PHX2600 scene in some way.  This can be as
+* The article must pertain to the PHX2600 scene in some way.  This can be as
 directly relevant as an article explaining how to pen test LAMP servers or as
 loosely relevant as "hacking together" the perfect formula of pony food to give
 them a pretty coat.
-
- 	* 400 words + is desired, but not required.  If you can make a good, coherent
+* 400 words + is desired, but not required.  If you can make a good, coherent
 article in 300 words, great!
-
- 	* Original content is a must. Copy/pasta (plagiarism) will be means for
+* Original content is a must. Copy/pasta (plagiarism) will be means for
 immediate disqualification.  Currently published content (on PHX2600.org or
 another website) will not be counted for entry (sorry Penguin, Evil1 and anyone
 else who's already contributed... we still love you!).
-
- 	* Images/diagrams are desired (if relevant).
-
- 	* All articles must be submitted to PHLAK by the deadline in one of the
+* Images/diagrams are desired (if relevant).
+* All articles must be submitted to PHLAK by the deadline in one of the
 following formats: .txt, .odt, .doc, Google Docs or by creating a draft on the
 blog (email me if you need access to this).
-
- 	* You do not have to be signed up on the forums or blog or regularly attend
+* You do not have to be signed up on the forums or blog or regularly attend
 meetings to submit an article.  If you don't have an account though, make sure
 to provide me with some contact information.
-
- 	* Multiple articles will be accepted for multiple entries.  If you submit
+* Multiple articles will be accepted for multiple entries.  If you submit
 more than one article, each article will be weighted separately for quality and
 poor quality articles will not be count for entry. (Basically, if you submit 10
 x 200 word articles, there's a good chance none will qualify for entry)
-
- 	* Any and all entries submitted are subject to be posted on the blog, even if
+* Any and all entries submitted are subject to be posted on the blog, even if
 they do not qualify for entry to the competition. And we reserve the right﻿ to
 not post any entry we feel is inappropriate or does not meet the criteria stated
 above.  All entries published will be released under the Creative Commons
 Attribution 3.0 [2] license and credited to the author properly.
-
- 	* AMENDMENT: PHX2600 WIKI ARTICLES WILL ALSO BE ACCEPTED FOR ENTRY.
+* AMENDMENT: PHX2600 WIKI ARTICLES WILL ALSO BE ACCEPTED FOR ENTRY.
 
 DEADLINE
 
@@ -77,20 +69,15 @@ IDEAS AND INSPIRATIONS
 
 Don't know what to write about? Here's a few ideas to get you rolling:
 
- 	* Detailed method on how to pen test a particular system in wide use.
-
- 	* Tutorial on installing and using a piece of software (John the Ripper, nmap,
+* Detailed method on how to pen test a particular system in wide use.
+* Tutorial on installing and using a piece of software (John the Ripper, nmap,
 git, etc.).
-
- 	* An article about how many people are "hackers" in their daily lives but
+* An article about how many people are "hackers" in their daily lives but
 don't know it.
-
- 	* A breakdown and analysts of a piece of hardware and it's internal
+* A breakdown and analysts of a piece of hardware and it's internal
 components.
-
- 	* A story about urban exploration and/or socially engineering.
-
- 	* Interesting topics from Defcon or another convention.
+* A story about urban exploration and/or socially engineering.
+* Interesting topics from Defcon or another convention.
 
 FINAL THOUGHTS
 
@@ -101,7 +88,7 @@ write about or just don't feel like it, help out by spreading the word, and not
 just to your "hacker" friends, but to anyone you think could make a
 contribution.
 
-PHLAK\'S CONTACT INFO
+PHLAK'S CONTACT INFO
 
 Email / G-Talk / G-Docs: Chris@ChrisKankiewicz.com [4]
 Twitter: @PHLAK [5]

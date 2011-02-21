@@ -46,12 +46,10 @@ potential of the Android OS on any device. Here is a great example of how far
 people have taken the android OS:
 
 Dream Drone:
-http://forum.xda-developers.com/showthread.php?t=615204&highlight=Dream+drone!
-[1]
+http://forum.xda-developers.com/showthread.php?t=615204&highlight=Dream+drone! [1]
 
 Nexus one Launched 5 Miles in the air for testing as a viable satellite.
-http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/
-[2]
+http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/ [2]
 
 Once you have rooted your phone the possibilities seem endless, from Drones to
 Satellite testing, I think android will stand the test of time. Hopefully Google
@@ -62,10 +60,8 @@ from our favorite companies.
 
 Links:
 ------
-[1]
-http://forum.xda-developers.com/showthread.php?t=615204&amp;highlight=Dream+drone%21
-[2]
-http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/
+[1] http://forum.xda-developers.com/showthread.php?t=615204&amp;highlight=Dream+drone%21
+[2] http://www.wired.com/gadgetlab/2010/07/nexus-one-phone-rides-a-rocket-up-28000-feet/
 
 
 Comments

@@ -33,24 +33,22 @@ results in progress of the data collected below.
 
 PROTOTYPES:
 
-VIP 2.0 Version 1 (This one works, but it's two codes)
+VIP 2.0 Version 1 (This one works, but it's two codes) [1]
 
-VIP 2.0 Version 2 (After testing, this one is not consistant at Albertsons)
+VIP 2.0 Version 2 (After testing, this one is not consistant at Albertsons)  [2]
 
 VIP 2.0 Version 3 (Testing; failed at Albertson again, turns out the checksum
 was bad): The idea of this one is to cover up one of the colored circles with a
 thumb or finger. If covering green doesn't work at albertsons, cover the blue,
-this should work in thoery...hence the testing.
+this should work in thoery...hence the testing. [3]
 
-VIP 2.0 Version 4 (Testing): Same idea as version 3.
+VIP 2.0 Version 4 (Testing): Same idea as version 3. [4]
 
-VIP 2.0 Version 5 (Testing): A legit looking version.
- [1]
-[download id="4"]
+VIP 2.0 Version 5 (Testing): A legit looking version. [5]
 
 RESEARCH DEPARTMENT:
 
- XlogicX
+XlogicX
 Medicine_Soup
 Zapperlink
 Energizer
@@ -58,20 +56,24 @@ Threepts
 
 GRAPHIC DESIGN:
 
- Threepts (front)
+Threepts (front)
 XlogicX (back)
 
 PROTOTYPE TESTERS:
 
- TBA 
+TBA 
 
 MATERIALS:
 
- Medicine_Soup (hopefully) 
+Medicine_Soup (hopefully) 
 
 Links:
 ------
-[1] http://www.phx2600.org/graphix/vip/VIP25.bmp
+[1] http://www.phx2600.org/graphix/vip/VIP21small.JPG
+[2] http://www.phx2600.org/graphix/vip/VIP22small.JPG
+[3] http://www.phx2600.org/graphix/vip/VIP23small.JPG
+[4] http://www.phx2600.org/graphix/vip/VIP24small.JPG 
+[5] http://www.phx2600.org/graphix/vip/VIP25small.JPG
 
 
 Comments

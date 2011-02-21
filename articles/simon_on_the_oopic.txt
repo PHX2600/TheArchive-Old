@@ -13,6 +13,8 @@ Here is a picture of the microcontroller that Slip took with his phone (Slip
 transfered the picture to Dual_Parallel, so I got the picture from
 www.oldskoolphreak.com [1]).
 
+http://www.phx2600.org/graphix/logics_simon.jpg [2]
+
 I also included the code that I used to program the micro:
 
 [download id="3"]
@@ -21,3 +23,4 @@ I also included the code that I used to program the micro:
 Links:
 ------
 [1] http://www.oldskoolphreak.com/
+[2] http://www.phx2600.org/graphix/logics_simon.jpg

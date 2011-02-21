@@ -61,6 +61,5 @@ Links:
 ------
 [1] http://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en026374
 [2] http://www.engscope.com/pic24-tutorial/%20
-[3]
-http://development/HTTP://WWW.MICROCHIP.COM/WWWPRODUCTS/DEVICES.ASPX?DDOCNAME=EN022889
+[3] http://development/HTTP://WWW.MICROCHIP.COM/WWWPRODUCTS/DEVICES.ASPX?DDOCNAME=EN022889
 [4] http://development/../wp-content/uploads/PIC24BrkOutwICSP.zip

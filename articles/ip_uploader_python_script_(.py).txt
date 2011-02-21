@@ -15,33 +15,33 @@ run this script every hour.
 After running this script, you can then use PHP (or any similar language) to
 include this file into any page you desire.
 
- #! /usr/bin/env python
-import httplib
-import sys
-import os
-import ftplib
+    #! /usr/bin/env python
+    import httplib
+    import sys
+    import os
+    import ftplib
 
-file="ip.txt"
+    file="ip.txt"
 
-conn = httplib.HTTPConnection("www.whatismyip.com")
-conn.request("GET","/automation/n09230945.asp")
-response = conn.getresponse()
-data = response.read()
+    conn = httplib.HTTPConnection("www.whatismyip.com")
+    conn.request("GET","/automation/n09230945.asp")
+    response = conn.getresponse()
+    data = response.read()
 
-filename = str(os.path.abspath(os.path.dirname(sys.argv[0])) + "\"+file) #Create
-file
-FILE = open(filename,"w") #Open file ready for writing
-FILE.writelines(data) #Write 'data' to file
-FILE.close() #Close file
+    filename = str(os.path.abspath(os.path.dirname(sys.argv[0])) + "\"+file) #Create
+    file
+    FILE = open(filename,"w") #Open file ready for writing
+    FILE.writelines(data) #Write 'data' to file
+    FILE.close() #Close file
 
-#Replace [server], [user], and [pass] with your information.
-s = ftplib.FTP('[server]','[user]','[pass]') #Connect
-f = open(file,'rb') #File to send
-s.storbinary('STOR '+file, f) #Send the file
-f.close() #Close file and FTP
-s.quit() #Quit FTP
+    #Replace [server], [user], and [pass] with your information.
+    s = ftplib.FTP('[server]','[user]','[pass]') #Connect
+    f = open(file,'rb') #File to send
+    s.storbinary('STOR '+file, f) #Send the file
+    f.close() #Close file and FTP
+    s.quit() #Quit FTP
 
-sys.exit(0)
+    sys.exit(0)
 
 Shouts to Automated Penguin and Nak!
 

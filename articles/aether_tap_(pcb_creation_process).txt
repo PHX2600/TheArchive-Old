@@ -14,8 +14,7 @@ for toner transfer paper, If not, no worries simply read this guide on creating
 dextrin coated toner transfer paper By Triston J. Taylor, the original process
 is attributed to a make.com user by the alias Cashsale.
 
-http://www.radagast.org/~dplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
-[1]
+http://www.radagast.org/~dplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf [1]
 
 Without the dextrin coating its nigh impossible to create such high resolution
 boards with any fidelity so I highly recommend investing in some dextrin or
@@ -177,13 +176,9 @@ at http://www.phx2600.org/archive/2009/09/05/september-2009-meeting-history [6]
 
 Links:
 ------
-[1]
-http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
-[2]
-http://unitednuclear.com/index.php?main_page=product_info&amp;cPath=16_17_69&amp;products_id=133
-[3]
-http://shop.ebay.com/?_from=R40&amp;_trksid=p3907.m38.l1313&amp;_nkw=dextrin&amp;_sacat=See-All-Categories
+[1] http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
+[2] http://unitednuclear.com/index.php?main_page=product_info&amp;cPath=16_17_69&amp;products_id=133
+[3] http://shop.ebay.com/?_from=R40&amp;_trksid=p3907.m38.l1313&amp;_nkw=dextrin&amp;_sacat=See-All-Categories
 [4] http://www.cheap-chemicals.com/chemicals.asp?Sort=D
-[5]
-http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
+[5] http://www.radagast.org/%7Edplatt/hamradio/How_to_make_laser_toner_transfer_paper.pdf
 [6] http://www.phx2600.org/archive/2009/09/05/september-2009-meeting-history/

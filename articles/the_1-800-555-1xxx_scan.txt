@@ -26,8 +26,7 @@ some statistics, and the most interesting numbers that I found. Enjoy:
 1-800-555-1008 title offices
 1-800-555-1009 answering machine (business/personal)
 1-800-555-1010 pilgrim telephone (sexline)
-
- 1-800-555-1011 reorder
+1-800-555-1011 reorder
 1-800-555-1012 talk-line referal (1-800-232-5500)
 1-800-555-1013 reorder
 1-800-555-1014 audix
@@ -822,7 +821,146 @@ some statistics, and the most interesting numbers that I found. Enjoy:
 1-800-555-1859 reorder
 1-800-555-1860 reorder
 1-800-555-1861 all circuits busy
-1-800-555-1862 pulses ">BREAKDOWN OF NUMBER CATAGORIES
+1-800-555-1862	pulses & beeps
+1-800-555-1863	# invalid or blocked
+1-800-555-1864	double ring (fast) message machine (sounds Irish)
+1-800-555-1865	# no longer in service
+1-800-555-1866	# invalid or blocked
+1-800-555-1867	business
+1-800-555-1868	# not available from area
+1-800-555-1869	# invalid or blocked
+1-800-555-1870	# invalid or blocked
+1-800-555-1871	# invalid or blocked
+1-800-555-1872	# invalid or blocked
+1-800-555-1873	# invalid or blocked
+1-800-555-1874	mortgage company
+1-800-555-1875	reorder
+1-800-555-1876	reorder
+1-800-555-1877	business message machine
+1-800-555-1878	reorder
+1-800-555-1879	busy
+1-800-555-1880	some activation service
+1-800-555-1881	reorder
+1-800-555-1882	reorder
+1-800-555-1883	reorder
+1-800-555-1884	reorder
+1-800-555-1885	ING annuity
+1-800-555-1886	reorder
+1-800-555-1887	reorder
+1-800-555-1888	# can’t be completed as dialed
+1-800-555-1889	# no longer in service
+1-800-555-1890	reorder
+1-800-555-1891	reorder
+1-800-555-1892	talk-line referal (1-800-979-7900)
+1-800-555-1893	reorder
+1-800-555-1894	reorder
+1-800-555-1895	reorder
+1-800-555-1896	reorder
+1-800-555-1897	reorder
+1-800-555-1898	reorder
+1-800-555-1899	ING hr
+1-800-555-1900	cant’ take call right now
+1-800-555-1901	ING fixed annuity sales desk
+1-800-555-1902	reorder
+1-800-555-1903	ING network advisors
+1-800-555-1904	reorder
+1-800-555-1905	reorder
+1-800-555-1906	reorder
+1-800-555-1907	reorder
+1-800-555-1908	reorder
+1-800-555-1909	reorder
+1-800-555-1910	reorder
+1-800-555-1911	# no longer in active
+1-800-555-1912	reorder
+1-800-555-1913	reorder
+1-800-555-1914	reorder
+1-800-555-1915	reorder
+1-800-555-1916	reorder
+1-800-555-1917	reorder
+1-800-555-1918	reorder
+1-800-555-1919	sexline
+1-800-555-1920	reorder
+1-800-555-1921	reorder
+1-800-555-1922	reorder
+1-800-555-1923	brokerage company
+1-800-555-1924	reorder
+1-800-555-1925	# no longer in service
+1-800-555-1926	reorder
+1-800-555-1927	reorder
+1-800-555-1928	reorder
+1-800-555-1929	reorder
+1-800-555-1930	business
+1-800-555-1931	reorder
+1-800-555-1932	reorder
+1-800-555-1933	reorder
+1-800-555-1934	reorder
+1-800-555-1935	reorder
+1-800-555-1936	reorder
+1-800-555-1937	reorder
+1-800-555-1938	reorder
+1-800-555-1939	reorder
+1-800-555-1940	talk-line referal (1-800-400-8255)
+1-800-555-1941	reorder
+1-800-555-1942	reorder
+1-800-555-1943	reorder
+1-800-555-1944	reorder
+1-800-555-1945	modem
+1-800-555-1946	talk-line referal (1-800-464-8900)
+1-800-555-1947	reorder
+1-800-555-1948	reorder
+1-800-555-1949	reorder
+1-800-555-1950	reorder
+1-800-555-1951	reorder
+1-800-555-1952	reorder
+1-800-555-1953	reorder
+1-800-555-1954	reorder
+1-800-555-1955	# can’t be completed as entered
+1-800-555-1956	reorder
+1-800-555-1957	reorder
+1-800-555-1958	reorder
+1-800-555-1959	nextel customer unavailable (rings in background though)
+1-800-555-1960	# no longer in service
+1-800-555-1961	reorder
+1-800-555-1962	reorder
+1-800-555-1963	reorder
+1-800-555-1964	reorder
+1-800-555-1965	reorder
+1-800-555-1966	ING fixed annuity contact center
+1-800-555-1967	reorder
+1-800-555-1968	reorder
+1-800-555-1969	reorder
+1-800-555-1970	offices of ING
+1-800-555-1971	reorder
+1-800-555-1972	reorder
+1-800-555-1973	reorder
+1-800-555-1974	reorder
+1-800-555-1975	reorder
+1-800-555-1976	reorder
+1-800-555-1977	reorder
+1-800-555-1978	reorder
+1-800-555-1979	reorder
+1-800-555-1980	reorder
+1-800-555-1981	reorder
+1-800-555-1982	business
+1-800-555-1983	# no longer in service
+1-800-555-1984	accociation resource group
+1-800-555-1985	# call can’t be completed at this time
+1-800-555-1986	modem
+1-800-555-1987	caller id/do not call list
+1-800-555-1988	# disconnected
+1-800-555-1989	talk-line referal (1-800-643-8255)
+1-800-555-1990	# can’t be reached from area
+1-800-555-1991	amr training group
+1-800-555-1992	# not in service
+1-800-555-1993	some school hotline
+1-800-555-1994	business
+1-800-555-1995	talk-line referal (1-800-353-3300)
+1-800-555-1996	# disconnected
+1-800-555-1997	can’t take call now
+1-800-555-1998	message machine
+1-800-555-1999	# not in service
+
+BREAKDOWN OF NUMBER CATAGORIES
 
 # not available somehow = 281
 business = 215
@@ -833,7 +971,11 @@ Tones = 25
 Sexlines = 22
 busy = 20
 Misc = 10
-AT">Talk Lines Refered To:
+AT&T EasyReach = 8
+skytel voicemails = 5
+hardware systems = 4
+
+TALK LINES REFERED TO:
 
 1-800-400-8255 = 58
 1-800-643-8255 = 11
@@ -881,7 +1023,7 @@ AT">1-800-555-1194 | Access Code: 12
 
 Double Rings:
 
- 1-800-555-1018, 1-800-555-1021, 1-800-555-1025, 1-800-555-1026, 1-800-555-1029,
+1-800-555-1018, 1-800-555-1021, 1-800-555-1025, 1-800-555-1026, 1-800-555-1029,
 1-800-555-1032, 1-800-555-1034, 1-800-555-1036, 1-800-555-1037, 1-800-555-1038,
 1-800-555-1039, 1-800-555-1043, 1-800-555-1045, 1-800-555-1047, 1-800-555-1048,
 1-800-555-1049, 1-800-555-1051, 1-800-555-1056, 1-800-555-1057, 1-800-555-1058,

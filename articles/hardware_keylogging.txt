@@ -12,7 +12,7 @@ being "secured" by the "homeland").
 
 DISADVANTAGES OF HARDWARE KEY LOGGING
 
- LIMITED STORAGE: The storage space is one of the first notable limits. With
+LIMITED STORAGE: The storage space is one of the first notable limits. With
 software key logging, the limit is usually the size of the free disk space on
 the hard drive. The limit of the commercial logger I'll go over is only 64K. It
 may sound bad in comparison to all of the huge hard drives out there, but if you
@@ -40,7 +40,7 @@ accessible.
 
 BENEFITS OF HARDWARE KEY LOGGING
 
- BIOS PASSWORD: The hardware logger starts operating as long as the keyboard
+BIOS PASSWORD: The hardware logger starts operating as long as the keyboard
 gets power, so the BIOS password can be logged.
 
 OS INDEPENDENT: Since the logger operates independently from software, it
@@ -57,7 +57,7 @@ running is to plug it into the back of the computer.
 
 KEYKATCHER
 
- This is the commercial hardware key logger that I'm most familiar with. I
+This is the commercial hardware key logger that I'm most familiar with. I
 purchased it at www.keykatcher.com for about $80. That price is pretty steep,
 but depending on what you do with it, it can be a valuable tool for your
 privacy. I have mine connected to my computer just to see if my roommates are
@@ -104,7 +104,7 @@ it will react to it.
 
 HOW IT WORKS:
 
- This is basically a big buffer with some firmware. You type a character over
+This is basically a big buffer with some firmware. You type a character over
 your keyboard, it goes to the logger, stores it, and passes the same info
 through to the computer. It can't store all keystrokes because some of them are
 treated as executable commands. It displays the backspace as "//". The reason
@@ -117,7 +117,7 @@ it on emacs and AbiWord as well.
 
 SOME THEORY FOR BUILDING A LOGGER
 
- This is definitely more work than it's worth to most people, but that's what
+This is definitely more work than it's worth to most people, but that's what
 hackers are for, right? I would start with some small and easy to use
 microcontroller. There are many to choose from (68HC11, Basic Stamp, OOPic). I
 would choose the OOPic (Object Oriented Programmable Integrated Circuit). The
@@ -137,7 +137,7 @@ technology works.
 
 ETHICS
 
- If you use the commercial logger as your sole tool for getting into systems,
+If you use the commercial logger as your sole tool for getting into systems,
 you're at the level of script kiddie. Building your own is recommended, since it
 may force you to learn a little. I have gained access to others people’s
 computers this way, but I tell them that I did it afterwards. I tell them how I

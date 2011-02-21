@@ -23,8 +23,7 @@ Bitmap [7] Scaled .doc [8]
  XlogicXs Albertsons Club Card
 
 Scaled .doc [9]
- Universal VIP card (Frys, Albertsons, Safeway, ???)
- [10]
+ Universal VIP card (Frys, Albertsons, Safeway, ???) [10]
 
 
 
