@@ -17,7 +17,317 @@ http://www.phx2600.org/graphix/logics_simon.jpg [2]
 
 I also included the code that I used to program the micro:
 
-[download id="3"]
+    Dim LED1 As New oDio1		'Set up 3 LEDs
+    Dim LED2 As New oDio1
+    Dim LED3 As New oDio1
+    Dim MEM As New oI2C		'Set up network to
+				    'EEPROM chip
+    Dim RAND As New oRandomizerO	'Set up a randomizing
+				    'object
+    Dim TRAND As New oByte		'Temporary random
+				    'object
+    Dim Passes As New oByte		'variable stores how
+				    'many light values are
+				    'in memory for playback
+    Dim TempPasses As New oByte	'variable to keep track
+				    'of looping control
+    Dim Wins As New oByte		'keeps track of how
+				    'many times won
+    Dim Diff As New oByte		'difficuctly variable
+    Dim Timing As New oByte		'timing of how long 
+				    'light is on
+    Dim Timing2 As New oByte	'timing of pause in 
+				    'between lights
+    Dim SPKR As New oFreq		'Set up speaker object
+
+    Sub Main ()			'Start of main program
+    MEM.Node = cvE0			'selects E0 socket of
+				    'EEPROM
+    MEM.NoInc = 1			'memory address does
+				    'not increment
+				    'automatically
+    LED1.IOLine = 7			'sets LED1 as Red
+    LED1.Direction = 1		'sets LED as input
+    LED2.IOLine = 6			'sets LED2 as Yellow
+    LED2.Direction = 1
+    LED3.IOLine = 5			'sets LED3 as Green
+    LED3.Direction = 1
+
+     While (1)			'Loop for getting
+				    'difficulty setting
+    If LED1.Value = 1 Then		'difficulty 1
+    Diff.Value = 1		
+    Timing.Value = 40		
+    Timing2.Value = 50
+    Goto Start
+    End If
+
+    If LED2.Value = 1 Then		'difficulty 2
+				    ':flashes LEDs
+				    'faster
+    Diff.Value = 1
+    Timing.Value = 15
+    Timing2.Value = 5
+    Goto Start
+    End If
+
+    If LED3.Value = 1 Then		'difficulty 3
+				    ':flashes LEDs
+				    'faster and is
+				    'in silent mode
+    Diff.Value = 3
+    Goto Start
+    End If
+    Wend
+
+    Start:				
+    OOPic.Delay = 50		'pause for 50ms
+    LED1.Direction = 0		'Sets LEDs as
+    LED2.Direction = 0		'output
+    LED3.Direction = 0
+
+    Wins.Value = 0			'no wins in the
+				    'begginning
+    Passes.Value = 1		'1 value to display
+    MEM.Location = 65535		'maximum memory
+				    'location
+
+    NewLED:				'this loop puts a
+				    'new light into
+				    'memory
+    RAND.Operate = cvTrue		'activates random
+				    'object
+    TRAND.Value = RAND
+    If (TRAND.Value < 85) Then	'range of RAND is 0-255
+	    MEM.Value = 1
+	    RAND.Operate = cvFalse
+    End If
+    IF (TRAND.Value > 84) And (TRAND.Value < 171) Then
+	    MEM.Value = 2
+	    RAND.Operate = cvFalse
+    End If
+    IF (TRAND.Value > 170) Then
+	    MEM.Value = 3
+	    RAND.Operate = cvFalse
+    End If
+
+    Mem.Location = 65535
+    TempPasses.Value = 0
+    While (Passes <> TempPasses)	'this loop plays all
+				    'of the values
+	    If (MEM.Value = 1) Then	'if value in memory is 1
+		    LED1.Value = 1	'light LED1
+		    If (Diff.Value = 1) Then
+			    SPKR.Beep(60757,Timing.Value)
+		    Else		'difficlulty in silent
+				    'mode
+			    OOPic.Delay = 20
+		    End If
+		    LED1.Value = 0
+		    OOPic.Delay = Timing2.Value
+	    End If
+	    If (MEM.Value = 2) Then
+		    LED2.Value = 1
+		    If (Diff.Value = 1) Then
+			    SPKR.Beep(61743,Timing.Value)
+		    Else
+			    OOPic.Delay = 20		
+		    End If
+		    LED2.Value = 0
+		    OOPic.Delay = Timing2.Value
+	    End If
+	    If (MEM.Value = 3) Then
+		    LED3.Value = 1
+		    If (Diff.Value = 1) Then
+			    SPKR.Beep(62346,Timing.Value)
+		    Else
+			    OOPic.Delay = 20
+		    End If
+		    LED3.Value = 0
+		    OOPic.Delay = Timing2.Value
+	    End If
+	    MEM.Location = MEM.Location - 1
+	    TempPasses = TempPasses + 1
+    Wend
+
+    LED1.Direction = 1
+    LED2.Direction = 1
+    LED3.Direction = 1
+    TempPasses = 0
+    MEM.Location = 65535
+
+    While (1)	'this loop is for input of users memory
+	    If (LED1.Value = 1) Then
+		    IF (MEM.Value = 1) Then
+			    If (Diff.Value = 1) Then
+				    SPKR.Beep(60757,20)
+			    Else
+				    OOPic.Delay = 20
+			    End If
+			    TempPasses.Value = TempPasses.Value + 1
+			    MEM.Location = MEM.Location - 1
+			    If (TempPasses.Value = Passes.Value) Then
+				    Goto Win
+			    End If
+		    Else
+			    Goto Lose
+		    End If
+	    End If
+	    If (LED2.Value = 1) Then
+		    IF (MEM.Value = 2) Then
+			    If (Diff.Value = 1) Then
+				    SPKR.Beep(61743,20)
+			    Else
+				    OOPic.Delay = 20
+			    End If
+			    TempPasses.Value = TempPasses.Value + 1
+			    MEM.Location = MEM.Location - 1
+			    If (TempPasses.Value = Passes.Value) Then
+				    Goto Win
+			    End If
+		    Else
+			    Goto Lose
+		    End If
+	    End If
+	    If (LED3.Value = 1) Then
+		    IF (MEM.Value = 3) Then
+			    If (Diff.Value = 1) Then
+				    SPKR.Beep(62346,20)
+			    Else
+				    OOPic.Delay = 20
+			    End If
+
+			    TempPasses.Value = TempPasses.Value + 1
+			    MEM.Location = MEM.Location - 1
+			    If (TempPasses.Value = Passes.Value) Then
+				    Goto Win
+			    End If
+		    Else
+			    Goto Lose
+		    End If
+	    End If	
+    Wend
+
+    Win:
+    SPKR.Beep(64753,25)	'beeps 2600 tone after
+			    'each sucsessful stage
+
+    LED1.Direction = 0
+    LED2.Direction = 0
+    LED3.Direction = 0
+
+    TempPasses.Value = 0
+
+    If (Wins.Value = 4) Then
+	    TempPasses.Value = 1
+    End If
+    If (Wins.Value = 9) Then
+	    TempPasses.Value = 2
+    End If
+    If (Wins.Value = 14) Then
+	    TempPasses.Value = 3
+    End If
+    If (Wins.Value = 19) Then
+	    If Diff.Value = 3 Then	'do finishing routine if
+				    'difficutly is low
+		    TempPasses.Value = 4
+	    Else
+		    SPKR.Beep(60757,10)
+		    SPKR.Beep(60757,10)
+		    SPKR.Beep(61743,10)
+		    SPKR.Beep(62346,10)
+		    OOPic.Delay = 10
+		    SPKR.Beep(61743,10)
+		    SPKR.Beep(62346,10)
+		    OOPic.Delay = 10
+		    SPKR.Beep(61743,10)
+		    SPKR.Beep(60757,25)
+		    While (1)
+			    LED3.Value = 1
+			    OOPic.Delay = 5
+			    LED3.Value = 0
+			    LED2.Value = 1
+			    OOPic.Delay = 5
+			    LED2.Value = 0
+			    LED1.Value = 1
+			    OOPic.Delay = 5
+			    LED1.Value = 0
+			    LED2.Value = 1
+			    OOPic.Delay = 5
+			    LED2.Value = 0
+		    Wend
+	    End If
+    End If
+    If (Wins.Value = 24) Then
+	    TempPasses.Value = 5
+    End If
+    If (Wins.Value = 29) Then
+	    TempPasses.Value = 6
+    End If
+    If (Wins.Value = 34) Then
+	    TempPasses.Value = 7
+    End If
+    If (Wins.Value = 39) Then
+	    TempPasses.Value = 8
+    End If
+    If (Wins.Value = 44) Then
+	    TempPasses.Value = 9
+    End If
+
+    If (Wins.Value = 49) Then	'do finishing routine
+	    SPKR.Beep(60757,10)
+	    SPKR.Beep(60757,10)
+	    SPKR.Beep(61743,10)
+	    SPKR.Beep(62346,10)
+	    OOPic.Delay = 10
+	    SPKR.Beep(61743,10)
+	    SPKR.Beep(62346,10)
+	    OOPic.Delay = 10
+	    SPKR.Beep(61743,10)
+	    SPKR.Beep(60757,25)
+	    While (1)
+		    LED3.Value = 1
+		    OOPic.Delay = 5
+		    LED3.Value = 0
+		    LED2.Value = 1
+		    OOPic.Delay = 5
+		    LED2.Value = 0
+		    LED1.Value = 1
+		    OOPic.Delay = 5
+		    LED1.Value = 0
+		    LED2.Value = 1
+		    OOPic.Delay = 5
+		    LED2.Value = 0
+	    Wend
+    End If
+
+    While (TempPasses.Value > 0)	'swirl lights
+    LED3.Value = 1
+    OOPic.Delay = 7
+    LED3.Value = 0
+    LED2.Value = 1
+    OOPic.Delay = 7
+    LED2.Value = 0
+    LED1.Value = 1
+    OOPic.Delay = 7
+    LED1.Value = 0
+    LED2.Value = 1
+    OOPic.Delay = 7
+    LED2.Value = 0
+    TempPasses.Value = TempPasses.Value - 1
+    Wend
+
+    OOPic.Delay = 50
+
+    Wins.Value = Wins.Value + 1
+    Passes.Value = Passes.Value + 1
+    Goto NewLED
+
+    Lose:		'loser tone
+    SPKR.Beep(40000,75)
+    SPKR.Beep(15000,75)
+
+    End Sub
 
 
 Links:
